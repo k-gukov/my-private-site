@@ -1,1 +1,0 @@
-The figure shows an H.T.T.P. get request between a client and server.

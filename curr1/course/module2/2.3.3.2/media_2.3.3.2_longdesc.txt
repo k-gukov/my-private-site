@@ -1,1 +1,0 @@
-This is interactive media allowing the learner to practice displaying the interface configuration on a switch using the "show ip interface brief" command.

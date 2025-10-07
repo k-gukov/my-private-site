@@ -1,7 +1,0 @@
-﻿<textcomponents>
-
-<component id="ID_title">
-<text><![CDATA[<b>Проверка задержек в сети с помощью команд «ping» и «traceroute»</b>]]></text>
-</component>
-
-</textcomponents>

@@ -1,8 +1,0 @@
-﻿<textcomponents>
-   <component id="ID_title">
-      <text><![CDATA[<b>Функция Auto-MDIX</b>]]></text>
-      </component>
-	<component id="ID_txt01">
-		<text><![CDATA[MDIX автоматически определяет необходимый тип подключения и соответствующим образом настраивает интерфейс.]]></text>
-	</component>
-</textcomponents>

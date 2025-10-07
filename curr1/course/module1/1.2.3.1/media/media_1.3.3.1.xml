@@ -1,8 +1,0 @@
-﻿<textcomponents>
-<component id="ID_txt01">
-<text><![CDATA[Локальные (LAN) и глобальные (WAN) сети могут быть подключены в объединённую сеть.]]></text>
-</component>
-<component id="ID_txt02">
-  <text><![CDATA[<b>Интернет</b>]]></text> 
-  </component>
-</textcomponents>

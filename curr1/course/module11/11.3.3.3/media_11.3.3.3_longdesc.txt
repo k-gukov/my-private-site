@@ -1,1 +1,0 @@
-The figure shows the output from a "show version" command on a router.

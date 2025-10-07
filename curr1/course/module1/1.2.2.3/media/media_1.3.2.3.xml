@@ -1,8 +1,0 @@
-﻿<textcomponents>
-<component id="ID_title">
-  <text><![CDATA[<b>Сеть WAN</b>]]></text> 
-  </component>
-<component id="ID_txt01">
-<text><![CDATA[Локальные сети (LAN), разделённые географическим расстоянием, объединены сетью, которая называется глобальной (WAN). ]]></text>
-</component>
-</textcomponents>

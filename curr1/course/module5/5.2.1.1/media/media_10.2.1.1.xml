@@ -1,7 +1,0 @@
-﻿<textcomponents>
-
-<component id="ID_txt01">
-  <text><![CDATA[<p id="ID_txt01" class="ID_txt01">Мне нужно отправить информацию на адрес 192.168.1.7, но у меня есть только IP-адрес. Я не знаю MAC-адрес устройства, которому присвоен этот IP-адрес.</p>]]></text> 
-  </component>
-
-</textcomponents>

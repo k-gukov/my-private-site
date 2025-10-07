@@ -1,1 +1,0 @@
-The figure is an interactive activity that allows the learner to practice entering the n.s. lookup command at a command prompt.

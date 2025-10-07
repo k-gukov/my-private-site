@@ -1,1 +1,0 @@
-The figure shows a client and a web server connected to the Internet and the client is viewing a web page.

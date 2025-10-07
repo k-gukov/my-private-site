@@ -1,1 +1,0 @@
-Figure one shows an example of three different potential errors while configuring a device. They are Ambiguous command, Incomplete command, and Invalid input. Figure two shows a table describing the three errors.

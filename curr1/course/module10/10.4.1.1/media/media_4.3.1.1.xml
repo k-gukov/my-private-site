@@ -1,7 +1,0 @@
-﻿<textcomponents>
-
-	<component id="ID_footer">
-		<text><![CDATA[<i><b>Сетевые приложения используют протоколы для облегчения передачи данных...<br/><br/></b><textformat blockindent="-14"><li>POP</li><li>IMAP</li><li>HTTP</li><li>FTP</li><br/>...и т.д.!</textformat></i>]]></text>
-	</component>
-	
-</textcomponents>

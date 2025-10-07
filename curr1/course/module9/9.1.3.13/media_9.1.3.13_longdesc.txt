@@ -1,1 +1,0 @@
-The figure is an interactive activity that allows the learner to practice calculating the network address for more advanced subnetting examples.

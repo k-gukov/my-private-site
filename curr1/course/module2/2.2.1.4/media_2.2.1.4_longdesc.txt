@@ -1,1 +1,0 @@
-This is interactive media allowing the learner to practice configuring the hostname on a switch.

@@ -1,8 +1,0 @@
-﻿<textcomponents>
-<component id="ID_title">
-<text><![CDATA[<b>Сеть LAN</b>]]></text>
-</component>
-<component id="ID_txt01">
-<text><![CDATA[Сеть, обслуживающая дома, здания или территорию учебного заведения, считается локальной сетью (LAN).]]></text>
-</component>
-</textcomponents>

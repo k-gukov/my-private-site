@@ -1,1 +1,0 @@
-This is interactive media allowing the learner to practice testing connectivity between a P.C. and a Switch by pinging from a P.C. to the vlan 1 interface on a switch.

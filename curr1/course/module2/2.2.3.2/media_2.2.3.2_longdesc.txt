@@ -1,1 +1,0 @@
-Figure one shows how to save the running configuration to a text file using the log function of Tera Term. Figure two shows how to save the running configuration to a text file using the capture text function of Hyper Terminal.

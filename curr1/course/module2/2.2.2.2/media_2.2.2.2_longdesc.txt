@@ -1,1 +1,0 @@
-Figure demonstrates how to configure an encrypted privileged exec mode password using the "enable secret" command.

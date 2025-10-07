@@ -1,9 +1,0 @@
-﻿<textcomponents>
-<component id="ID_title">
-<text><![CDATA[<b>Ограничение доступа к устройствам</b>]]></text>
-</component>
-<component id="ID_txt01">
-  <text><![CDATA[Ограничение доступа к устройствам<br/><br/><textformat blockindent='-16'><LI>Безопасный привилегированный доступ</LI><LI>Безопасный пользовательский доступ</LI><LI>Безопасный доступ Telnet</LI><LI>Шифруйте все пароли</LI></textformat>]]></text> 
-  </component>
-
-</textcomponents>

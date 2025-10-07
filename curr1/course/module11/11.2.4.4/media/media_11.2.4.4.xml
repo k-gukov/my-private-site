@@ -1,9 +1,0 @@
-﻿<textcomponents>
-	
-	<component id="ID_txt01">
-	  <text><![CDATA[Шаг 1. Настройте доменное имя IP.<br/>Шаг 2. Создайте односторонние секретные ключи.<br/>Шаг 3. Подтвердите или создайте запись в локальной базе данных.<br/>Шаг 4. Включите поддержку входящих сеансов SSH VTY.]]></text> 
-	</component>	  
-	<component id="ID_txt02">
-		<text><![CDATA[Оборудование передачи данных (DCE)]]></text>
-	</component>	
-</textcomponents>

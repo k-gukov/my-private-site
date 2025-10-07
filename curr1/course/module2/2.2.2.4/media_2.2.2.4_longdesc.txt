@@ -1,1 +1,0 @@
-This is an interactive media allowing the learner to practice encrypting all clear text passwords in the running configuration using the "service password-encryption" command.

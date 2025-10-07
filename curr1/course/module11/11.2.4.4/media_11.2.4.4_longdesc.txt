@@ -1,1 +1,0 @@
-The figure shows router output for configuring a router to accept ssh as an alternative to telnet for remote access.  

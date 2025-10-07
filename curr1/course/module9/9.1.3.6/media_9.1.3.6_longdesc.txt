@@ -1,1 +1,0 @@
-The figure is an interactive activity that allows the learner to practice converting I.P. addresses into Network Addresses in binary and then dotted decimal.
