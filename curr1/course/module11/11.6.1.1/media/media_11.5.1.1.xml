@@ -1,0 +1,7 @@
+﻿<textcomponents>
+
+<component id="ID_footer">
+<text><![CDATA[<b>При планировании любой сети необходимо учитывать следующие моменты:</b><textformat blockindent="-14"><li>Объём затрат</li><li>Количество портов</li><li>Скорость</li><li>Возможности расширяемости</li><li>Возможности управляемости</li></textformat>]]></text>
+</component>
+
+</textcomponents>

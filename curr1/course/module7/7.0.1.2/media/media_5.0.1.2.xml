@@ -1,0 +1,42 @@
+﻿<textcomponents>
+<component id="ID_txt01">
+<text><![CDATA[<i><b>При выполнении задания подумайте о том, почему:</b><br/><br/><textformat blockindent="-14"><ul><li>сетевая информация имеет разные уровни важности;</li><li>при отправке и получении важных данных необходимо обеспечить их точность;</li><li>при выборе способа доставки данных время может быть критически важным фактором. </li></ul></textformat></i>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[Кому: you@example.com<br>От кого: me@example.com<br>Тема: Электронная почта]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[Электронная почта]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Обмен<br/>мгновенными сообщениями]]></text>
+</component>
+
+
+<component id="ID_s1_txt04">
+<text><![CDATA[Несколько веб-страниц]]></text>
+</component>
+
+
+
+<component id="ID_s1_txt05">
+<text><![CDATA[IP-телефония<br/>(VoIP)]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+<text><![CDATA[Потоковое видео]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+<text><![CDATA[Сеть]]></text>
+</component>
+
+
+<component id="ID_s1_txt08">
+<text><![CDATA[<]]></text>
+</component>
+
+</textcomponents>

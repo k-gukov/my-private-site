@@ -1,0 +1,149 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Управление доступом к среде передачи данных для общих средств передачи данных</b>]]></text>
+</component>
+
+
+<component id="ID_s1_txt02">
+<text><![CDATA[Общие средства передачи данных]]></text>
+</component>
+<component id="ID_s1_txt03">
+<text><![CDATA[Кадр]]></text>
+</component>
+<component id="ID_s1_txt04">
+<text><![CDATA[Кадр]]></text>
+</component>
+<component id="ID_s1_bubble01">
+<text><![CDATA[<p class="ID_bubble01 top">Нам необходимы правила, регламентирующие способы использования средств передачи данных.</p>]]></text>
+</component>
+<component id="ID_s1_bubble02">
+<text><![CDATA[<p class="ID_bubble02 top">Нам необходимы правила, регламентирующие способы использования средств передачи данных.</p>]]></text>
+</component>
+<component id="ID_s1_bubble03">
+<text><![CDATA[<p class="ID_bubble03 top">Нам необходимы правила, регламентирующие способы использования средств передачи данных.</p>]]></text>
+</component>
+
+
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Контролируемый доступ</b>]]></text>
+</component>
+
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Общие средства передачи данных]]></text>
+</component>
+<component id="ID_s2_txt03">
+<text><![CDATA[Кадр]]></text>
+</component>
+<component id="ID_s2_txt04">
+<text><![CDATA[Кадр]]></text>
+</component>
+
+<component id="ID_s2_bubble01">
+<text><![CDATA[<p class="ID_bubble04 top">Мне нужно передать пакет, но сейчас не моя очередь. Я подожду.</p>]]></text>
+</component>
+<component id="ID_s2_bubble02">
+<text><![CDATA[<p class="ID_bubble06 top">Мне нечего отправлять.</p>]]></text>
+</component>
+<component id="ID_s2_bubble03">
+<text><![CDATA[<p class="ID_bubble05 top">Моя очередь отправлять. Сейчас отправлю.</p>]]></text>
+</component>
+
+
+<component id='ID_s2_table'>
+<text><![CDATA[
+			<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr>
+					<td colspan='3' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">&nbsp;</span></font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#077A77' width='110' valign="top"><font size='11' color='#ffffff'><b>Метод</b></font></td>
+					<td bgcolor='#077A77' valign="top"><font size='11' color='#ffffff'><b>Характеристики</b></font></td>
+					<td bgcolor='#077A77'  width='110' valign="top"><font size='11' color='#ffffff'><b>Пример</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#EFF8F7' valign="top"><font size='11'color='#393536'>Контролируемый доступ</font></td>
+					<td bgcolor='#EFF8F7' valign="top"><font size='11' color='#393536'>
+					<textformat blockindent='-18'>
+					<li>На данный момент передачу данных выполняет только одна станция</li>
+					<li>Устройства, желающие выполнить передачу данных, должны дождаться своей очереди</li>
+					<li>Коллизий нет</li>
+					<li>В некоторых детерминированных сетях используется эстафетная передача</li></textformat> 					</font></td>
+					<td bgcolor='#EFF8F7' valign="top"><font size='11' color='#393536'>
+					<textformat blockindent='-18'>
+					<li>Сеть Token Ring</li>
+					<li>FDDI</li></textformat></font></td>
+				</tr>
+			</table>]]>
+		</text>
+</component>
+
+
+
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Ассоциативный доступ</b>]]></text>
+</component>
+
+
+<component id="ID_s3_txt02">
+<text><![CDATA[Общие средства передачи данных]]></text>
+</component>
+<component id="ID_s3_txt03">
+<text><![CDATA[Кадр]]></text>
+</component>
+<component id="ID_s3_txt04">
+<text><![CDATA[Кадр]]></text>
+</component>
+<component id="ID_s3_txt05">
+<text><![CDATA[]]></text>
+</component>
+<component id="ID_s3_bubble01">
+<text><![CDATA[<p class="ID_bubble07 top">Пытаюсь отправить, когда готов.</p>]]></text>
+</component>
+<component id="ID_s3_bubble02">
+<text><![CDATA[<p class="ID_bubble05 top">Пытаюсь отправить, когда готов.</p>]]></text>
+</component>
+<component id="ID_s3_bubble03">
+<text><![CDATA[<p class="ID_bubble06 top">Пытаюсь отправить, когда готов.</p>]]></text>
+</component>
+
+
+<component id='ID_s3_table'>
+<text><![CDATA[
+				<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr>
+					<td colspan='3' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">&nbsp;</span></font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#077A77' width='110' valign="top"><font size='11' color='#ffffff'><b>Метод</b></font></td>
+					<td bgcolor='#077A77' valign="top"><font size='11' color='#ffffff'><b>Характеристики</b></font></td>
+					<td bgcolor='#077A77'  width='110' valign="top"><font size='11' color='#ffffff'><b>Пример</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#EFF8F7' valign="top"><font size='11'color='#393536'>Ассоциативный доступ</font></td>
+					<td bgcolor='#EFF8F7' valign="top"><font size='11' color='#393536'>
+					<textformat blockindent='-18'>
+						<li>Станции поддерживают функцию передачи данных в любое время</li>
+						<li>Существуют коллизии</li>
+						<li>Для разрешения проблем ассоциативного доступа предусмотрены некоторые механизмы</li>	
+					</textformat>	
+					<textformat blockindent='-2'>		
+						<li class="shift">CSMA/CD для сетей Ethernet</li>
+						<li class="shift">CSMA/CA для беспроводных сетей, регламентируемых набором стандартов 802.11</li>
+					</textformat>				 					</font>
+					</td>
+					<td bgcolor='#EFF8F7' valign="top"> 					<font size='11' color='#393536'>
+					<textformat blockindent='-18'>
+						<li>Ethernet</li>
+						<li>Беспроводная сеть</li></textformat></font>
+					</td>
+				</tr>
+				</table>]]>
+		</text>
+</component>
+
+
+</textcomponents>

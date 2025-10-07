@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Конфликты IP-адресов</b>]]></text>
+	</component>
+</textcomponents>

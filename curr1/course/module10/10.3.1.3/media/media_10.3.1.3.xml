@@ -1,0 +1,37 @@
+﻿<textcomponents>
+<component id="ID_txt01">
+   <text><![CDATA[<b>Уровень приложений</b>]]></text>
+   </component>
+<component id="ID_txt02">
+   <text><![CDATA[Поток]]></text>
+   </component>
+<component id="ID_txt03">
+   <text><![CDATA[<b>Транспортный уровень</b>]]></text>
+   </component>
+<component id="ID_txt04">
+   <text><![CDATA[Сегмент]]></text>
+   </component>
+<component id="ID_txt05">
+   <text><![CDATA[<b>Межсетевой уровень</b>]]></text>
+   </component>
+<component id="ID_txt06">
+   <text><![CDATA[Пакет]]></text>
+   </component>
+<component id="ID_txt07">
+   <text><![CDATA[<b>Уровень сетевого доступа</b>]]></text>
+   </component>
+<component id="ID_txt08">
+   <text><![CDATA[<b>H1</b>]]></text>
+   </component>
+<component id="ID_txt09">
+   <text><![CDATA[Сервер]]></text>
+   </component>
+
+<component id="ID_txt10">
+   <text><![CDATA[Интернет]]></text>
+   </component>
+   
+<component id="ID_txt11">
+   <text><![CDATA[На сетевом уровне создаётся датаграмма или пакет. Пакет содержит IP-адреса источника и назначения. Пакет передаётся на уровень сетевого доступа.]]></text>
+   </component>
+</textcomponents>

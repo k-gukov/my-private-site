@@ -1,0 +1,118 @@
+﻿<textcomponents><component id="MCTable_title"><text><![CDATA[ ]]></text></component> <!-- instructions -->
+<component id="ID_inst">
+	<text><![CDATA[<b>Интерактивное задание — характеристики логической и физической топологии</b><br><br>В этом упражнении представлены характеристики способов управления доступом к среде передачи данных канального уровня.<br><br>Соотнесите каждый способ контроля доступа к среде передачи с характеристиками физической или логической топологии в соответствующем столбце.]]></text>
+</component> <!-- buttons -->
+<component id="ID_Button01">
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id="ID_Button02">
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component> <!--Number of rows in the table-->
+<component id="txt_numrows">
+	<text><![CDATA[10]]></text>
+</component> <!--Number of columns for the answers in the table. Do not count the question column-->
+<component id="txt_numcols">
+	<text><![CDATA[2]]></text>
+</component> <!--Answer column headers-->
+<component id="txt_col1">
+	<text><![CDATA[<b>Физическая топология</b>]]></text>
+</component>
+
+<component id="txt_col2">
+	<text><![CDATA[<b>Логическая топология</b>]]></text>
+</component> <!--Question text - blockindent code moves the text away from the left edge a bit--> <!--Question text - If questions are numbered, use blockindent for hanging indents-->
+<component id="txt_q1">
+	<text><![CDATA[1. <textformat blockindent='13'>CSMA/CD</textformat>]]></text>
+</component>
+
+<component id="txt_q2">
+	<text><![CDATA[2. <textformat blockindent='13'>Звезда</textformat>]]></text>
+</component>
+
+<component id="txt_q3">
+	<text><![CDATA[3. <textformat blockindent='13'>Конкурентный доступ</textformat>]]></text>
+</component>
+
+<component id="txt_q4">
+	<text><![CDATA[4. <textformat blockindent='13'>Шина</textformat>]]></text>
+</component>
+
+<component id="txt_q5">
+	<text><![CDATA[5. <textformat blockindent='13'>CSMA/CA</textformat>]]></text>
+</component>
+
+<component id="txt_q6">
+	<text><![CDATA[6. <textformat blockindent='13'>Контролируемый доступ</textformat>]]></text>
+</component>
+
+<component id="txt_q7">
+	<text><![CDATA[7. <textformat blockindent='13'>Точка-точка</textformat>]]></text>
+</component>
+
+<component id="txt_q8">
+	<text><![CDATA[8. <textformat blockindent='13'>Кольцевая</textformat>]]></text>
+</component>
+
+<component id="txt_q9">
+	<text><![CDATA[9. <textformat blockindent='13'>Hub-and-spoke (звезда)</textformat>]]></text>
+</component>
+
+<component id="txt_q10">
+	<text><![CDATA[10. <textformat blockindent='21'>Полносвязная</textformat>]]></text>
+</component> <!--Answers - Give the column number(s), column numbering start with 1 not 0--> <!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+<component id="txt_a1">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a2">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a3">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a4">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a5">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a6">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a7">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a8">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a9">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a10">
+	<text><![CDATA[1]]></text>
+</component> <!-- Correct Feedback -->
+<component id="ID_titleCorrect">
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id="ID_correctText">
+	<text><![CDATA[Вы правильно соотнесли характеристики способов управления доступом к среде передачи данных с физической или логической топологией.]]></text>
+</component> <!-- Incorrect Feedback -->
+<component id="ID_titleIncorrect">
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id="ID_IncorrectText">
+	<text><![CDATA[Вы неправильно соотнесли характеристики способов управления доступом к среде передачи данных с физической или логической топологией. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,112 @@
+﻿<textcomponents>
+
+<component id="ID_s1_text01">
+<text><![CDATA[<b>Уровень приложений</b>]]></text>
+</component>
+<component id="ID_s1_text02">
+<text><![CDATA[Система<br/>имен]]></text>
+</component>
+<component id="ID_s1_text03">
+<text><![CDATA[Конфигурация узла]]></text>
+</component>
+<component id="ID_s1_text04">
+<text><![CDATA[Электронная почта]]></text>
+</component>
+<component id="ID_s1_text05">
+<text><![CDATA[Передача файлов]]></text>
+</component>
+<component id="ID_s1_text06">
+<text><![CDATA[Веб]]></text>
+</component>
+<component id="ID_s1_text07">
+<text><![CDATA[Нажмите каждый протокол приложений для получения дополнительной информации.]]></text>
+</component>
+
+
+<component id="ID_btn01">
+<text><![CDATA[<b>DNS</b>]]></text>
+</component>
+<component id="ID_btn02">
+<text><![CDATA[<b>BOOTP</b>]]></text>
+</component>
+<component id="ID_btn03">
+<text><![CDATA[<b>DHCP</b>]]></text>
+</component>
+<component id="ID_btn04">
+<text><![CDATA[<b>SMTP</b>]]></text>
+</component>
+<component id="ID_btn05">
+<text><![CDATA[<b>POP</b>]]></text>
+</component>
+<component id="ID_btn06">
+<text><![CDATA[<b>IMAP</b>]]></text>
+</component>
+<component id="ID_btn07">
+<text><![CDATA[<b>FTP</b>]]></text>
+</component>
+<component id="ID_btn08">
+<text><![CDATA[<b>TFTP</b>]]></text>
+</component>
+<component id="ID_btn09">
+<text><![CDATA[<b>HTTP</b>]]></text>
+</component>
+
+
+
+<component id="ID_titleTxt01">
+<text><![CDATA[<b>Система (или служба) доменных имен</b>]]></text>
+</component> 
+<component id="ID_bodyTxt01">
+<text><![CDATA[Преобразует имена доменов (например «cisco.com») в IP-адреса]]></text>
+</component> 
+<component id="ID_titleTxt02">
+<text><![CDATA[<b>Протокол загрузки</b> ]]></text>
+</component> 
+<component id="ID_bodyTxt02">
+<text><![CDATA[<textformat blockindent="-14"><li>Позволяет бездисковым рабочим станциям обнаруживать свой собственный IP-адрес, IP-адреса BOOTP-сервера в сети, а также загружать файл в память для запуска компьютера</li><li>BOOTP замещается протоколом DHCP</li></textformat>]]></text>
+</component> 
+<component id="ID_titleTxt03">
+<text><![CDATA[<b>Протокол динамической конфигурации сетевого узла</b>]]></text>
+</component> 
+<component id="ID_bodyTxt03">
+<text><![CDATA[<textformat blockindent="-14"><li>Динамически присваивает IP-адреса клиентским станциям при запуске</li><li>Позволяет повторно использовать ненужные адреса</li>]]></text>
+</component>
+<component id="ID_titleTxt04">
+<text><![CDATA[<b>Протокол простой передачи электронной почты</b>]]></text>
+</component> 
+<component id="ID_bodyTxt04">
+<text><![CDATA[<textformat blockindent="-14"><li>Позволяет клиентам отправлять электронные сообщения на почтовый сервер</li><li>Позволяет серверам отправлять электронные сообщения на другие сервера</li>]]></text>
+</component> 
+<component id="ID_titleTxt05">
+<text><![CDATA[<b>Почтовый протокол версии 3 (POP3)</b>]]></text>
+</component> 
+<component id="ID_bodyTxt05">
+<text><![CDATA[<textformat blockindent="-14"><li>Позволяет клиентам получать электронные сообщения с почтового сервера</li><li>Загружает электронные сообщения с почтового сервера на компьютер</li>]]></text>
+</component> 
+<component id="ID_titleTxt06">
+<text><![CDATA[<b>Протокол доступа к сообщениям в Интернете</b>]]></text>
+</component> 
+<component id="ID_bodyTxt06">
+<text><![CDATA[<textformat blockindent="-14"><li>Позволяет клиентам получать доступ к электронным сообщениям, которые хранятся на почтовом сервере</li><li>Сохраняет электронные сообщения на почтовом сервере</li>]]></text>
+</component> 
+<component id="ID_titleTxt07">
+<text><![CDATA[<b>Протокол передачи файлов</b>]]></text>
+</component> 
+<component id="ID_bodyTxt07">
+<text><![CDATA[<textformat blockindent="-14"><li>Устанавливает правила, которые позволяют пользователю получать доступ с одного узла на другой и обмениваться файлами по сети</li><li>Надёжный и общепризнанный протокол доставки файлов с установлением соединения</li>]]></text>
+</component> 
+<component id="ID_titleTxt08">
+<text><![CDATA[<b>Простой протокол передачи файлов</b>]]></text>
+</component> 
+<component id="ID_bodyTxt08">
+<text><![CDATA[<textformat blockindent="-14"><li>Простой протокол передачи файлов без установления соединения</li><li>Наилучший непризнанный протокол доставки файлов</li><li>Использует меньше протокольных сигналов, чем протокол FTP</li>]]></text>
+</component> 
+<component id="ID_titleTxt09">
+<text><![CDATA[<b>Протокол передачи гипертекста</b>]]></text>
+</component> 
+<component id="ID_bodyTxt09">
+<text><![CDATA[Задаёт правила обмена в Интернете текстом, графическими изображениями, звуковыми, видео- и другими файлами мультимедиа.]]></text>
+</component> 
+
+
+</textcomponents>

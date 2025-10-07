@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+			<element type="TEXT" subType="TABLE" compId="ID_s1_table01" x="9" y="11" width="419" height="150.25" />
+			<element type="TEXT" subType="TABLE" compId="ID_s1_table02" x="9" y="165" width="419" height="114.2" />
+			<element type="TEXT" subType="TABLE" compId="ID_s1_table03" x="9" y="284" width="419" height="115.25" />
+		</slide>
+
+
+		<slide>
+			<element type="TEXT" subType="TABLE" compId="ID_s2_table01" x="9" y="50" width="419" height="166.8" />
+			<element type="TEXT" subType="TABLE" compId="ID_s2_table02" x="9" y="215" width="419" height="123.8" />
+		</slide>
+		
+	</slide>
+</data>

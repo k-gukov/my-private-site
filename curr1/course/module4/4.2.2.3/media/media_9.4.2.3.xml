@@ -1,0 +1,26 @@
+﻿<textcomponents> <!--Slide 1--> <!--Slide 2-->
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Штепсели RJ-45 UTP]]></text> 
+</component>
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Разъём RJ-45 UTP]]></text> 
+</component> <!--Slide 3-->
+
+<component id="ID_s3_txt01">
+<text><![CDATA[<b>Плохой разъём:</b> провода открыты, раскручены и не полностью защищены оболочкой.]]></text> 
+</component>
+
+<component id="ID_s3_txt02">
+<text><![CDATA[<b>Хороший разъём:</b> провода раскручены в достаточной степени для подсоединения разъёма.]]></text> 
+</component>
+
+
+
+<component id="ID_s3_txt03">
+<text><![CDATA[Неправильное оконцевание кабелей может повлиять на производительность передачи.]]></text> 
+</component>
+
+
+</textcomponents>

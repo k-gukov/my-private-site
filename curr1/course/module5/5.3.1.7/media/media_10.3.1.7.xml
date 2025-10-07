@@ -1,0 +1,187 @@
+﻿<textcomponents><component id="MCTable_title"><text><![CDATA[ ]]></text></component> <!--slide01-->
+<component id='ID_s1_inst'>
+	<text><![CDATA[<b>Интерактивное задание</b><br><br>В таблице приведено описание методов пересылки кадров коммутатора. Щёлкните поля «С буферизацией» или «Без буферизации», чтобы сопоставить методы с описаниями.]]></text>
+</component> <!--Number of rows in the table-->
+
+<component id="ID_Button01">
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+
+<component id="ID_Button02">
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+<component id="txt_numrows">
+	<text><![CDATA[6]]></text>
+</component> <!--Number of columns for the answers in the table. Do not count the question column-->
+<component id="txt_numcols">
+	<text><![CDATA[2]]></text>
+</component> <!--Answer column headers-->
+<component id="txt_col1">
+	<text><![CDATA[<b>С буферизацией</b>]]></text>
+</component>
+
+<component id="txt_col2">
+	<text><![CDATA[<b>Без буферизации</b>]]></text>
+</component> <!--Question text - blockindent code moves the text away from the left edge a bit--> <!--Question text - If questions are numbered, use blockindent for hanging indents-->
+<component id="txt_q1">
+	<text><![CDATA[1. <textformat blockindent='13'>Добавляет кадры в буфер до тех пор, пока коммутатор не получит полный кадр.</textformat>]]></text>
+</component>
+
+<component id="txt_q2">
+	<text><![CDATA[2. <textformat blockindent='13'>Проверяет ошибки в кадре перед его отправкой из портов коммутатора — если полный кадр не получен, коммутатор отклонит его.</textformat>]]></text>
+</component>
+
+<component id="txt_q3">
+	<text><![CDATA[3. <textformat blockindent='13'>Коммутатор не проверяет ошибки в кадрах перед тем, как отправить кадр из своих портов.</textformat>]]></text>
+</component>
+
+<component id="txt_q4">
+	<text><![CDATA[4. <textformat blockindent='13'>Отличный способ для сохранения пропускной способности сети.</textformat>]]></text>
+</component>
+
+<component id="txt_q5">
+	<text><![CDATA[5. <textformat blockindent='13'>С помощью этого метода пересылки кадров сетевая интерфейсная плата назначения (NIC) отклоняет все неполные кадры.</textformat>]]></text>
+</component>
+
+<component id="txt_q6">
+	<text><![CDATA[6. <textformat blockindent='13'>Более быстрый метод коммутации, но может увеличить количество ошибок в целостности данных, поэтому возможна дополнительная нагрузка на полосу пропускания.</textformat>]]></text>
+</component> <!--Answers - Give the column number(s), column numbering start with 1 not 0--> <!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+<component id="txt_a1">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a2">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a3">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a4">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a5">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a6">
+	<text><![CDATA[2]]></text>
+</component> <!-- Correct Feedback -->
+<component id="ID_titleCorrect">
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id="ID_correctText">
+	<text><![CDATA[Вы правильно сопоставили описания физического уровня с каждым названием термина.]]></text>
+</component> <!-- Incorrect Feedback -->
+<component id="ID_titleIncorrect">
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id="ID_IncorrectText">
+	<text><![CDATA[Вы неправильно сопоставили описания физического уровня с каждым названием термина. Нажмите «Сброс» и повторите попытку.]]></text>
+</component> <!--slide02-->
+<component id='ID_s2_inst'>
+	<text><![CDATA[<b>Интерактивное задание</b><br>Ознакомьтесь со сценарием, который основывается на представленной топологии. Определите, как будут обрабатываться кадры путём перетаскивания ответов в соответствующие поля таблицы. Не все ответы используются.
+
+
+]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[Кабель, используемый в этой топологии, будет ____.]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[Чтобы найти местоположение ПК2, ПК1 отправит кадр данных ____.
+]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+   <text><![CDATA[В ответ ПК2 отправит в адрес ПК1 ____ сообщение.
+]]></text>
+   </component>
+
+<component id="ID_s2_txt04">
+   <text><![CDATA[Если ПК2 получит только половину данных в кадре, он ____. ]]></text>
+   </component>
+
+   <component id="ID_s2_txt05">
+   <text><![CDATA[Если ПК2 получит слишком много повреждённых кадров на порт 3, устройство S1, скорее всего, вернётся к коммутации ____.]]></text>
+     </component>
+
+    <component id="ID_s2_txt07">
+   <text><![CDATA[Порт 1]]></text>
+   </component>
+ <component id="ID_s2_txt08">
+   <text><![CDATA[Порт 2]]></text>
+   </component>
+
+ <component id="ID_s2_txt09">
+   <text><![CDATA[Порт 3]]></text>
+   </component>
+
+    <component id="ID_s2_txt10">
+   <text><![CDATA[<textformat blockindent="-18"><li>S1 — это абсолютно новый коммутатор. ПК1 отправляет данные на ПК2.</li><li>S1 использует полнодуплексный режим, MDIX и быструю пересылку в качестве метода коммутации кадров.</li></textformat>]]></text>
+   </component> <!--Drag and Drop-->
+<component id='ID_s2_drag01'>
+	<text><![CDATA[<font color="#393536">прямым</font>]]></text>
+</component>
+
+<component id='ID_s2_drag02'>
+	<text><![CDATA[<font color="#393536">без буферизации</font>]]></text>
+</component>
+
+<component id='ID_s2_drag03'>
+	<text><![CDATA[<font color="#393536">одноадресное</font>]]></text>
+</component>
+
+<component id='ID_s2_drag04'>
+	<text><![CDATA[<font color="#393536">с буферизацией</font>]]></text>
+</component>
+
+<component id='ID_s2_drag05'>
+	<text><![CDATA[<font color="#393536">широковещательно</font>]]></text>
+</component>
+
+<component id='ID_s2_drag06'>
+	<text><![CDATA[<font color="#393536">отклонит его</font>]]></text>
+</component>
+
+<component id='ID_s2_drag007'>
+	<text><![CDATA[<font color="#393536">отправит ответ на ПК1</font>]]></text>
+</component>
+
+
+
+<component id='ID_s2_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id='ID_s2_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили процессы сетевого доступа и отправки кадров с описаниями.]]></text>
+</component>
+
+
+<component id='ID_s2_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id='ID_s2_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили процессы сетевого доступа и отправки кадров с описаниями. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_s2_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_s2_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+ 
+
+</textcomponents>

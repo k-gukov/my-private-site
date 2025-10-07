@@ -1,0 +1,72 @@
+﻿<textcomponents>
+
+<component id='ID_txt01'>
+	<text><![CDATA[<b>Оконечные устройства</b>]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[Настольный компьютер]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[Ноутбук]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[Принтер]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[IP-телефон]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[Беспроводной планшетный ПК]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[Терминальное<br/>оборудование<br/>TelePresence]]></text>
+</component>
+
+<component id='ID_txt08'>
+	<text><![CDATA[<b>Промежуточные устройства</b>]]></text>
+</component>
+
+<component id='ID_txt09'>
+	<text><![CDATA[Беспроводной маршрутизатор]]></text>
+</component>
+
+<component id='ID_txt10'>
+	<text><![CDATA[Коммутатор LAN]]></text>
+</component>
+
+<component id='ID_txt11'>
+	<text><![CDATA[Маршрутизатор]]></text>
+</component>
+
+<component id='ID_txt12'>
+	<text><![CDATA[Многоуровневый коммутатор]]></text>
+</component>
+
+<component id='ID_txt13'>
+	<text><![CDATA[Устройство межсетевого экрана]]></text>
+</component>
+
+<component id='ID_txt14'>
+	<text><![CDATA[<b>Сетевая среда</b>]]></text>
+</component>
+
+<component id='ID_txt15'>
+	<text><![CDATA[Беспроводные средства передачи данных]]></text>
+</component>
+
+<component id='ID_txt16'>
+	<text><![CDATA[Средства передачи данных по локальной сети]]></text>
+</component>
+
+<component id='ID_txt17'>
+	<text><![CDATA[Средства передачи данных по глобальной сети]]></text>
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,166 @@
+﻿<textcomponents> <!-- topology -->
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Узел A</b><br>10.10.0.1<br><b><b><font color="#5FBC21">00-0d-88-c7-9a-24</font></b>]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Узел B</b><br>10.10.0.2<br><b><font color="#5FBC21">00-08-a3-b6-ce-04</font></b>]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Узел C</b><br>10.10.0.3<br><b><font color="#5FBC21">00-0d-56-09-fb-d1</font></b>]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Узел D</b><br>10.10.0.4<br><b><font color="#5FBC21">00-12-3f-d4-6d-1b</font></b>]]></text>
+	</component>
+
+	<component id="ID_txt05">
+		<text><![CDATA[<b>R1 interface G0/0</b><br>10.10.0.254<br><b><font color="#5FBC21">00-10-7b-e7-fa-ef</font></b>]]></text>
+	</component>
+
+	<component id="ID_txt10">
+		<text><![CDATA[Сеть]]></text>
+	</component> <!-- slide 1 -->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Процесс ARP: удалённый обмен данными</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Узел А намерен отправить данные на IP-адрес 10.10.0.3, но у него нет записи ARP.]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<b>Кэш-память ARP узла А</b>]]></text>
+	</component>
+	
+	<component id='ID_s1_table'>
+			<text><![CDATA[
+				<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+					<tr class="title">
+						<td bgcolor='#98D3D1' colspan='2' class="title"><font size='12' color='#1C3635'><b>Узел A &#8212; кэш-память ARP</b></font></td>
+					</tr>
+					<tr>
+						<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+					</tr>
+					<tr>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">&nbsp;</font></td>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">&nbsp;</font></td>
+					</tr>
+				</table>]]>
+			</text>
+	</component> <!-- slide 2 -->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Широковещательная рассылка запроса ARP</b>]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<b>Кэш-память ARP узла А</b>]]></text>
+		</component>
+		
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Узел A отправляет запрос ARP в поисках MAC-адреса, связанного с IP 10.10.0.3.]]></text>
+	</component>
+
+	<component id='ID_s2_table'>
+			<text><![CDATA[
+					<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+						<tr class="title">
+							<td bgcolor='#98D3D1' colspan='2' class="title"><font size='12' color='#1C3635'><b>Узел A &#8212; кэш-память ARP</b></font></td>
+						</tr>
+						<tr>
+							<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+						</tr>
+					<tr>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">&nbsp;</font></td>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">&nbsp;</font></td>
+					</tr>
+				</table>]]>
+			</text>
+	</component> <!-- slide 3 -->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Ответ ARP с информацией о МАС-адресе</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>Кэш-память ARP узла А</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Узел C с IP-адресом 10.10.0.3 отправляет ответ ARP, содержащий MAC-адрес этого узла.]]></text>
+	</component>
+	
+	<component id='ID_s3_table'>
+	<text><![CDATA[
+					<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+						<tr class="title">
+							<td bgcolor='#98D3D1' colspan='2' class="title"><font size='12' color='#1C3635'><b>Узел A &#8212; кэш-память ARP</b></font></td>
+						</tr>
+						<tr>
+							<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+						</tr>
+					<tr>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">&nbsp;</font></td>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">&nbsp;</font></td>
+					</tr>
+				</table>]]>
+			</text>
+	</component> <!-- slide 4 -->
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Добавление карты адресов «из MAC в IP» в кэш-память ARP</b>]]></text>
+	</component>
+
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>Кэш-память ARP узла А</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[Узел А добавляет карту адресов «из MAC в IP» в собственную кэш-память ARP. ]]></text>
+	</component>
+	
+	<component id='ID_s4_table'>
+		<text><![CDATA[
+						<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+							<tr class="title">
+								<td bgcolor='#98D3D1' colspan='2' class="title"><font size='12' color='#1C3635'><b>Узел A &#8212; кэш-память ARP</b></font></td>
+							</tr>
+							<tr>
+								<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+							</tr>
+						<tr>
+							<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">10.10.0.3</font></td>
+							<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">00-0d-56-09-fb-d1</font></td>
+						</tr>
+				</table>]]>
+			</text>
+	</component> <!-- slide 5 -->
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>Пересылка данных с информацией о МАС-адресе</b>]]></text>
+	</component>
+
+	<component id="ID_s5_txt01">
+		<text><![CDATA[<b>Кэш-память ARP узла А<br/>10.10.0.3 = 00-0d-56-09-fb-d1</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_txt02">
+		<text><![CDATA[Узел A пересылает данные непосредственно на узел C, используя для этого MAC-адрес.]]></text>
+	</component>
+	
+	<component id='ID_s5_table'>
+	<text><![CDATA[
+					<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+						<tr class="title">
+							<td bgcolor='#98D3D1' colspan='2' class="title"><font size='12' color='#1C3635'><b>Узел A &#8212; кэш-память ARP</b></font></td>
+						</tr>
+						<tr>
+							<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+						</tr>
+					<tr>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">10.10.0.3</font></td>
+						<td bgcolor='#EFF8F7' valign="top"><font size="11" color="#393536">00-0d-56-09-fb-d1</font></td>
+					</tr>
+				</table>]]>
+			</text>
+	</component>
+
+</textcomponents>

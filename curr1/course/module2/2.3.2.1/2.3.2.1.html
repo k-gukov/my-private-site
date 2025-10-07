@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.3.2.1 Настройка виртуального интерфейса коммутатора</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Настройка виртуального интерфейса коммутатора</h1>
+        <div>
+<p>Для удалённого доступа к коммутатору на виртуальном интерфейсе коммутатора нужно настроить IP-адрес и маску подсети:</p>
+<p>
+<ul>
+<li>
+<b>IP-адрес</b> — совместно с маской подсети идентифицирует оконечное устройство в сетевом взаимодействии</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>
+<b>Маска подсети</b> — определяет, какая часть крупной сети используется IP-адресом</li>
+</ul>
+</p>
+<p></p>
+<p>В данный момент основное внимание фокусируется на адресах IPv4. Адреса IPv6 подробно рассмотрим позже. </p>
+<p></p>
+<p>Впоследствии вы поймете важность IP-адресов, но в данный момент необходимо научиться быстро настраивать коммутатор для поддержки удалённого доступа. На рисунке показана команда для активации IP соединения с коммутатором S1 при помощи IP-адреса 192.168.10.2:</p>
+<p></p>
+<p>
+<ul>
+<li>
+<span class="cmd">
+<b>interface vlan 1</b>
+</span> - применяется для перехода в режим настройки интерфейса из режима глобальной конфигурации</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>
+<span class="cmd">
+<b>ip address 192.168.10.2 255.255.255.0</b>
+</span> - настраивает IP-адрес и маску подсети для коммутатора (только одно из нескольких возможных сочетаний IP-адреса и маски подсети)</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>
+<span class="cmd">
+<b>no shutdown</b>
+</span> - активирует интерфейс</li>
+</ul>
+</p>
+<p></p>
+<p>После настройки этих команд все IP-элементы в коммутаторе будут готовы для передачи данных по сети. </p>
+<p></p>
+<p>
+<b>Примечание</b>. Для удалённого управления коммутатора по-прежнему необходима настройка одного или нескольких физических портов, а также каналов VTY.</p>
+<p></p>
+<p>На данном рисунке отработайте настройку виртуального интерфейса коммутатора путем ввода команд.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

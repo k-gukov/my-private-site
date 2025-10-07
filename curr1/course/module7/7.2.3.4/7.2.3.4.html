@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.3.4 Процессы UDP-клиента</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Процессы UDP-клиента</h1>
+        <div>
+<p>Как и в случае с TCP, обмен данными между клиентом и сервером инициируется клиентским приложением, которое запрашивает данные с серверного процесса. Процесс UDP-клиента случайным образом выбирает номер порта из диапазона динамических номеров портов и использует его в качестве порта источника для сеанса связи. Как правило, порт назначения — это известный или зарегистрированный номер порта, присвоенный процессу сервера. </p>
+<p></p>
+<p>Случайные номера портов источника также помогают повысить безопасность. При наличии предсказуемой модели для выбора порта назначения злоумышленнику проще смоделировать доступ к клиенту, попытавшись подключиться к номеру порта, который, вероятнее всего, будет открыт.</p>
+<p></p>
+<p>Поскольку при использовании протокола UDP после подготовки данных к отправке и определения портов сеансы не создаются, UDP может составить датаграммы и переслать их на сетевой уровень для определения адреса и пересылки по сети.</p>
+<p></p>
+<p>После того как клиент выбрал порты источника и назначения, эта же пара портов будет указана в заголовке всех датаграмм, которые используются в процессе пересылки. Чтобы сервер мог вернуть данные клиенту, номера портов источника и назначения в заголовке датаграммы указываются в обратном порядке.</p>
+<p></p>
+<p>Более подробная информация о процессах UDP-клиента представлена на рисунках справа.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

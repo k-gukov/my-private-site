@@ -1,0 +1,15 @@
+﻿<textcomponents>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Узел назначения</b><br>172.16.236.101]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[<b>Исходный узел</b><br>172.16.1.101]]></text>
+</component>
+
+<component id="ID_footer">
+<text><![CDATA[<i>В таблице маршрутизации маршрутизатора сохраняется информация об удалённых маршрутах и маршрутах с прямым подключением.</i>]]></text>
+</component>
+
+</textcomponents>

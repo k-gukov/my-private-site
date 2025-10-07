@@ -1,0 +1,10 @@
+﻿<textcomponents>
+<component id="ID_txt01">
+<text><![CDATA[Локальный узел]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Удалённый узел]]></text>
+</component>
+
+</textcomponents>

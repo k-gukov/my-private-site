@@ -1,0 +1,53 @@
+﻿<textcomponents>
+
+   <component id="ID_txt01">
+      <text><![CDATA[Проблемы ARP:<br/><textformat blockindent='-18'><li>Широковещательные рассылки в среде передачи данных</li><li>Безопасность</li></textformat>]]></text>
+      </component>
+
+<component id="ID_txt03">
+   <text><![CDATA[Общие средства передачи данных (множественный доступ)]]></text>
+   </component>
+<component id="ID_txt04">
+   <text><![CDATA[Широковещательные рассылки ARP могут заполнить локальную среду передачи данных.]]></text>
+   </component>
+<component id="ID_txt05">
+   <text><![CDATA[Ложное сообщение ARP может предоставить неправильный MAC-адрес, что впоследствии позволит перехватывать кадры с использованием этого адреса (называемого подделкой)]]></text>
+   </component>
+   <component id='ID_table'>
+		<text><![CDATA[
+				<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr>
+						<td colspan='6' width="75" bgcolor='#98D3D1' valign="top"><font size="12" color='#000000'><b>Ethernet</b></font></td>
+						
+					  </tr>
+						<tr class="liner">
+							<td colspan='6' bgcolor='#0E6360' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+						</tr>
+					  
+					  <tr>
+						<td bgcolor='#EFF8F7' valign="top"><font color='#393536'>8</font></td>
+					 	<td bgcolor='#EFF8F7' valign="top"><font color='#393536'>6</font></td>
+						<td bgcolor='#EFF8F7' valign="top"><font color='#393536'>6</font></td>
+					 	<td bgcolor='#EFF8F7' valign="top"><font color='#393536'>2</font></td>
+						<td bgcolor='#EFF8F7' valign="top"><font color='#393536'>46—1500</font></td>
+					 	<td bgcolor='#EFF8F7' valign="top"><font color='#393536'>4</font></td>
+						
+					  </tr>
+					  <tr>
+						<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Преамбула</font></td>
+							<td bgcolor='#FFFFFF' valign="top"><font color='#f26200'><b>Адрес назначения</b></font></td>
+							<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Адрес источника</font></td>
+							<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Тип</font></td>
+							<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Данные</font></td>
+							<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Контрольная последовательность кадра</font></td>
+					  </tr>
+				</table>
+			]]>
+			
+		</text>
+		</component>
+
+
+
+
+</textcomponents>

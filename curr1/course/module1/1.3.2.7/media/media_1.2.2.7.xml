@@ -1,0 +1,180 @@
+﻿<textcomponents><component id="MCTable_title"><text><![CDATA[ ]]></text></component> <!-- instructions -->
+<component id="ID_inst">
+	<text><![CDATA[<b>Интерактивное задание — требования к сетевой архитектуре</b><br>Выберите столбец для определения требования к архитектуре сетей, к которому относится каждая характеристика или функция.]]></text>
+</component> <!-- buttons -->
+<component id="ID_Button01">
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id="ID_Button02">
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component> <!--Number of rows in the table-->
+<component id="txt_numrows">
+	<text><![CDATA[16]]></text>
+</component> <!--Number of columns for the answers in the table. Do not count the question column-->
+<component id="txt_numcols">
+	<text><![CDATA[4]]></text>
+</component> <!--Answer column headers-->
+
+
+<component id="txt_col1">
+	<text><![CDATA[<b>Отказоустойчивость <br/></b>]]></text>
+</component>
+
+<component id="txt_col2">
+	<text><![CDATA[<b>Масштабируемость</b>]]></text>
+</component>
+
+<component id="txt_col3">
+	<text><![CDATA[<b>Качество <br/>обслуживания</b>]]></text>
+</component>
+
+<component id="txt_col4">
+	<text><![CDATA[<b>Безопасность</b>]]></text>
+</component> <!--Question text - blockindent code moves the text away from the left edge a bit--> <!--Question text - If questions are numbered, use blockindent for hanging indents-->
+<component id="txt_q1">
+	<text><![CDATA[1. <textformat blockindent='13'>Сети должны быть всегда доступны.</textformat>]]></text>
+</component>
+
+<component id="txt_q2">
+	<text><![CDATA[2. <textformat blockindent='13'>Полные очереди в памяти означают, что пакеты должны быть сброшены.</textformat>]]></text>
+</component>
+
+<component id="txt_q3">
+	<text><![CDATA[3. <textformat blockindent='13'>Очереди по приоритету реализуются при превышении спроса на пропускную способность сети над её наличием.</textformat>]]></text>
+</component>
+
+<component id="txt_q4">
+	<text><![CDATA[4. <textformat blockindent='13'>Корпоративное и личное сетевое оборудование должно быть защищено.</textformat>]]></text>
+</component>
+
+<component id="txt_q5">
+	<text><![CDATA[5. <textformat blockindent='13'>Разработка плана для организации очередей по приоритету — стратегия для качественной доставки информации. </textformat>]]></text>
+</component>
+
+<component id="txt_q6">
+	<text><![CDATA[6. <textformat blockindent='13'>Деловые и личные данные должны быть защищены.</textformat>]]></text>
+</component>
+
+<component id="txt_q7">
+	<text><![CDATA[7. <textformat blockindent='13'>Различия между Интернет-провайдерами могут повлиять на качество доставки данных в сети.</textformat>]]></text>
+</component>
+
+<component id="txt_q8">
+	<text><![CDATA[8. <textformat blockindent='13'>Сети могут расти и расширяться при минимальном отрицательном влиянии на производительность.</textformat>]]></text>
+</component>
+
+<component id="txt_q9">
+	<text><![CDATA[9. <textformat blockindent='13'>Приоритет для постановки пакетов в очередь зависит от типа отправленных данных и их важности.</textformat>]]></text>
+</component>
+
+<component id="txt_q10">
+	<text><![CDATA[10. <textformat blockindent='18'>Данные могут передаваться для доставки с удалённого источника по нескольким маршрутам.</textformat>]]></text>
+</component>
+
+
+<component id="txt_q11">
+	<text><![CDATA[11. <textformat blockindent='21'>Типы сетевого оборудования, способы его идентификации (IP-/MAC-адрес), а также его наименования могут повлиять на развитие сети.</textformat>]]></text>
+</component>
+
+<component id="txt_q12">
+	<text><![CDATA[12. <textformat blockindent='21'>Существует много средств и процедур для удовлетворения потребности обмена важной для бизнеса и конфиденциальной информацией.</textformat>]]></text>
+</component>
+
+<component id="txt_q13">
+	<text><![CDATA[13. <textformat blockindent='21'>Задержки трафика и потерю данных следует учитывать при настройке очереди по приоритету.</textformat>]]></text>
+</component>
+
+<component id="txt_q14">
+	<text><![CDATA[14. <textformat blockindent='21'>Нарушение целостности критически важных для бизнеса и личных ресурсов может привести к серьёзным последствиям.</textformat>]]></text>
+</component>
+
+<component id="txt_q15">
+	<text><![CDATA[15. <textformat blockindent='21'>Общие сетевые стандарты позволяют поставщикам оборудования и программного обеспечения сосредоточиться на усовершенствовании продуктов и сервисов.</textformat>]]></text>
+</component>
+
+<component id="txt_q16">
+	<text><![CDATA[16. <textformat blockindent='21'>Типы подключения к сети могут повлиять на доставку информации.</textformat>]]></text>
+</component> <!--Answers - Give the column number(s), column numbering start with 1 not 0--> <!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+<component id="txt_a1">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a2">
+	<text><![CDATA[3]]></text>
+</component>
+
+<component id="txt_a3">
+	<text><![CDATA[3]]></text>
+</component>
+
+<component id="txt_a4">
+	<text><![CDATA[4]]></text>
+</component>
+
+<component id="txt_a5">
+	<text><![CDATA[3]]></text>
+</component>
+
+<component id="txt_a6">
+	<text><![CDATA[4]]></text>
+</component>
+
+<component id="txt_a7">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a8">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a9">
+	<text><![CDATA[3]]></text>
+</component>
+
+<component id="txt_a10">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a11">
+	<text><![CDATA[2]]></text>
+</component>
+
+
+<component id="txt_a12">
+	<text><![CDATA[4]]></text>
+</component>
+
+
+<component id="txt_a13">
+	<text><![CDATA[3]]></text>
+</component>
+
+
+<component id="txt_a14">
+	<text><![CDATA[4]]></text>
+</component>
+
+<component id="txt_a15">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a16">
+	<text><![CDATA[1]]></text>
+</component> <!-- Correct Feedback -->
+<component id="ID_titleCorrect">
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id="ID_correctText">
+	<text><![CDATA[Вы правильно сопоставили каждую характеристику соответствующему требованию к сетевой архитектуре.]]></text>
+</component> <!-- Incorrect Feedback -->
+<component id="ID_titleIncorrect">
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id="ID_IncorrectText">
+	<text><![CDATA[Вы неправильно сопоставили характеристики соответствующему требованию к сетевой архитектуре. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,64 @@
+﻿<textcomponents> <!-- slide 1 -->
+<component id="ID_s1_title">
+<text><![CDATA[<b>Устойчивость к сбоям </b>]]></text> 
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[Интернет]]></text> 
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[Резервные соединения позволяют использовать альтернативные пути при сбое устройства или канала. Взаимодействие с пользователем остаётся без изменений.]]></text> 
+</component> <!-- slide 2 -->
+<component id="ID_s2_title">
+<text><![CDATA[<b>Масштабируемость</b>]]></text> 
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Интернет]]></text> 
+</component>
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Дополнительные пользователи и целые сети могут быть подключены к Интернету без снижения производительности для существующих пользователей.]]></text> 
+</component> <!-- slide 3 -->
+<component id="ID_s3_title">
+<text><![CDATA[<b>Качество обслуживания (QoS)</b>]]></text> 
+</component>
+
+<component id="ID_s3_txt01">
+<text><![CDATA[Интернет]]></text> 
+</component>
+
+<component id="ID_s3_txt02">
+<text><![CDATA[Качество обслуживания, управляемое маршрутизатором, гарантирует, что приоритеты соответствуют типу коммуникации и её важности для организации.]]></text> 
+</component>
+
+<component id="ID_s3_txt03">
+<text><![CDATA[Веб-страницы, как правило, получают более низкий приоритет.]]></text> 
+</component>
+
+
+<component id="ID_s3_txt04">
+<text><![CDATA[Потоковому мультимедиа необходим приоритет для поддержания точного и непрерывного взаимодействия с пользователем.]]></text> 
+</component> <!-- slide 4 -->
+<component id="ID_s4_title">
+<text><![CDATA[<b>Безопасность</b>]]></text> 
+</component>
+
+<component id="ID_s4_txt01">
+<text><![CDATA[Интернет]]></text> 
+</component>
+
+<component id="ID_s4_txt02">
+<text><![CDATA[Администраторы могут защитить сеть с помощью программного и аппаратного обеспечения безопасности, предотвращая тем самым физический доступ к сетевым устройствам.]]></text> 
+</component>
+
+<component id="ID_s4_txt03">
+<text><![CDATA[<p id="ID_s4_txt03" class="ID_s4_txt03">Имя пользователя: ?<br>Пароль: ?</p>]]></text> 
+</component>
+
+
+<component id="ID_s4_txt04">
+<text><![CDATA[Меры безопасности защищают сеть от несанкционированного доступа.]]></text> 
+</component>
+</textcomponents>

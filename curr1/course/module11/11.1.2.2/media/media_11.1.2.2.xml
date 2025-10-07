@@ -1,0 +1,81 @@
+﻿<textcomponents>
+	<component id="ID_title">
+	   <text><![CDATA[<b>Сетевые службы</b>]]></text>
+	   </component>
+	<component id="ID_txtTitle1">
+	<text><![CDATA[<b>Служба доменных имён (DNS)</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody1">
+	<text><![CDATA[Cлужба, предоставляющая IP-адрес веб-сайта или доменное имя для подключения к ним узла]]></text>
+	</component>
+	
+	<component id="ID_txtTitle2">
+	<text><![CDATA[<b>Сервер Telnet</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody2">
+	<text><![CDATA[Служба, позволяющая администраторам выполнять вход на узел из удалённого расположения и управлять узлом так, как если бы этот вход был выполнен локально]]></text>
+	</component>
+	
+	<component id="ID_txtTitle3">
+	<text><![CDATA[<b>Почтовый сервер</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody3">
+	<text><![CDATA[<textformat blockindent="-14"><li>Использует протокол простой передачи почты (SMTP), почтовый протокол (POP3) или протокол доступа к сообщениям в Интернете (IMAP)</li><li>Используется для отправки сообщений электронной почты от клиентов к серверам по сети Интернет</li><li>Получатели указываются в формате «user@xyz»</li></textformat>]]></text>
+	</component>
+	
+	<component id="ID_txtTitle4">
+	<text><![CDATA[<b>Сервер DHCP (протокол динамической конфигурации сетевого узла)</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody4">
+	<text><![CDATA[Служба, назначающая клиентам IP-адреса, маску подсети, шлюз по умолчанию и другие данные]]></text>
+	</component>
+	
+	<component id="ID_txtTitle5">
+	<text><![CDATA[<b>Веб-сервер</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody5">
+	<text><![CDATA[<textformat blockindent="-14"><li>Протокол передачи гипертекста (HTTP)</li><li>Используется для передачи данных между веб-клиентами и веб-серверами</li><li>Большинство веб-страниц доступны посредством протокола HTTP</li></textformat>]]></text>
+	</component>
+	
+	<component id="ID_txtTitle6">
+	<text><![CDATA[<b>Сервер FTP (протокол передачи файлов)</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody6">
+	<text><![CDATA[Служба, позволяющая обмениваться файлами между клиентом и сервером]]></text>
+	</component>
+		
+	<component id="ID_txt02">
+	<text><![CDATA[Сервер DNS]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[Сервер Telnet]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+	<text><![CDATA[Почтовый сервер]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+	<text><![CDATA[Сервер DHCP]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+	<text><![CDATA[Веб-сервер]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+	<text><![CDATA[Сервер FTP]]></text>
+	</component>
+	
+	<component id="ID_inst">
+	<text><![CDATA[Щёлкните любой сервер, чтобы просмотреть краткое описание доступных сетевых служб.]]></text>
+	</component>
+
+</textcomponents>

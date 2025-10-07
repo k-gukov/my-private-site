@@ -1,0 +1,29 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Взаимодействие протоколов</b>]]></text>
+</component>
+
+<component id="ID_text01">
+<text><![CDATA[Протокол передачи гипертекста (HTTP)]]></text>
+</component>
+
+<component id="ID_text02">
+<text><![CDATA[Протокол управления передачей (TCP)]]></text>
+</component>
+
+<component id="ID_text03">
+<text><![CDATA[Протокол межсетевого обмена (IP)]]></text>
+</component>
+
+<component id="ID_text04">
+<text><![CDATA[Ethernet]]></text>
+</component>
+
+<component id="ID_text05">
+<text><![CDATA[Веб-<BR/>сервер]]></text>
+</component>
+
+<component id="ID_text06">
+<text><![CDATA[<b>Стек протоколов</b>]]></text>
+</component>
+</textcomponents>

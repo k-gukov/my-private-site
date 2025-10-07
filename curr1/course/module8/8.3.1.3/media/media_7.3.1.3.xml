@@ -1,0 +1,31 @@
+﻿<textcomponents>
+
+<component id='ID_title'>
+	<text><![CDATA[<b>ICMPv6-протокол обнаружения соседних узлов</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Разрешение адресов</b><br/>до: <font color='#F26200'>FF02:0:0:0:0: FF00</font>::<font color='#5FBC21'>20</font>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Мне нужен MAC-адрес Ethernet устройства с<br/>таким индивидуальным адресом.<br/>Целевой IPv6-адрес: 2001:DB8:ACAD:1::<font color='#5FBC21'>20</font>]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>2001:DB8:ACAD:1::10/64</b>]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>2001:DB8:ACAD:1::30/64</b>]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Обнаружение адресов-дупликатов (DAD)</b><br/>до: <font color='#F26200'>FF02:0:0:0:0:FF00</font>::<font color='#5FBC21'>30</font>]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Перед использованием этого адреса мне нужно узнать, пользуется ли кто-либо этим глобальным адресом для одноадресной рассылки на этом канале?<br/>Целевой IPv6-адрес: 2001:DB8:ACAD:1::<font color='#5FBC21'>30</font>]]></text>
+</component>
+
+</textcomponents>

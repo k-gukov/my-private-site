@@ -1,0 +1,40 @@
+﻿<textcomponents>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+	<tr class="liner">
+		<td colspan='3' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td width="130" bgcolor='#077A77' valign="top"><font color='#ffffff'><b>Блок пропускной способности</b></font></td>
+		<td width="90" bgcolor='#077A77' valign="top" class="width"><font color='#ffffff'><b>Сокращение</b></font> </td>
+		<td bgcolor='#077A77' valign="top"><font color='#ffffff'><b>Равнозначность</b></font> </td>
+	 </tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><font color='#393536'>Биты в секунду</font></td>
+		<td bgcolor='#EFF8F7'><font color='#393536'>бит/с</font></td>
+		<td bgcolor='#EFF8F7'><font color='#393536'>1 бит/с = основная единица пропускной способности</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Килобиты в секунду</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Кбит/с</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Кбит/с 1 = 1000 бит/с = 10^3 бит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><font color='#393536'>Мегабиты в секунду</font></td>
+		<td bgcolor='#EFF8F7'><font color='#393536'>Мбит/с</font></td>
+		<td bgcolor='#EFF8F7'><font color='#393536'>1 Мбит/с = 1 000 000 бит/с = 10^6 бит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Гигабиты в секунду</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Гбит/с</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>1 Гбит/с = 1 000 000 000 бит/с = 10^9 бит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><font color='#393536'>Терабиты в секунду</font></td>
+		<td bgcolor='#EFF8F7'><font color='#393536'>Тбит/с</font></td>
+		<td bgcolor='#EFF8F7'><font color='#393536'>1 Тбит/с = 1 000 000 000 000 бит/с = 10^12 бит/с</font></td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

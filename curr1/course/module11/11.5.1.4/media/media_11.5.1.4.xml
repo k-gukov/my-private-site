@@ -1,0 +1,43 @@
+﻿<textcomponents>
+<component id="ID_InfoTitle"><text>Вардрайвинг/варвокинг/варчокинг</text></component>
+<component id="ID_InfoBody"><text><![CDATA[Вардрайвинг — это процесс передвижения на автомобиле по определённой территории с одновременным поиском беспроводных локальных сетей. После обнаружения точки доступа к беспроводной локальной сети она регистрируется и открывается в общий доступ. Цель вардрайвинга — привлечение внимания к незащищённости большинства беспроводных сетей, а также демонстрация широкого распространения и использования технологии беспроводной локальной сети. <br><br>Процесс, аналогичный вардрайвингу — варвокинг. Пользователь обходит район, пытаясь обнаружить открытые для доступа беспроводные сети. После обнаружения точки доступа в месте обнаружения делается отметка мелом, чтобы обозначить состояние беспроводного соединения.]]></text>	</component>
+<component id="ID_TipText"><text><![CDATA[Дополнительная информация]]></text></component>
+<component id="box_text"><text><![CDATA[Основы безопасности<br/><textformat blockindent="-14"><ul style="margin-top:0px"><li>Изменение значений по умолчанию</li><li>Отключение широковещательной рассылки SSID.</li><li>Включение шифрования</li></ul></textformat>]]></text></component>
+
+<component id="ID_s2_inst">
+<text><![CDATA[<b>Шифрование беспроводной сети</b>]]></text>
+</component>
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Узлам требуется правильный ключ.]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+<text><![CDATA[56cde.dca211a001ab0ab]]></text>
+</component> <!-- controller -->
+
+<component id="end">
+<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+</textcomponents>

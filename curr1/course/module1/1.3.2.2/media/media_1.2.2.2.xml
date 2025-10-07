@@ -1,0 +1,47 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<font><b>Коммутация каналов в телефонной сети</b></font>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Существует много путей передачи, но для каждого вызова выбирается только один.]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Как только вызов установлен, все коммуникации происходят на этом пути или канале. Канал выделен для этого вызова на всё время вызова.  ]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Канал остается активным, даже если никто не говорит.]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Есть много каналов, но это конечное число. В период максимальной нагрузки некоторые вызовы могут быть отклонены.]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Телефонная сеть</b>]]></text> 
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Телефонный<br/>коммутатор]]></text> 
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Телефонный<br/>коммутатор]]></text> 
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Телефонный<br/>коммутатор]]></text> 
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Телефонный<br/>коммутатор]]></text> 
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[Телефонный<br/>коммутатор]]></text> 
+</component>
+
+</textcomponents>

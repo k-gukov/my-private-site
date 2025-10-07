@@ -1,0 +1,153 @@
+﻿<textcomponents>
+
+<component id="ID_table01">
+  <text><![CDATA[<font size='9' class='font9px'><b>Категория устройства</b></font>]]></text> 
+  </component>  
+<component id="ID_table02">
+  <text><![CDATA[<font size='9' class='font9px'><b>Функция</b></font>]]></text> 
+  </component>  
+<component id="ID_table03">
+  <text><![CDATA[<font size='9' class='font9px'><b>Представление</b></font>]]></text> 
+  </component>  
+<component id="ID_table04">
+  <text><![CDATA[<font size='9' class='font9px'><b>Оконечные устройства</b></font>]]></text> 
+  </component>  
+<component id="ID_table05">
+  <text><![CDATA[<font size='9' class='font9px'><b>Промежуточные устройства</b></font>]]></text> 
+  </component>  
+<component id="ID_table06">
+  <text><![CDATA[<font size='9' class='font9px'><b>Сетевая среда</b></font>]]></text> 
+  </component>    
+  
+ <component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>  
+<component id='ID_s2_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+<component id='ID_s2_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+<component id="ID_s3_CHECK">
+  <text><![CDATA[<b>Проверить</b>]]></text> 
+  </component>  
+<component id="ID_s3_RESET">
+  <text><![CDATA[<b>Сброс</b>]]></text> 
+  </component>  
+  
+<component id="ID_s1_INCORRECT_TITLE">
+  <text><![CDATA[<FONT FACE="_sans"><b>Неверно</b></FONT>]]></text> 
+  </component>  
+<component id="ID_s1_INCORRECT_BODY">
+  <text><![CDATA[<FONT FACE="_sans">Неправильно сопоставлены функции сетевого компонента и категория устройства. Нажмите «Сброс» и повторите попытку.</FONT>]]></text> 
+  </component> 
+<component id="ID_s2_INCORRECT_TITLE">
+  <text><![CDATA[<FONT FACE="_sans"><b>Неверно</b></FONT>]]></text> 
+  </component>  
+<component id="ID_s2_INCORRECT_BODY">
+  <text><![CDATA[<FONT FACE="_sans">Неправильно сопоставлены значки сетевых компонентов и категория устройства. Нажмите «Сброс» и повторите попытку.</FONT>]]></text> 
+  </component>  
+<component id="ID_s3_INCORRECT_TITLE">
+  <text><![CDATA[<FONT FACE="_sans"><b>Неверно</b></FONT>]]></text> 
+  </component>  
+<component id="ID_s3_INCORRECT_BODY">
+  <text><![CDATA[<FONT FACE="_sans">Неправильно сопоставлены имена компонентов сети и значки. Нажмите «Сброс» и повторите попытку.</FONT>]]></text> 
+  </component> 
+<component id="ID_s3_CORRECT_TITLE">
+  <text><![CDATA[<FONT FACE="_sans"><b>Верно</b></FONT>]]></text> 
+  </component>  
+<component id="ID_s3_CORRECT_BODY">
+  <text><![CDATA[<FONT FACE="_sans">Имена компонентов сети и значки сопоставлены верно.</FONT>]]></text> 
+  </component>   
+  
+<component id="ID_s1_inst">
+  <text><![CDATA[<font size='10'  class='font10px'><b>Упражнение — часть 1: Функции сетевого компонента</b><br/> Переместите функцию сетевого компонента в соответствующую категорию устройства.</font>]]></text> 
+  </component>  
+<component id="ID_s1_drag01">
+  <text><![CDATA[<font size='9'  class='font9px'>Служит в качестве интерфейса между последовательной цепочкой людей и сетью передачи данных.</font>]]></text> 
+  </component>   
+<component id="ID_s1_drag02">
+  <text><![CDATA[<font size='9'  class='font9px'>Обеспечивает подключение какого-либо узла к данной сети, а также поддерживает функцию подключения к нескольким сетям с последующим созданием объединённой сети.</font>]]></text> 
+  </component> 
+<component id="ID_s1_drag03">
+  <text><![CDATA[<font size='9'  class='font9px'>Служит в качестве канала для передачи сообщения от источника данных к адресу назначения.</font>]]></text> 
+  </component> 
+  
+<component id="ID_s2_inst">
+  <text><![CDATA[<font size='10'  class='font9px'><b>Упражнение — часть 2: Значки сетевых компонентов</b><br/> Переместите значок сетевого компонента в соответствующую категорию устройства.</font>]]></text> 
+  </component>  
+<component id="ID_s2_existing01">
+  <text><![CDATA[<font size='9'  class='font9px'>Служит в качестве интерфейса между последовательной цепочкой людей и сетью передачи данных.</font>]]></text> 
+  </component> 
+<component id="ID_s2_existing02">
+  <text><![CDATA[<font size='9'  class='font9px'>Обеспечивает подключение какого-либо узла к данной сети, а также поддерживает функцию подключения к нескольким сетям с последующим созданием объединённой сети.</font>]]></text> 
+  </component> 
+<component id="ID_s2_existing03">
+  <text><![CDATA[<font size='9'  class='font9px'>Служит в качестве канала для передачи сообщения от источника данных к адресу назначения.</font>]]></text> 
+  </component> 
+  
+<component id="ID_s3_inst">
+  <text><![CDATA[<font size='10'  class='font10px'><b>Упражнение — часть 3: Имена сетевых компонентов</b><br/> Переместите имя сетевого компонента к соответствующему значку.</font>]]></text> 
+  </component>
+  
+<component id="ID_s3_existing01">
+  <text><![CDATA[<font size='9'  class='font9px'>Служит в качестве интерфейса между последовательной цепочкой людей и сетью передачи данных.</font>]]></text> 
+  </component> 
+<component id="ID_s3_existing02">
+  <text><![CDATA[<font size='9'  class='font9px'>Обеспечивает подключение какого-либо узла к данной сети, а также поддерживает функцию подключения к нескольким сетям с последующим созданием объединённой сети.</font>]]></text> 
+  </component> 
+<component id="ID_s3_existing03">
+  <text><![CDATA[<font size='9'  class='font9px'>Служит в качестве канала для передачи сообщения от источника данных к адресу назначения.</font>]]></text> 
+  </component>   
+  
+<component id="ID_s3_drag01">
+  <text><![CDATA[<font size='9'  class='font9px'>Ноутбук</font>]]></text> 
+  </component>  
+<component id="ID_s3_drag02">
+  <text><![CDATA[<font size='9'  class='font9px'>Принтер</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag03">
+  <text><![CDATA[<font size='9'  class='font9px'>Беспроводной планшетный ПК</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag04">
+  <text><![CDATA[<font size='9'  class='font9px'>Настольный<br/>компьютер</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag05">
+  <text><![CDATA[<font size='9'  class='font9px'>IP-телефон</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag06">
+  <text><![CDATA[<font size='9'  class='font9px'>Терминальное оборудование TelePresence</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag07">
+  <text><![CDATA[<font size='9' class='font9px'>Беспроводной маршрутизатор</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag08">
+  <text><![CDATA[<font size='9'  class='font9px'>Маршрутизатор</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag09">
+  <text><![CDATA[<font size='9' class='font9px'>Устройство межсетевого экрана</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag10">
+  <text><![CDATA[<font size='9'  class='font9px'>Коммутатор LAN</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag11">
+  <text><![CDATA[<font size='9' class='font9px'>Многоуровневый коммутатор</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag12">
+  <text><![CDATA[<font size='9' class='font9px'>Средства переда-<br>чи данных по глобальной сети</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag13">
+  <text><![CDATA[<font size='9' class='font9px'>Беспроводные средства передачи данных</font>]]></text> 
+  </component> 
+<component id="ID_s3_drag14">
+  <text><![CDATA[<font size='9' class='font9px'>Средства передачи данных по локальной сети</font>]]></text> 
+  </component>   
+  
+<component id="transcript">
+  <text><![CDATA[<font size='9' class='font9px'><b>вставка текста</b></font>]]></text> 
+  </component>
+  
+</textcomponents>

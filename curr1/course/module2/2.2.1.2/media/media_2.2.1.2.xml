@@ -1,0 +1,17 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Настройка базовой конфигурации с помощью CISCO IOS</b>]]></text>
+</component>
+<component id="ID_txt01">
+  <text><![CDATA[Безымянные сетевые устройства сложнее распознать для последующей настройки.]]></text> 
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Коммутатор]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Коммутатор]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Коммутатор]]></text> 
+  </component>
+</textcomponents>

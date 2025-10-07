@@ -1,0 +1,94 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Адресация портов</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Кому: you@example.com<br>От кого: me@example.com<br>Тема: Электронная почта]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Электронная почта]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[HTML-страница]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Интернет-чат]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Различные приложения]]></text>
+</component> <!--<component id="ID_txt06">
+<text><![CDATA[Applications]]></text>
+</component>-->
+
+<component id="ID_txt07">
+<text><![CDATA[Протоколы]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Номера портов]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[POP3]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[HTTP]]></text>
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[IM]]></text>
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[Транспортный уровень]]></text>
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[Порт <br>приложения</br>]]></text>
+</component>
+
+<component id="ID_txt14">
+<text><![CDATA[Данные]]></text>
+</component>
+
+<component id="ID_txt15">
+<text><![CDATA[Порт <br>приложения</br>]]></text>
+</component>
+
+<component id="ID_txt16">
+<text><![CDATA[Данные]]></text>
+</component>
+
+<component id="ID_txt17">
+<text><![CDATA[Порт <br>приложения</br>]]></text>
+</component>
+
+<component id="ID_txt18">
+<text><![CDATA[Данные]]></text>
+</component>
+
+<component id="ID_txt19">
+<text><![CDATA[110]]></text>
+</component>
+
+<component id="ID_txt20">
+<text><![CDATA[80]]></text>
+</component>
+
+<component id="ID_txt21">
+<text><![CDATA[531]]></text>
+</component>
+
+<component id="ID_txt22">
+<text><![CDATA[Данные различных приложений направляются соответствующему приложению, так как каждому приложению присваивается уникальный номер порта.]]></text>
+</component>
+
+
+</textcomponents>

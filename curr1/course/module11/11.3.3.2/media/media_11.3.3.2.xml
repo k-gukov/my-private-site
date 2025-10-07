@@ -1,0 +1,72 @@
+﻿<textcomponents> <!--more info-->
+<component id="ID_TipText">
+<text><![CDATA[<b>Дополнительная информация]]></text>
+</component>
+
+<component id="ID_InfoTitle">
+<text><![CDATA[Дополнительная информация]]></text>
+</component>
+
+<component id="ID_InfoBody">
+<text><![CDATA[Конфигурационный регистр используется для управления загрузкой маршрутизатора. Конфигурационному регистру может быть присвоено множество различных значений. Наиболее распространёнными являются:<br/><br/>0x2102 — заводская настройка по умолчанию для маршрутизаторов Cisco (загрузка образа IOS из флеш-ПЗУ и загрузка начального конфигурационного файла из энергонезависимого ОЗУ)<br/>0x2142 — маршрутизатор игнорирует содержимое энергонезависимого ОЗУ<br/>0x2120 — маршрутизатор загружается в режиме ROMmon]]></text>
+</component> <!--animation-->
+<component id="ID_txt01">
+<text><![CDATA[Версия IOS]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Версия программы начальной загрузки]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Файл образа IOS]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Модель и тип ЦП]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Объём ОЗУ]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Число и тип интерфейсов]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Объём памяти NVRAM]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Объём флеш памяти]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Конфигурационный регистр]]></text>
+</component> <!-- controller -->
+<component id="end">
+<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+</textcomponents>

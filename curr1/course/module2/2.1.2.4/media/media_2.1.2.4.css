@@ -1,0 +1,36 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#mc_table{
+height:336px!important;
+}
+#txt_q1,#txt_q2,#txt_q3,#txt_q4,#txt_q5,#txt_q6,#txt_q7,#txt_q8,#txt_q9{
+font-size:11px!important;
+}
+#txt_q2,#txt_q6{
+top:8px!important;
+}
+
+.leftAlign{
+margin-left:15px!important;
+}
+#txt_q7{
+top:22px!important;
+}
+#txt_q4{
+margin-top:7px;
+}
+#txt_q5{
+margin-top:15px;
+}

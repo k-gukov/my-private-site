@@ -1,0 +1,35 @@
+﻿<textcomponents>
+
+	<component id="ID_txt01">
+		<text><![CDATA[<i>Все сетевые устройства Cisco используют ОС, которая также называется операционной системой сетевого взаимодействия, или IOS.</i>]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Безопасность</b>]]></text> 
+	</component>
+  
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Адресация</b>]]></text> 
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Интерфейс</b>]]></text> 
+	</component>
+
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Маршрутизация</b>]]></text> 
+	</component>
+
+	<component id="ID_txt06">
+		<text><![CDATA[<b>Качество обслуживания (QoS)</b>]]></text> 
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[<b>Управление ресурсами</b>]]></text> 
+	</component>
+	
+	<component id="ID_footer">
+		<text><![CDATA[]]></text> 
+	</component>
+	
+</textcomponents>

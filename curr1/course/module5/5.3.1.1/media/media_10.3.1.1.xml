@@ -1,0 +1,28 @@
+﻿<textcomponents>
+
+<component id="ID_inst">
+	<text><![CDATA[Щёлкните исходный узел и узел назначения, затем нажмите кнопку <b>«</b><b>Отправить»</b>, чтобы узнать, как коммутаторы выполняют доставку сообщений.]]></text>
+</component>
+<component id="ID_reset">
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+<component id="ID_send">
+	<text><![CDATA[<b>Отправить</b>]]></text>
+</component>
+<component id="ID_source">
+	<text><![CDATA[Источник]]></text>
+</component>
+<component id="ID_dest">
+	<text><![CDATA[Назначение]]></text>
+</component>
+<component id="ID_blank">
+	<text><![CDATA[ ]]></text>
+</component>
+<component id="ID_switch">
+  <text><![CDATA[Коммутатор]]></text> 
+  </component>
+<component id="ID_header">
+  <text><![CDATA[<font size="13"><b>Таблица MAC-адресов</b></font>]]></text> 
+  </component>
+  
+</textcomponents>

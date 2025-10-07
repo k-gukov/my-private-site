@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+<component id="ID_txt01">
+<text><![CDATA[Виртуальные аудитории]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Видео по запросу]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Использование сетей помогает в обучении]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Совместная работа<br>Учебные помещения]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Мобильное обучение]]></text> 
+</component>
+
+</textcomponents>

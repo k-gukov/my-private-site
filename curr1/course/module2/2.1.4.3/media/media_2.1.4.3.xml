@@ -1,0 +1,17 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Контекстная справка</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Параметры команд: отображают список команд или ключевых слов, которые начинаются с символов <b>cl</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Объяснение команд: IOS отображает список последующих параметров или переменных и приводит к ним пояснение.]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Объяснение команд с несколькими параметрами или переменными]]></text>
+</component>
+</textcomponents>

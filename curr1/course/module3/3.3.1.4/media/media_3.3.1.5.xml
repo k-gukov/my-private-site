@@ -1,0 +1,92 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Взаимодействие протоколов при получении сообщения </b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<font size='10'  class='font9px'><b>Термины, описывающие инкапсуляцию протоколов</b></font>]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<font size='10'  class='font9px'>Данные</font>]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<font size='10'  class='font9px'>TCP</font>]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<font size='10'  class='font9px'>IP</font>]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[<font size='10'  class='font9px'>Ethernet</font>]]></text>
+</component>
+
+<component id="ID_txt07ab">
+<text><![CDATA[<font size='10'  class='font9px'>Данные пользо-вателя</font>]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[<font size='10'  class='font9px'>Сегмент TCP</font>]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[<font size='10'  class='font9px'>IP-пакет</font>]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[<font size='10'  class='font9px'>Кадр Ethernet</font>]]></text>
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[<font size='10'  class='font9px'>Веб-сервер</font>]]></text>
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[<font size='10'  class='font9px'>Веб-клиент</font>]]></text>
+</component>
+
+<component id="ID_txt18">
+<text><![CDATA[<font size='10'  class='font9px'>Ethernet</font>]]></text>
+</component>
+
+<component id="ID_txt19">
+<text><![CDATA[<font size='10'  class='font9px'>IP</font>]]></text>
+</component>
+
+<component id="ID_txt20">
+<text><![CDATA[<font size='10'  class='font9px'>TCP</font>]]></text>
+</component>
+
+<component id="ID_txt21">
+<text><![CDATA[<font size='10'  class='font9px'>Данные</font>]]></text>
+</component> <!-- controller -->
+
+<component id="end">
+<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+
+</textcomponents>

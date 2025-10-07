@@ -1,0 +1,34 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Логическая топология с множественным доступом</b>]]></text>
+</component>
+<component id="ID_txt04">
+   <text><![CDATA[]]></text>
+   </component>
+<component id="ID_txt05">
+   <text><![CDATA[Кадр с множественным доступом имеет ряд возможных мест назначения.]]></text>
+   </component>
+<component id="ID_txt06">
+   <text><![CDATA[Адреса канального уровня требуются.]]></text>
+   </component>
+<component id="ID_txt07">
+   <text><![CDATA[<b>Логическая топология «точка-точка»</b>]]></text>
+   </component>
+<component id="ID_txt08">
+   <text><![CDATA[Адреса канального уровня не требуются.]]></text>
+   </component>
+<component id="ID_txt09">
+   <text><![CDATA[У кадра «точка-точка» только 1 адресат.]]></text>
+   </component>
+   
+  
+   <component id="ID_txt15">
+   <text><![CDATA[<b>Кадр</b]]></text>
+   </component>
+   
+   <component id="ID_txt16">
+   <text><![CDATA[<b>Кадр</b]]></text>
+   </component>
+   
+</textcomponents>

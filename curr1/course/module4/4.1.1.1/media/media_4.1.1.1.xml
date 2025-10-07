@@ -1,0 +1,20 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Домашний маршрутизатор</b>]]></text>
+</component>
+<component id="ID_s1_txt01">
+<text><![CDATA[Коммутатор Ethernet]]></text>
+</component>
+<component id="ID_s1_txt02">
+  <text><![CDATA[Подключение к Интернету]]></text> 
+  </component>
+<component id="ID_s1_txt03">
+  <text><![CDATA[Встроенная беспроводная антенна]]></text> 
+  </component>
+<component id="ID_s2_title">
+<text><![CDATA[<b>Подключение к проводной локальной сети</b>]]></text>
+</component>
+<component id="ID_s2_txt01">
+<text><![CDATA[Подключите компьютер к порту Ethernet (1, 2, 3 или 4).]]></text>
+</component>
+</textcomponents>

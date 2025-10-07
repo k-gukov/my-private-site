@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.5 Пример таблицы маршрутизации узла IPv4</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Пример таблицы маршрутизации узла IPv4</h1>
+        <div>
+<p>Например, если бы ПК1 (PC1) нужно было отправить пакет на адрес 192.168.10.20, он бы выполнил следующие действия. </p>
+<p>1. Обратился к таблице маршрутизации IPv4.</p>
+<p>2. Сопоставил IP-адрес назначения с записью назначения сети 192.168.10.0, чтобы определить, что узел находится в одной и той же сети (для него указан параметр On-link).</p>
+<p>3. Затем ПК1 (PC1) отправил бы пакет конечному адресату через свой локальный интерфейс (192.168.10.10).</p>
+<p></p>
+<p>На рис. 1 приведён соответствующий маршрут.</p>
+<p></p>
+<p>Если бы ПК1 (PC1) нужно было отправить пакет на адрес удалённого узла 10.10.10.10, он бы выполнил следующие действия. </p>
+<p>1. Обратился к таблице маршрутизации IPv4.</p>
+<p>2. Обнаружил, что для IP-адреса назначения нет точного сопоставления.</p>
+<p>3. Выбрал локальный маршрут по умолчанию (0.0.0.0), чтобы определить, что ему следует отправить пакет на адрес шлюза 192.168.10.1.</p>
+<p>4. После этого ПК1 (PC1) пересылает пакет к шлюзу для использования его локального интерфейса (192.168.10.10). Затем шлюз определит следующий путь, по которому пакет может достичь адреса конечного назначения 10.10.10.10.</p>
+<p></p>
+<p>На рис. 2 приведён соответствующий маршрут.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

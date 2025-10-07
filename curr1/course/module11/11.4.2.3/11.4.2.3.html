@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.2.3 Использование USB-портов на маршрутизаторе Cisco</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Использование USB-портов на маршрутизаторе Cisco</h1>
+        <div>
+<p>Функция хранения с использованием универсальной последовательной шины (USB) обеспечивает поддержку USB-накопителей отдельными моделями маршрутизаторов Cisco. Поддержка USB-накопителей обеспечивает дополнительные функции хранения и дополнительное загрузочное устройство. Образы, конфигурации и другие файлы можно копировать с USB-накопителя Cisco и на него, и это так же надёжно, как хранение и получение файлов с помощью карты Compact Flash. Кроме того, модульные сервисные маршрутизаторы могут загружать любой образ программного обеспечения Cisco IOS, сохранённый на USB-накопитель. </p>
+<p></p>
+<p>USB-накопители Cisco могут иметь ёмкость 64, 128 и 256 МБ. </p>
+<p></p>
+<p>Таким образом, в целях совместимости с маршрутизаторами Cisco необходимо отформатировать USB-накопитель в формате FAT16. В противном случае команда «show file systems» выдаст ошибку, которая указывает на несовместимость с файловой системой.</p>
+<p></p>
+<p>Ниже представлен пример использования команды «dir» в файловой системе USB.</p>
+<p></p>
+<p>
+<b>Router# dir usbflash0:</b>
+</p>
+<p></p>
+<p>
+<b>Directory of usbflash0: /</b>
+</p>
+<p></p>
+<p>
+<b> 1 -rw- 30125020 Dec 22 2032 05:31:32 +00:00 c3825-entservicesk9-mz.123-14.T</b>
+</p>
+<p></p>
+<p>
+<b>63158272 bytes total (33033216 bytes free)</b>
+</p>
+<p>Теоретически на USB-накопителе может храниться несколько копий Cisco IOS и несколько конфигураций маршрутизатора. USB-накопитель позволяет администратору без труда многократно перемещать и копировать эти файлы и конфигурации IOS между различными маршрутизаторами. Процедура копирования при этом выполняется в несколько раз быстрее, чем по сети LAN или WAN. Обратите внимание, что IOS может некорректно распознать размер USB-накопителя, однако это необязательно означает, что использование флеш памяти не поддерживается. Кроме того, порты USB на маршрутизаторе обычно имеют стандарт USB 2.0, как показано на рисунке.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

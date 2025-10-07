@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.5 Преобразование из десятичного формата в двоичный</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Преобразование из десятичного формата в двоичный</h1>
+        <div>
+<p>Необходимо уметь преобразовывать числа не только из двоичной системы в десятичную, но и наоборот. </p>
+<p></p>
+<p>Поскольку мы представляем IPv4-адреса в десятичном формате с разделительными точками, нам необходимо изучить только процесс преобразования 8-битного двоичного значения в десятичное от 0 до 255 для каждого октета в IPv4-адресе.</p>
+<p></p>
+<p>Чтобы начать процесс преобразования, мы определяем, является ли десятичное число равным или больше, чем наибольшее десятичное значение, представленное самым старшим разрядом. В наивысшей позиции мы определяем, является ли октет равным или больше числа 128. Если октет меньше 128, то мы ставим 0 в позиции бита для десятичного значения 128 и переходим к позиции бита десятичного значения 64.</p>
+<p></p>
+<p>Если октет в позиции бита десятичного значения 128 больше или равен 128, то мы ставим 1 в позиции бита для десятичного значения 128 и вычитаем 128 из значения преобразуемого октета. Затем мы сравниваем остаток данной операции со следующим по меньшинству значением — 64. Аналогичное действие мы применим ко всем оставшимся позициям бита.</p>
+<p></p>
+<p>Нажимайте на рисунки от 1 до 6, чтобы увидеть процесс преобразования числа 168 в двоичный эквивалент 10101000.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

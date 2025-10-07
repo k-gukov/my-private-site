@@ -1,0 +1,58 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Процесс расширенного уникального идентификатора EUI-64 (процесс EUI-64)</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[24-битный OUI (уникальный идентификатор организации)]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[24-битный идентификатор устройства]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Процесс EUI-64]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Двоичное]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Двоичное]]></text>
+	</component>
+	
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Двоичное]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Двоичное]]></text>
+	</component>
+	
+	
+	
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>Шаг 1. Разделите MAC-адрес</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt09">
+		<text><![CDATA[<b>Шаг 2. Вставьте FFFE</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt10">
+		<text><![CDATA[<b>Шаг 3. Отразите бит U/L</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt11">
+		<text><![CDATA[Изменённый идентификатор интерфейса EUI-64 в шестнадцатеричном представлении]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Локальные адреса каналов с использованием идентификатора EUI-64]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[&lt;выходные данные опущены&gt;]]></text>
+	</component>
+</textcomponents>

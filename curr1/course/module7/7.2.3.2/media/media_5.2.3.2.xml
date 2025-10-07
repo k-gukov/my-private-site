@@ -1,0 +1,55 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Протокол UDP: без установления соединения и ненадёжный</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Разные датаграммы могут использовать разные маршруты.]]></text>
+</component>
+<component id="ID_txt03">
+<text><![CDATA[<b>Данные</b><br/><br/>Данные<br/> делятся на <br/>датаграммы.]]></text> 
+</component>
+<component id="ID_txt04">
+<text><![CDATA[Датаграмма 1]]></text> 
+</component>
+<component id="ID_txt05">
+<text><![CDATA[Датаграмма 2]]></text> 
+</component>
+<component id="ID_txt06">
+<text><![CDATA[Датаграмма 3]]></text> 
+</component>
+<component id="ID_txt07">
+<text><![CDATA[Датаграмма 4]]></text> 
+</component>
+<component id="ID_txt08">
+<text><![CDATA[Датаграмма 5]]></text> 
+</component>
+<component id="ID_txt09">
+<text><![CDATA[Датаграмма 6]]></text> 
+</component>
+<component id="ID_txt10">
+<text><![CDATA[Использовав разные маршруты к узлу назначения, датаграммы поступают без соблюдения порядка.]]></text> 
+</component>
+<component id="ID_txt11">
+<text><![CDATA[Датаграмма 1]]></text> 
+</component>
+<component id="ID_txt12">
+<text><![CDATA[Датаграмма 2]]></text> 
+</component>
+<component id="ID_txt13">
+<text><![CDATA[Датаграмма 6]]></text> 
+</component>
+<component id="ID_txt14">
+<text><![CDATA[Датаграмма 5]]></text> 
+</component>
+<component id="ID_txt15">
+<text><![CDATA[Датаграмма 4]]></text> 
+</component>
+<component id="ID_txt16">
+<text><![CDATA[Порядок <br/>датаграмм <br/>не восстанавливается.]]></text> 
+</component>  
+<component id="ID_txt17">
+<text><![CDATA[Потерянные датаграммы <br/>повторно не передаются.]]></text> 
+</component>    
+</textcomponents>

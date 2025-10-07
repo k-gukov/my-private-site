@@ -1,0 +1,19 @@
+﻿<textcomponents>
+<component id="ID_title">
+   <text><![CDATA[Освоение предмета через практический опыт]]></text>
+   </component>
+
+<component id="ID_txt01">
+   <text><![CDATA[<b>1. Показать:</b> примеры с решением (используя текст и средства мультимедиа)]]></text>
+   </component>
+<component id="ID_txt02">
+   <text><![CDATA[<b>2. Попробовать:</b> применить на практике (используя средство проверки синтаксиса)]]></text>
+   </component>
+<component id="ID_txt03">
+   <text><![CDATA[<b>3. Выполнить:</b> часть примера с решением (используя программу Packet Tracer или оборудование для прокладки кабеля)]]></text>
+   </component>
+<component id="ID_txt04">
+   <text><![CDATA[<b>4. Синтезировать:</b> решение проблем (используя программу Packet Tracer или оборудование для прокладки кабеля)]]></text>
+   </component>
+
+</textcomponents>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.3 Преобразование двоичного адреса в десятичный</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Преобразование двоичного адреса в десятичный</h1>
+        <div>
+<p>Каждый октет состоит из 8 бит, каждый бит имеет значение 0 или 1. Четыре группы из 8 бит имеют одну серию допустимых значений от 0 до 255 включительно. Значения каждого размещения бита справа налево: 1, 2, 4, 8, 16, 32, 64 и 128.</p>
+<p></p>
+<p>Чтобы определить значение октета, нужно сложить значения позиций, в которых присутствует двоичная единица.</p>
+<p>
+<ul>
+<li>Нулевые позиции в сложении не участвуют.</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Если все 8 бит имеют значение 0, 00000000, значение октета равно 0.</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Если все 8 бит имеют значение 1, 11111111, значение октета равно 255 (128+64+32+16+8+4+2+1).</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Если среди 8 бит есть и единицы, и нули, то значения прибавляются вместе. Например, значение октета 00100111 составляет 39 (32+4+2+1).</li>
+</ul>
+</p>
+<p></p>
+<p>Таким образом, значение каждого из четырёх октетов находится в диапазоне от 0 до 255.</p>
+<p></p>
+<p>Используя 32-битный IPv4-адрес, 11000000101010000000101000001010, преобразуйте двоичное представление в десятичное с разделительными точками, с помощью следующих действий.</p>
+<p></p>
+<p>
+<b>Шаг 1.</b> Разделите 32 бита на 4 октета.</p>
+<p>
+<b>Шаг 2.</b> Преобразуйте каждый октет в десятичное число.</p>
+<p>
+<b>Шаг 3.</b> Добавьте «точку» между десятичными числами.</p>
+<p></p>
+<p>На рисунке нажмите кнопку «Воспроизведение», чтобы увидеть, как двоичный адрес преобразуется в десятичный с разделительными точками.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

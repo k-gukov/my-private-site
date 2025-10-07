@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.5.4 VLSM на практике</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.5.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>VLSM на практике</h1>
+        <div>
+<p>При использовании VLSM-подсетей для сегментов ЛВС и сети WAN можно выделить адреса без ненужной избыточности.</p>
+<p></p>
+<p>Узлам во всех локальных сетях будет присвоен допустимый адрес узла в диапазоне этой подсети и с маской /27. У каждого из четырёх маршрутизаторов будет интерфейс локальной сети с подсетью /27, а также один или несколько последовательных интерфейсов с подсетью /30.</p>
+<p></p>
+<p>В стандартной схеме адресации IPv4-адрес первого узла в каждой подсети назначается LAN-интерфейсу маршрутизатора. WAN-интерфейсам маршрутизаторов назначаются IP-адреса и маска для подсетей /30.</p>
+<p></p>
+<p>На рисунках с 1 по 4 показаны конфигурации интерфейсов для всех маршрутизаторов.</p>
+<p></p>
+<p>Узлы в каждой подсети будут иметь IPv4-адрес из диапазона адресов этой подсети и соответствующую маску. Узлы будут использовать адрес подключённого LAN-интерфейса маршрутизатора в качестве шлюза по умолчанию. </p>
+<p>
+<ul>
+<li>Узлы здания A (192.168.20.0/27) будут использовать адрес 192.168.20.1 маршрутизатора в качестве шлюза по умолчанию.</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Узлы здания B (192.168.20.32/27) будут использовать адрес 192.168.20.33 маршрутизатора в качестве шлюза по умолчанию.</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Узлы здания С (192.168.20.64/27) будут использовать адрес 192.168.20.65 маршрутизатора в качестве шлюза по умолчанию.</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Узлы здания D (192.168.20.96/27) будут использовать адрес 192.168.20.97 маршрутизатора в качестве шлюза по умолчанию.</li>
+</ul>
+</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

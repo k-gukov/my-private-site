@@ -1,0 +1,32 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Коммутация пакетов в сети передачи данных</b>]]></text>
+</component>
+<component id="ID_txt01">
+  <text><![CDATA[При передаче индивидуальных пакетов адресу назначения в одном сеансе коммуникации могут использоваться разные пути.]]></text> 
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Нет одного установленного пути. Маршрутизация пакетов осуществляется по оптимальному на данный момент пути.]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Перед передачей каждый поток данных делится на пакеты, которым затем присваиваются адресаты и номера.]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[В периоды максимальной загруженности сети передача может задерживаться, но не отменяется.]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[<b>Интернет</b>]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[После получения пакеты могут быть вновь упорядочены в соответствии с их порядковыми номерами.]]></text> 
+  </component>
+<component id="ID_box1">
+  <text><![CDATA[Адрес источника]]></text> 
+  </component>
+<component id="ID_box2">
+  <text><![CDATA[Адрес назначения]]></text> 
+  </component>
+<component id="ID_box3">
+  <text><![CDATA[Порядковый номер]]></text>
+  </component>
+</textcomponents>

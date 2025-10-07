@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_title font {font-size:14px !important}
+#ID_txt05 font {font-size:12px !important}
+#ID_txt03,#ID_txt01{
+line-height:11px;
+}

@@ -1,0 +1,13 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Многоадресная передача IPv6 для всех узлов</b>]]></text>
+</component>
+<component id="ID_txt01">
+<text><![CDATA[<b>IPv6-адрес источника</b><br/>2001:0DB8:ACAD:1::1]]></text> 
+</component>  
+
+<component id="ID_txt02">
+<text><![CDATA[<b>IPv6-адрес назначения</b><br/>FF02::1]]></text> 
+</component>
+
+</textcomponents>

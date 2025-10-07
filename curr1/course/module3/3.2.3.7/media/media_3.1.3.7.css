@@ -1,0 +1,44 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+#ID_inst2 b {
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 14%;
+	color:#000;
+}
+
+.text_align{
+	margin-left:13px !important;
+	}
+	
+.text_align1{
+	margin-left:20px !important;
+	}
+
+#mc_table{
+	height:356px !important;
+	}
+	
+#txt_q19, #txt_q15, #txt_q14, #txt_q6, #txt_q5{
+	top:8px !important;}
+	
+
+@media only screen and (device-width: 768px) {
+#txt_q9,#txt_q12,#txt_q14,#txt_q16{
+letter-spacing:-0.5px !important;
+}
+}

@@ -1,0 +1,133 @@
+﻿<textcomponents> 
+<component id="ID_title">
+	<text><![CDATA[<b>Горячие клавиши быстрого вызова и сокращения интерфейса командной строки (CLI)</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[(ПРИМЕЧАНИЕ. Клавиша «<b>Delete</b>», которая удаляет символ справа от курсора, не распознаётся программами эмуляции терминала.)]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[ПРИМЕЧАНИЕ. Клавиши<b> Control</b> — нажмите и удерживайте клавишу  &lt;Ctrl&gt;, а затем нажмите нужный символ.<br/><b>Escape</b> — нажмите и отпустите клавишу &lt;Esc&gt;, а затем нажмите нужный символ.]]></text>
+</component> 
+
+ <component id='ID_table01'>
+<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'  class="mtable">	 
+	<tr>
+		<td bgcolor='#98D3D1' colspan='2' class="mtitle"><font size='12' color='#1C3635'><b>Редактирование строки в интерфейсе CLI</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+	</tr>  
+
+	<tr>
+		<td bgcolor='#EFF8F7' width='130'><b>Tab</b></td>
+		<td bgcolor='#EFF8F7'>Завершает частично введённую команду.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Backspace</b></td>
+		<td bgcolor='#FFFFFF'>Удаляет один символ слева от курсора.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Ctrl-D</b></td>
+		<td bgcolor='#EFF8F7'>Удаляет символ, на котором стоит курсор.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Ctrl-K</b></td>
+		<td bgcolor='#FFFFFF'>Удаляет все символы от курсора до конца командной строки.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Esc D</b></td>
+		<td bgcolor='#EFF8F7'>Удаляет все символы от курсора до конца слова.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Ctrl-U или Ctrl-X</b></td>
+		<td bgcolor='#FFFFFF'>Удаляет все символы от курсора до начала командной строки.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Ctrl-W</b></td>
+		<td bgcolor='#EFF8F7'>Удаляет слово слева от курсора.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Ctrl-A</b></td>
+		<td bgcolor='#FFFFFF'>Перемещает курсор в начало командной строки.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Стрелка влево или Ctrl-B</b></td>
+		<td bgcolor='#EFF8F7'>Перемещает курсор на один символ влево.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Esc B</b></td>
+		<td bgcolor='#FFFFFF'>Перемещает курсор на одно слово назад влево.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Esc F</b></td>
+		<td bgcolor='#EFF8F7'>Перемещает курсор на одно слово вперёд вправо.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Стрелка вправо или Ctrl-F</b></td>
+		<td bgcolor='#FFFFFF'>Перемещает курсор на один символ вправо.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Ctrl-E</b></td>
+		<td bgcolor='#EFF8F7'>Перемещает курсор в конец командной строки.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Стрелка вверх или Ctrl-P</b></td>
+		<td bgcolor='#FFFFFF'>Показывает недавно введённые команды.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Ctrl-R, Ctrl-l или Ctrl-L</b></td>
+		<td bgcolor='#EFF8F7'>Заново открывает командную строку системы после получения сообщения из консоли.</td>
+	</tr>
+ 
+</table>]]></text>
+</component>
+<component id="ID_table02">
+<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'  class="mtable">	 
+	<tr>
+		<td bgcolor='#98D3D1' colspan='2' class="mtitle"><font size='12' color='#1C3635'><b>В строке "-----Больше-----"</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'  width='130'><b>Клавиша Enter</b></td>
+		<td bgcolor='#EFF8F7'>Показывает следующую строку.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Клавиша пробела</b></td>
+		<td bgcolor='#FFFFFF'>Показывает следующий экран.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'><b>Любая клавиша</b></td>
+		<td bgcolor='#EFF8F7'>Закрывает строку и возвращает пользователя в привилегированный режим.</td>
+	</tr>
+</table>]]></text>
+</component>
+
+
+
+<component id="ID_table03">
+<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">	 
+	<tr>
+		<td bgcolor='#98D3D1' colspan='2' class="mtitle"><font size='12' color='#1C3635'><b>Клавиши остановки</b></font></td>
+	</tr>  
+	<tr>
+		<td bgcolor='#0E6360' colspan='2' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#EFF8F7'  width='130'><b>Ctrl-C</b></td>
+		<td bgcolor='#EFF8F7'>Это сочетание клавиш останавливает любой запущенный режим конфигурации и выполняет возврат к привилегированному режиму. При работе в режиме настройки возвращает обратно в командную строку.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><b>Ctrl-Z</b></td>
+		<td bgcolor='#FFFFFF'>Это сочетание клавиш останавливает любой запущенный режим конфигурации и выполняет возврат к привилегированному режиму.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><b>Ctrl-Shift-6</b></td>
+		<td bgcolor='#F3F5E7'>Прерывает любое действие. Используйте это сочетание клавиш для остановки DNS-запросов, трассировки маршрутов и эхо-запросов.</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.5 Протоколы SMTP, POP и IMAP (продолж.)</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Протоколы SMTP, POP и IMAP (продолж.)</h1>
+        <div>
+<p>Протокол SMTP используется для надёжной и эффективной передачи электронной почты. Для нормальной работы SMTP-приложения требуется, чтобы почтовые сообщения были правильно отформатированы, а на клиенте и сервере должны быть загружены процессы SMTP.</p>
+<p></p>
+<p>В формате SMTP сообщение состоит из заголовка и тела сообщения. Если тело сообщения может содержать текст произвольной длины, то заголовок должен содержать адреса электронной почты получателя и отправителя в правильном формате. Все другие элементы заголовка являются необязательными.</p>
+<p></p>
+<p>Когда клиент отправляет сообщение электронной почты, процесс SMTP-клиента подключается к процессу SMTP-сервера на широко известном порте 25. Установив соединение, клиент пытается отправить по нему сообщение электронной почты серверу. Когда сервер получает сообщение, он помещает его в очередь сообщений локальной учётной записи или пересылает другому серверу, выполнив такой же процесс установки SMTP-соединения. </p>
+<p></p>
+<p>Целевой сервер электронной почты в момент доставки сообщения может оказаться недоступен или перегружен. На этот случай в SMTP предусмотрено временное хранение сообщений с последующей повторной отправкой. Периодически сервер проверяет очередь сообщений и пытается отправить их повторно. Если сообщение не удаётся доставить в течение установленного времени, оно возвращается отправителю с уведомлением о невозможности доставки.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+﻿<textcomponents> <!--Slide-1-->
+
+<component id="ID_s1_title">
+<text>
+<![CDATA[<b>Расчёт количества узлов</b>]]>
+</text>
+</component>
+
+
+<component id="ID_s1_txt01">
+<text>
+<![CDATA[Узлы = 2^n<br/>(где n = оставшиеся биты в узловой части)]]>
+</text>
+</component>
+
+<component id="ID_s1_txt02">
+<text>
+<![CDATA[9 бит остаются в узловой части адреса]]>
+</text>
+</component>
+
+<component id="ID_s1_txt03">
+<text>
+<![CDATA[<textformat tabstops='[16]'>	2^<font color="#f26200"><b>9</b></font> = 512 узлов в каждой подсети<br>2^<font color="#f26200"><b>9</b></font> - 2 = 510 допустимых узлов в каждой подсети</textformat>]]>
+</text>
+</component> <!--Slide-2-->
+<component id="ID_s2_title">
+<text>
+<![CDATA[<b>Диапазон адресов подсети 172.16.0.0/23</b>]]>
+</text>
+</component>
+
+<component id="ID_s2_txt01">
+<text>
+<![CDATA[ Сетевой адрес]]>
+</text>
+</component>
+
+<component id="ID_s2_txt02">
+<text>
+<![CDATA[Адрес первого узла]]>
+</text>
+</component>
+
+
+<component id="ID_s2_txt03">
+<text>
+<![CDATA[Адрес последнего узла]]>
+</text>
+</component>
+
+<component id="ID_s2_txt04">
+<text>
+<![CDATA[Широковещательный адрес]]>
+</text>
+</component>
+
+</textcomponents>

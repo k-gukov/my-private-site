@@ -1,0 +1,45 @@
+<textcomponents>
+  <component id='ID_table'>
+  
+     <text>
+      <![CDATA[ <table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        
+		 		
+		<tr class="mtable_top">
+        
+		<td colspan='3' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#0E6360'><span style="color:#98D3D1">.</span></font></td>
+	    </tr> 
+      
+        <tr>
+          <td width='90px' bgcolor='#077A77'><font  color='#ffffff'><b>Память  </b></font></td>
+          <td width='130px' bgcolor='#077A77'><font  color='#ffffff'><b>Энергозависимый / энергонезависимый</b></font></td>
+          <td width='220px' bgcolor='#077A77'><font  color='#ffffff'><b>Хранилища</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td  bgcolor='#EFF8F7' valign="top"><font color='#393536'>ОЗУ</font></td>
+          <td  bgcolor='#EFF8F7' valign="top"><font  color='#393536'>Энергозависимый</font></td>
+          <td bgcolor='#EFF8F7' valign="top"><font color='#393536'><ul><li>Текущая выполняемая копия IOS</li><li>Файл текущей конфигурации</li><li>IP-маршрутизация и таблицы ARP</li><li>Буфер пакета</li></ul></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>ПЗУ</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Энергонезависимый</font></td> 
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'><ul><li>Инструкции по загрузке</li><li>Основное программное обеспечение для диагностики</li><li>Ограниченная версия IOS</li></ul></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#EFF8F7' valign="top"><font color='#393536'>NVRAM</font>
+          </td>
+          <td bgcolor='#EFF8F7' valign="top"><font  color='#393536'>Энергонезависимый</font>
+          </td>
+          <td bgcolor='#EFF8F7' valign="top"><font  color='#393536'><ul><li>Файл загрузочной конфигурации</li></ul></font></td>
+        </tr>
+         <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Флеш-память</font></td>
+          <td bgcolor='#FFFFFF' valign="top">             <font  color='#393536'>Энергонезависимый</font>
+          </td>
+          <td width='170' bgcolor='#FFFFFF' valign="top"><font  color='#393536'><ul><li>IOS</li><li>Прочие системные файлы</li></ul></font></td>
+        </tr>         
+      </table>]]>
+    </text>
+  </component>
+</textcomponents>

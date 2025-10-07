@@ -1,0 +1,161 @@
+﻿<textcomponents> <!--slide01-->
+<component id='ID_s1_inst'>
+	<text><![CDATA[<b>Интерактивное задание — часть 1: угрозы и уязвимости в системе сетевой безопасности</b><br/>Ознакомьтесь с различными вариантами угроз и уязвимостей безопасности. Сопоставьте все варианты соответствующим типам угроз.]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>Хищение информации</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>Кража личной информации</b>]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+   <text><![CDATA[<b>Потеря данных или манипуляция данными</b>]]></text>
+   </component>
+
+<component id="ID_s1_txt04">
+   <text><![CDATA[<b>Прекращение обслуживания</b>]]></text>
+   </component> <!--Drag and Drop-->
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Кража баз данных пользователей компании]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Кража отчётов по научным исследованиям]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Использование чужих личных данных для получения кредита]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[Совершение онлайн-покупок незаконным<br> путём]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[Изменение записей данных]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[Отправка вируса для изменения формата жёсткого диска]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[Перегрузка сети, препятствующая работе пользователей]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[Препятствование доступу правомочных пользователей к службам обработки данных]]></text>
+</component>
+
+
+
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили все варианты типам угроз безопасности.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили варианты типам угроз безопасности. Нажмите кнопку «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component> <!--slide02-->
+<component id='ID_s2_inst'>
+	<text><![CDATA[<b>Интерактивное задание — часть 2: угрозы и уязвимости в системе сетевой безопасности</b><br/>Ознакомьтесь с практическими рекомендациями по управлению системой безопасности. Сопоставьте все практические рекомендации по управлению соответствующим типам управления системой безопасности.]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[<b>Оборудование</b>]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[<b>Экология</b>]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+   <text><![CDATA[<b>Электричество</b>]]></text>
+   </component>
+
+<component id="ID_s2_txt04">
+   <text><![CDATA[<b>Обслуживание</b>]]></text>
+   </component> <!--Drag and Drop-->
+<component id='ID_s2_drag01'>
+	<text><![CDATA[Устройства блокировки — предотвращение несанкционированного доступа]]></text>
+</component>
+
+<component id='ID_s2_drag02'>
+	<text><![CDATA[Использование камер системы безопасности]]></text>
+</component>
+
+<component id='ID_s2_drag03'>
+	<text><![CDATA[Контроль температуры и влажности]]></text>
+</component>
+
+<component id='ID_s2_drag04'>
+	<text><![CDATA[Обеспечение качественной<br> вентиляции]]></text>
+</component>
+
+<component id='ID_s2_drag05'>
+	<text><![CDATA[Установка систем обеспечения бесперебойного питания]]></text>
+</component>
+
+<component id='ID_s2_drag06'>
+	<text><![CDATA[Установка резервных источников питания]]></text>
+</component>
+
+<component id='ID_s2_drag07'>
+	<text><![CDATA[Контроль доступа к портам консоли]]></text>
+</component>
+
+<component id='ID_s2_drag08'>
+	<text><![CDATA[Маркировка критически важных кабелей и компонентов]]></text>
+</component>
+
+
+
+
+
+<component id='ID_s2_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id='ID_s2_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили все практические рекомендации по обеспечению безопасности соответствующим типам управления системой безопасности.]]></text>
+</component>
+
+
+<component id='ID_s2_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id='ID_s2_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили варианты типам угроз безопасности. Нажмите кнопку «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_s2_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_s2_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+</textcomponents>

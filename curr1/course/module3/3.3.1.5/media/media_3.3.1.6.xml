@@ -1,0 +1,123 @@
+﻿<textcomponents>
+
+<component id='ID_inst'>
+	<text><![CDATA[<b>Интерактивное задание: иллюстрация процесса инкапсуляции</b><br/><br/> Перетащите PDU в соответствующее место в стеке для иллюстрации последовательности процесса инкапсуляции
+]]></text>
+</component>
+
+<component id="ID_drag_header">
+<text><![CDATA[<b>PDU</b>]]></text>
+</component>
+
+<component id="ID_drop_header">
+<text><![CDATA[<b>Инкапсуляция</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Данные электронной почты]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Данные]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Данные]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Данные]]></text> 
+</component>  
+
+<component id="ID_txt05">
+<text><![CDATA[Заголовок переноса]]></text> 
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Данные]]></text> 
+</component>  
+
+<component id="ID_txt07">
+<text><![CDATA[Заголовок сети]]></text> 
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Заголовок переноса]]></text> 
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Данные]]></text> 
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[Заголовок кадра]]></text>
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[Заголовок сети]]></text> 
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[Заголовок переноса]]></text> 
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[Данные]]></text> 
+</component>
+
+<component id="ID_txt14">
+<text><![CDATA[Концевик кадра]]></text> 
+</component>  
+
+<component id="ID_txt15">
+<text><![CDATA[<b>1100010101000101100101001010101001</b>]]></text> 
+</component>
+
+<component id="ID_txt16">
+<text><![CDATA[Передача данных далее по стеку.]]></text> 
+</component> <!--Drag and Drop-->
+<component id='ID_pdu01_DS'>
+	<text><![CDATA[<b><font color="#393536">Данные</font></b>]]></text>
+</component>
+
+<component id='ID_pdu02_DS'>
+	<text><![CDATA[<b><font color="#393536">Сегменты</font></b>]]></text>
+</component>
+
+<component id='ID_pdu03_DS'>
+	<text><![CDATA[<b><font color="#393536">Пакеты</font></b>]]></text>
+</component>
+
+<component id='ID_pdu04_DS'>
+	<text><![CDATA[<b><font color="#393536">Кадры</font></b>]]></text>
+</component>
+
+<component id='ID_pdu05_DS'>
+	<text><![CDATA[<b><font color="#393536">Биты</font></b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Верно]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы успешно разместили PDU в правильном порядке, чтобы проиллюстрировать процесс инкапсуляции.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Неверно]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы разместили PDU в неправильном порядке, чтобы проиллюстрировать процесс инкапсуляции. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+</textcomponents>

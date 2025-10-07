@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.2.3 Защита доступа к пользовательскому режиму</title>
+    <!--  -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Защита доступа к пользовательскому режиму</h1>
+        <div>
+<p>Консольный порт сетевых устройств необходимо защитить как минимум надёжным паролем. Это снижает вероятность доступа неавторизованных сотрудников, которые включают кабель и пытаются получить доступ к устройству.</p>
+<p></p>
+<p>Чтобы установить пароль для консоли строки в режиме глобальной конфигурации, нужно ввести следующие команды:</p>
+<p></p>
+<p>
+<span class="cmd">Switch(config)#</span>
+<span class="cmd">
+<b>line console 0</b>
+</span>
+</p>
+<p>
+<span class="cmd">Switch(config-line)#</span>
+<span class="cmd">
+<b>password cisco</b>
+</span>
+</p>
+<p>
+<span class="cmd">Switch(config-line)#</span>
+<span class="cmd">
+<b>login</b>
+</span>
+</p>
+<p></p>
+<p>В режиме глобальной конфигурации используется команда <span class="cmd"><b>line console 0</b></span>, чтобы войти в режим конфигурации строки для консоли. Ноль используется для обозначения первого (а в большинстве случаев — единственного) интерфейса консоли.</p>
+<p></p>
+<p>Вторая команда —<span class="cmd"><b> password cisco</b></span> определяет пароль для консоли строки. </p>
+<p></p>
+<p>Команда <span class="cmd"><b>login</b></span> настраивает коммутатор для аутентификации при входе в систему. Если включена процедура входа и настроен пароль, пользователь консоли должен будет ввести пароль, чтобы получить доступ к интерфейсу командной строки (CLI). </p>
+<p></p>
+<p>
+<b>Пароль для VTY</b>
+</p>
+<p></p>
+<p>Каналы VTY обеспечивают доступ к устройствам Cisco по протоколу Telnet. По умолчанию многие коммутаторы Cisco поддерживают до 16 каналов VTY, пронумерованных от 0 до 15. Количество каналов VTY, поддерживаемых на маршрутизаторе Cisco, зависит от типа маршрутизатора и версии IOS. Но чаще всего установлены пять каналов VTY. Эти каналы пронумерованы от 0 до 4 по умолчанию, хотя можно настроить дополнительные каналы. Пароль нужно установить для всех доступных каналов VTY. Для всех соединений можно установить один пароль. При этом часто возникает необходимость задать уникальный пароль для одного канала, чтобы обеспечить администратору резервный доступ в том случае, если все остальные соединения заняты.</p>
+<p></p>
+<p>Команды, используемые для назначения пароля каналов VTY: </p>
+<p></p>
+<p>
+<span class="cmd">Switch(config)#</span>
+<span class="cmd">
+<b>line vty 0 15</b>
+</span>
+</p>
+<p>
+<span class="cmd">Switch(config-line)#</span>
+<span class="cmd">
+<b>password cisco</b>
+</span>
+</p>
+<p>
+<span class="cmd">Switch(config-line)#</span>
+<span class="cmd">
+<b>login</b>
+</span>
+</p>
+<p></p>
+<p>По умолчанию в IOS встроена команда<span class="cmd"><b> login </b></span>на каналах VTY. Это предотвращает доступ по протоколу Telnet к устройству без аутентификации. Если по ошибке была введена команда<span class="cmd"><b> no login</b></span>, из-за чего была снята аутентификация, по протоколу Telnet к сети могут присоединиться неавторизованные пользователи. Это представляет определённую угрозу безопасности.</p>
+<p></p>
+<p>На рисунке продемонстрировано, как осуществляется защита доступа к пользовательскому режиму на консоли и по каналам Telnet.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+﻿<textcomponents> <!--slide 1-->
+<component id='ID_s1_inst'>
+	<text><![CDATA[<b>Интерактивное задание: поля заголовков IPv6</b><br><br>Ознакомьтесь с описанием заголовков IPv6, а затем щёлкните поле, принадлежащее каждому из них.]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[<b>Описания заголовков IPv6</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[<b>Поля заголовков IPv6</b>]]></text>
+</component>
+
+<component id="ID_s1_field01">
+<text><![CDATA[<b>Версия</b>]]></text>
+</component>
+
+<component id="ID_s1_field02">
+<text><![CDATA[<b>Длина полезной нагрузки</b>]]></text>
+</component>
+
+<component id="ID_s1_field03">
+<text><![CDATA[<b>Класс трафика</b>]]></text>
+</component>
+
+<component id="ID_s1_field04">
+<text><![CDATA[<b>Следующий заголовок</b>]]></text>
+</component>
+
+<component id="ID_s1_field05">
+<text><![CDATA[<b>Метка потока</b>]]></text>
+</component>
+
+<component id="ID_s1_field06">
+<text><![CDATA[<b>Предел переходов</b>]]></text>
+</component> <!--answers-->
+<component id="ID_s1_ans01">
+<text><![CDATA[Всегда устанавливается равным 0110]]></text>
+</component>
+
+<component id="ID_s1_ans02">
+<text><![CDATA[Определяет размер фрагмента пакета]]></text>
+</component>
+
+<component id="ID_s1_ans03">
+<text><![CDATA[Классифицирует пакеты для управления перегрузками]]></text>
+</component>
+
+<component id="ID_s1_ans04">
+<text><![CDATA[Определяет тип приложений к протоколу верхнего уровня]]></text>
+</component>
+
+<component id="ID_s1_ans05">
+<text><![CDATA[Может быть установлен для использования одного и того же потока магистрали во избежание переупорядочивания пакетов после доставки]]></text>
+</component>
+
+<component id="ID_s1_ans06">
+<text><![CDATA[Когда это значение достигает 0, отправитель получает уведомление о том, что пакет не был доставлен]]></text>
+</component> <!--buttons-->
+<component id="ID_s1_btn01">
+<text><![CDATA[<b>Сброс</b>]]></text>
+</component> <!--feedback-->
+<component id='ID_s1_titleCorrect'>
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id='ID_s1_correctText'>
+	<text><![CDATA[Поздравляем! Вы сопоставили описания заголовка IPv6 с их полями.]]></text>
+</component>
+
+<component id='ID_s1_titleIncorrect'>
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id='ID_s1_incorrectText'>
+	<text><![CDATA[Повторите попытку.]]></text>
+</component>
+
+</textcomponents>

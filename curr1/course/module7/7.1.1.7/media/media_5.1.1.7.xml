@@ -1,0 +1,99 @@
+﻿<textcomponents>
+	
+	<component id="ID_title">
+		<text><![CDATA[<b>Протоколы транспортного уровня</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Уровень приложений]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Транспортный уровень]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Межсетевой уровень]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Уровень сетевого доступа]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Модель TCP/IP</b>]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Уровень приложений]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+	<text><![CDATA[Уровень представления]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+	<text><![CDATA[Сеансовый уровень]]></text>
+	</component>
+	
+	<component id="ID_txt09">
+	<text><![CDATA[Транспортный уровень]]></text>
+	</component>
+	
+	<component id="ID_txt10">
+	<text><![CDATA[Межсетевой уровень]]></text>
+	</component>
+	
+	<component id="ID_txt11">
+	<text><![CDATA[Канальный уровень]]></text>
+	</component>
+	
+	<component id="ID_txt12">
+		<text><![CDATA[Физический уровень]]></text>
+	</component>
+	
+	<component id="ID_txt13">
+		<text><![CDATA[Разработчики приложений выбирают соответствующий протокол транспортного уровня в зависимости от природы приложения.]]></text>
+	</component>
+	
+	<component id="ID_txt14">
+		<text><![CDATA[IP-телефония]]></text>
+	</component>
+	
+	<component id="ID_txt20">
+		<text><![CDATA[Потоковое видео]]></text>
+	</component>
+	
+	<component id="ID_txt15">
+		<text><![CDATA[SMTP/POP (электронная почта)]]></text>
+	</component>
+	
+	<component id="ID_txt21">
+		<text><![CDATA[HTTP]]></text>
+	</component>
+	
+	<component id="ID_txt16">
+		<text><![CDATA[Требуемые параметры протоколов:<br/><textformat blockindent='-18'><li>быстрота;</li><li>низкая нагрузка;</li><li>отсутствие подтверждений;</li><li>отсутствие необходимости в повторной отправке утраченных данных;</li><li>доставка данных сразу после их поступления.</li></textformat>]]></text>
+	</component>
+	
+	<component id="ID_txt17">
+		<text><![CDATA[Требуемые параметры протоколов:<br/><textformat blockindent='-18'><li>надёжность;</li><li>подтверждение данных;</li><li>повторная отправка утраченных данных;</li><li>доставка данных в порядке их отправки.</li></textformat>]]></text>
+	</component>
+	
+	<component id="ID_txt18">
+		<text><![CDATA[<b>Модель OSI</b>]]></text>
+	</component>
+	
+	<component id="ID_txt19REMOVED">
+		<text><![CDATA[Электронная почта]]></text>
+	</component>
+
+	<component id="ID_txt22">
+		<text><![CDATA[<b>UDP</b>]]></text>
+	</component>
+
+	<component id="ID_txt23">
+		<text><![CDATA[<b>TCP</b>]]></text>
+	</component>
+
+</textcomponents>

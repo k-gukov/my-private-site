@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.3.6 Кольцевая топология</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.3.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Кольцевая топология</h1>
+        <div>
+<p>В логической кольцевой топологии каждый узел в свою очередь получает кадр. Если кадр не адресован узлу, получившему кадр, то этот узел пересылает кадр следующему узлу. Это позволяет кольцевой сети использовать контролируемый метод управления доступом к среде передачи данных, который называется эстафетной передачей.</p>
+<p></p>
+<p>Узлы в логической кольцевой топологии удаляют кадр из кольца, проверяют адрес и отправляет его дальше, если он адресован другому узлу. Все узлы кольца проверяют этот кадр  (при пересылке между узлом источника и узлом назначения по маршруту движения).</p>
+<p></p>
+<p>Существует множество методов управления доступом к среде передачи данных, которые могут использоваться с логическими кольцами в зависимости от требуемого уровня контроля. Например, обычно в один момент времени по кольцу передаётся только один кадр. Если нет данных для передачи, то по кольцу по кругу передается пустой кадр (специальный сигнал), который называется маркером доступа. Узел имеет право передавать данные, только если он получил такой маркер. </p>
+<p></p>
+<p>Запомните, канальный уровень «видит» логическую кольцевую топологию. Реальная физическая топология может быть совершенно другой.</p>
+<p></p>
+<p>Чтобы увидеть, как узлы получают доступ к среде в логической кольцевой топологии, включите анимацию.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

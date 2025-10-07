@@ -1,0 +1,44 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Дополнительные 4&nbsp;байта позволяют использовать технологии QoS и VLAN</b>]]></text> 
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[4&nbsp;байта]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Адрес назначения]]></text> 
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Адрес источника]]></text> 
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Маркер 802.1Q<br/> VLAN]]></text> 
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Тип/дл.]]></text> 
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Данные]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Проверка кадра]]></text> 
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[2&nbsp;байта]]></text> 
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[2&nbsp;байта (информация о маркере управления)]]></text> 
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[Идентификатор протокола маркирования 0x8100]]></text> 
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[Приоритет пользователя<br>(3&nbsp;бита)]]></text> 
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[Индикатор канонического формата (1&nbsp;бит)]]></text> 
+	</component>
+	<component id="ID_txt13">
+		<text><![CDATA[Идентификатор VLAN (12&nbsp;бит)]]></text> 
+	</component>
+</textcomponents>

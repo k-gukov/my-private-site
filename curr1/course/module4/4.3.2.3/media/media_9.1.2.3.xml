@@ -1,0 +1,108 @@
+﻿<textcomponents> <!--Slide 1-->
+<component id="ID_s1_inst">
+<text><![CDATA[<b>Интерактивное задание - часть 1: поля кадров</b><br/><br/>Сопоставьте поле кадра с соответствующим расположением на схеме.</b>]]></text>
+</component>
+<component id="ID_s1_drag01">
+  <text><![CDATA[Данные]]></text> 
+  </component>
+<component id="ID_s1_drag02">
+  <text><![CDATA[Тип]]></text> 
+  </component>
+<component id="ID_s1_drag03">
+  <text><![CDATA[Заголовок]]></text> 
+  </component>
+
+<component id="ID_s1_drag04">
+  <text><![CDATA[Концевик]]></text> 
+  </component>
+
+<component id="ID_s1_drag05">
+  <text><![CDATA[Управление]]></text> 
+  </component>
+<component id="ID_s1_drag06"><text><![CDATA[Пакет<br>(данные)]]></text></component>
+<component id="ID_s1_drag07"><text><![CDATA[Адресация]]></text></component>
+<component id="ID_s1_drag08"><text><![CDATA[Конец кадра]]></text></component>
+<component id="ID_s1_drag09"><text><![CDATA[Обнаружение ошибок]]></text></component>
+<component id="ID_s1_drag10"><text><![CDATA[Начало кадра]]></text></component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b style="color:#442557 !important">Верно</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно расположили <b>имена полей </b> в кадре.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b style="color:#442557 !important">Неверно</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно расположили <b>имена полей </b> в кадре. Нажмите «Сброс» и повторите попытку.]]></text>
+</component> <!--Slide 2-->
+<component id="ID_s2_inst">
+<text><![CDATA[<b>Интерактивное задание - часть 2: поля кадров</b><br/><br/>Перетащите каждое поле кадра к соответствующему описанию.</b>]]></text>
+</component>
+<component id="ID_s2_txt01">
+  <text><![CDATA[Содержит заголовок IP, PDU транспортного уровня и данные]]></text> 
+  </component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[Определяет протокол уровня 3, используемый протоколом управления логической связью (LLC)]]></text> 
+  </component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[Помечает конец кадра]]></text> 
+  </component>
+
+<component id="ID_s2_txt04">
+  <text><![CDATA[Определяет узлы источника и назначения с помощью MAC-адреса]]></text> 
+  </component>
+
+<component id="ID_s2_txt05">
+  <text><![CDATA[Определяет специальные сервисы управления потоком]]></text> 
+  </component>
+<component id="ID_s2_drag01"><text><![CDATA[Данные]]></text></component>
+<component id="ID_s2_drag02"><text><![CDATA[Управление]]></text></component>
+<component id="ID_s2_drag03"><text><![CDATA[Адресация]]></text></component>
+<component id="ID_s2_drag04"><text><![CDATA[Тип]]></text></component>
+<component id="ID_s2_drag05"><text><![CDATA[Отметка остановки кадра]]></text></component>
+
+
+
+<component id='ID_s2_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_s2_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+<component id='ID_s2_CORRECT_TITLE'>
+	<text><![CDATA[<b style="color:#442557 !important">Верно</b>]]></text>
+</component>
+
+<component id='ID_s2_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили каждое<b> поле кадра </b>с его описанием.
+]]></text>
+</component>
+
+
+<component id='ID_s2_INCORRECT_TITLE'>
+	<text><![CDATA[<b style="color:#442557 !important">Неверно</b>]]></text>
+</component>
+
+<component id='ID_s2_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили каждое<b> поле кадра</b> с его описанием. Нажмите «Сброс» и повторите попытку.
+
+]]></text>
+</component>
+
+</textcomponents>

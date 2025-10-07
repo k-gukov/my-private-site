@@ -1,0 +1,108 @@
+﻿<textcomponents> <!-- text on page -->
+<component id="ID_txt01">
+<text><![CDATA[<b>Ядро</b>]]></text>
+</component>
+
+<component id="ID_txt01a">
+<text><![CDATA[<b>Ядро</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Rx</b>]]></text>
+</component>
+
+<component id="ID_txt02a">
+<text><![CDATA[<b>Rx</b>]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Внешняя оболочка]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Уплотняющий слой]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Буфер]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Оболочка оптического волокна]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Сердечник]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Нажмите на каждый компонент для получения дополнительной информации.]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[<b>Нажмите кнопку «Воспроизведение», чтобы увидеть подробную структуру оптоволоконного кабеля.</b>]]></text>
+</component> <!-- textbox  -->
+<component id="ID_PopTitle01">
+<text><![CDATA[<b>Внешняя оболочка</b>]]></text>
+</component>
+
+<component id="ID_PopBody01">
+<text><![CDATA[Используется для защиты оптического волокна от истирания, растворителей и других загрязняющих веществ. Состав внешней оболочки зависит от области применения кабеля.]]></text>
+</component>
+
+<component id="ID_PopTitle02">
+<text><![CDATA[<b>Уплотняющий слой</b>]]></text>
+</component>
+
+<component id="ID_PopBody02">
+<text><![CDATA[Окружает буфер и защищает оптоволоконный кабель от растяжения при вытаскивании. В качестве материала, используемого в качестве упрочняющего слоя, часто используется материал для изготовления бронежилетов.]]></text>
+</component>
+
+<component id="ID_PopTitle03">
+<text><![CDATA[<b>Буфер</b>]]></text>
+</component>
+
+<component id="ID_PopBody03">
+<text><![CDATA[Используется для защиты сердечника кабеля и оболочки оптического волокна от повреждений.]]></text>
+</component>
+
+<component id="ID_PopTitle04">
+<text><![CDATA[<b>Оболочка оптического волокна</b>]]></text>
+</component>
+
+<component id="ID_PopBody04">
+<text><![CDATA[Изготавливается из материалов, незначительно отличающихся от тех, из которых изготовлен сердечник. Выполняет роль зеркала, которое отражает свет в сердечник оптоволоконного кабеля. Это предотвращает рассеивание света при прохождении его по кабелю.]]></text>
+</component>
+
+<component id="ID_PopTitle05">
+<text><![CDATA[<b>Сердечник</b>]]></text>
+</component>
+
+<component id="ID_PopBody05">
+<text><![CDATA[Сердечник — это и есть светопередающая среда в центре оптоволоконного кабеля. Как правило, он изготавливается из кварца или стекла. По сердечнику передаются световые импульсы.]]></text>
+</component> <!-- controller -->
+<component id="end">
+	<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+	<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+	<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+	<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+	<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+	<text><![CDATA[Пуск]]></text>
+</component>
+
+</textcomponents>

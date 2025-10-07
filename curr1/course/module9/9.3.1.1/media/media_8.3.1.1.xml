@@ -1,0 +1,53 @@
+﻿<textcomponents> <!--Slide 1-->
+<component id="ID_s1_title">
+<text><![CDATA[<b>Блок адресов IPv6 /48</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[/48]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[/64]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Глобальный префикс маршрутизации]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+<text><![CDATA[Идентификатор подсети]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+<text><![CDATA[Идентификатор интерфейса]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+<text><![CDATA[48 бит]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+<text><![CDATA[16 бит]]></text>
+</component>
+
+<component id="ID_s1_txt08">
+<text><![CDATA[64 бита]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+<text><![CDATA[65 536 подсетей]]></text>
+</component> <!--Slide 2-->
+<component id="ID_s2_title">
+<text><![CDATA[<b>Блок адресов: 2001:0DB8:ACAD::/48</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Чтобы создать 65 536 подсетей, увеличьте идентификатор подсети]]></text>
+</component>
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Подсети 13 &#8211; 65 534 не показаны]]></text>
+</component>
+
+</textcomponents>

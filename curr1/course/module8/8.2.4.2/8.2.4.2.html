@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.2.4.2 Статическая конфигурация глобального индивидуального адреса</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.2.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Статическая конфигурация глобального индивидуального адреса</h1>
+        <div>
+<p>
+<b>Конфигурация маршрутизатора</b>
+</p>
+<p>Большинство команд конфигурации и проверки IPv6 в Cisco IOS похожи на свои IPv4-аналоги. В большинстве случаев единственная разница между ними — использование в командах <span class="cmd"><b>ipv6</b></span> вместо<span class="cmd"><b> ip</b></span>. </p>
+<p></p>
+<p>Для настройки глобального индивидуального IPv6-адреса в интерфейсе используется команда из группы <span class="cmd"><b>interface</b></span>, которая выглядит следующим образом: <b>ipv6 address </b><i>ipv6-address/prefix-length</i>. </p>
+<p></p>
+<p>Обратите внимание, что между <i>ipv6-address</i> и <i>prefix-length</i> отсутствует пробел.</p>
+<p></p>
+<p>Для примера настройки используется топология, показанная на рис. 1, и следующие IPv6-подсети: </p>
+<p>
+<ul>
+<li>2001:0DB8:ACAD:0001:/64 (<i>или</i> 2001:DB8:ACAD:1:: /64)</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>2001:0DB8:ACAD:0002:/64 (<i>или</i> 2001:DB8:ACAD:2:: /64)</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>2001:0DB8:ACAD:0003:/64 (<i>или</i> 2001:DB8:ACAD:3:: /64)</li>
+</ul>
+</p>
+<p></p>
+<p>Как показано на рис. 2, для настройки индивидуального глобального IPv6-адреса в интерфейсе GigabitEthernet 0/0 маршрутизатора R1 используются следующие команды:</p>
+<p></p>
+<p>
+<span class="cmd">
+<b>Router(config)#interface GigabitEthernet 0/0 </b>
+</span>
+</p>
+<p>
+<span class="cmd">
+<b>Router(config-if)#ipv6 address 2001:db8:acad:1::1/64</b>
+</span>
+</p>
+<p>
+<span class="cmd">
+<b>Router(config-if)#no shutdown</b>
+</span>
+</p>
+<p></p>
+<p>
+<b>Конфигурация узла</b>
+</p>
+<p>Ручная настройка IPv6-адреса на узле мало чем отличается от настройки IPv4-адреса.</p>
+<p></p>
+<p>Как показано на рис. 3, для ПК1 настраивается следующий адрес шлюза по умолчанию: 2001:DB8:ACAD:1::1, который является глобальным индивидуальным адресом маршрутизатора R1 интерфейса GigabitEthernet в той же сети. </p>
+<p></p>
+<p>Для настройки глобального индивидуального IPv6-адреса используйте проверку синтаксиса на рисунке 4. </p>
+<p></p>
+<p>Как и в случае с IPv4, настройка статических адресов для клиентов не распространяется на крупные среды. Именно поэтому большинство сетевых администраторов IPv6-сети будут назначать IPv6-адреса динамически. </p>
+<p></p>
+<p>Устройство может автоматически получать глобальный индивидуальный IPv6-адрес двумя способами:</p>
+<p>
+<ul>
+<li>Автоконфигурация без сохранения состояния адреса (SLAAC)</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>DHCPv6</li>
+</ul>
+</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

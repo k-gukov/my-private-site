@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	<component id="ID_txt01">
+	<text><![CDATA[Кабель на основе неэкранированной витой пары (UTP)]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+	<text><![CDATA[Кабель на основе экранированной витой пары (STP)]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[Коаксиальный кабель]]></text> 
+	</component>
+</textcomponents>

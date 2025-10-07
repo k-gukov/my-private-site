@@ -1,0 +1,80 @@
+﻿<textcomponents>
+
+<component id='ID_inst'>
+	<text><![CDATA[<b>Интерактивное задание: определение компонентов маршрутизатора</b><br><br>В таблице приведены описания функций маршрутизатора и деталей оборудования. Перетащите имя каждого компонента маршрутизатора в область с соответствующей ему функцией или описанием.]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[Подключает маршрутизаторы к внешним сетям, как правило, на большом расстоянии.]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[Способ удалённого доступа к интерфейсу командной строки (CLI) через сетевой интерфейс.]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[Подключает компьютеры, коммутаторы и маршрутизаторы для внутренней сети.]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[Локальный порт, который использует USB или низкоскоростные последовательные подключения для управления сетевыми устройствами.]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[Порт для управления маршрутизаторами — использование телефонных линий и модемов.]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[<b>Имя компонента маршрутизатора</b>]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[<b>Функция/описание</b>]]></text>
+</component> <!--Drag and Drop-->
+<component id='ID_ip1_DS'>
+	<text><![CDATA[<font color="#393536">Интерфейс WAN</font>]]></text>
+</component>
+
+<component id='ID_ip2_DS'>
+	<text><![CDATA[<font color="#393536">Порт AUX</font>]]></text>
+</component>
+
+<component id='ID_ip3_DS'>
+	<text><![CDATA[<font color="#393536">Интерфейс LAN</font>]]></text>
+</component>
+
+<component id='ID_ip4_DS'>
+	<text><![CDATA[<font color="#393536">Telnet или SSH</font>]]></text>
+</component>
+
+<component id='ID_ip5_DS'>
+	<text><![CDATA[<font color="#393536">Порт консоли</font>]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Верно]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили имена компонентов маршрутизаторов с соответствующими им функциями или описаниями.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Неверно]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили имена компонентов маршрутизаторов с соответствующими им функциями или описаниями. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+</textcomponents>

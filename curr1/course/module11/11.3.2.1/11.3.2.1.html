@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.2.1 Интерпретация сообщений Tracert</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Интерпретация сообщений Tracert</h1>
+        <div>
+<p>Команда «trace» возвращает список переходов по мере маршрутизации пакета по сети. Форма команды зависит от точки выполнения команды. Для выполнения трассировки на компьютере с ОС Windows используется команда<span class="cmd"><b> tracert</b></span>. При выполнении трассировки с интерфейса командной строки (CLI) маршрутизатора необходимо использовать команду<span class="cmd"><b> traceroute</b></span>, как показано на рисунке 1.</p>
+<p></p>
+<p>Как и команды<span class="cmd"><b> ping</b></span>, команды<span class="cmd"><b> trace</b></span> вводятся в командную строку и принимают IP-адрес в качестве аргумента.</p>
+<p></p>
+<p>Предполагая, что команда будет запущена на компьютере Windows, можно использовать форму<span class="cmd"><b> tracert</b></span>:</p>
+<p></p>
+<p>
+<span class="cmd">C:\> </span>
+<span class="cmd">
+<b>tracert 10.1.0.2</b>
+</span>
+</p>
+<p>
+<span class="cmd">Tracing route to 10.1.0.2 over a maximum of 30 hops</span>
+</p>
+<p>
+<span class="cmd">1 2 ms 2 ms 2 ms 10.0.0.254 </span>
+</p>
+<p>
+<span class="cmd">2 * * * Request timed out.</span>
+</p>
+<p>
+<span class="cmd">3 * * * Request timed out.</span>
+</p>
+<p>
+<span class="cmd">4 ^C</span>
+</p>
+<p></p>
+<p>Единственный успешный отклик получен от шлюза на маршрутизаторе A. Время ожидания для запросов трассировки в адрес следующего перехода истекло, а это означает, что маршрутизатор следующего перехода не отвечает. Результаты трассировки указывают на то, что сбой произошёл во внутренней сети за пределами ЛВС.</p>
+<p></p>
+<p>Получить выходные данные команды «traceroute» также можно из строки маршрутизатора, как показано на рисунке 2.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+﻿<textcomponents>
+
+<component id="ID_sender">
+<text><![CDATA[Отправитель<br/>4085 SE Pine Street<br/>Ocala, Florida 34471]]></text>
+</component>
+<component id="ID_recipient">
+<text><![CDATA[Получатель<br/>1400 Main Street<br>Canton, Ohio 44203]]></text>
+</component>
+<component id="ID_address1">
+<text><![CDATA[4085 SE Pine Street<br/>Ocala, Florida 34471]]></text>
+</component>
+<component id="ID_address2">
+<text><![CDATA[1400 Main<br>Street<br>Canton,<br>Ohio 44203]]></text>
+</component>
+<component id="ID_letter">
+<text><![CDATA[Дорогая Джейн,<br/><br/> я только что вернулся из путешествия. Я подумал, тебе будет интересно взглянуть на мои фотографии.<br/><br/>Джон.]]></text>
+</component>
+<component id="ID_dear">
+<text><![CDATA[Дорогая]]></text>
+</component>
+<component id="ID_jane">
+<text><![CDATA[Джейн,]]></text>
+</component>
+<component id="ID_bodyText">
+<text><![CDATA[Я только что вернулся из путешествия. Я подумал, тебе будет интересно взглянуть на мои фотографии.]]></text>
+</component>
+<component id="ID_john">
+<text><![CDATA[Джон]]></text>
+</component>
+
+<component id="ID_envelopeAddressing">
+<text><![CDATA[Адресация конверта]]></text>
+</component>
+<component id="ID_encapsulatedLetter">
+<text><![CDATA[Инкапсулированное письмо]]></text>
+</component>
+<component id="ID_salutation">
+<text><![CDATA[Обращение (указатель начала сообщения)]]></text>
+</component>
+<component id="ID_senderID">
+<text><![CDATA[Идентификатор отправителя (источник)]]></text>
+</component>
+
+
+<component id="ID_box1">
+<text><![CDATA[Адрес местополо-<br>жения получателя (адресат) ]]></text>
+</component>
+
+<component id="ID_box2">
+<text><![CDATA[Адрес местополо-<br>жения отправите-ля (источник) ]]></text>
+</component>
+
+<component id="ID_box3">
+<text><![CDATA[Обращение (указатель начала сообщения)]]></text>
+</component>
+
+<component id="ID_box4">
+<text><![CDATA[Идентифик-<br>атор получателя (адресат) ]]></text>
+</component>
+
+<component id="ID_box5">
+<text><![CDATA[Содержание письма (инкапсулиро-ванные данные)]]></text>
+</component>
+
+<component id="ID_box6">
+<text><![CDATA[Идентифик-атор отправите-ля (источник)]]></text>
+</component>
+
+<component id="ID_box7">
+<text><![CDATA[Конец кадра (указатель конца сообще-ния)]]></text>
+</component>
+
+<component id="ID_box8">
+<text><![CDATA[Адресация конверта]]></text>
+</component>
+
+<component id="ID_box9">
+<text><![CDATA[Инкапсулированное письмо]]></text>
+</component> <!-- controller -->
+
+<component id="end">
+<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+
+
+
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#4E4C4D' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='2'>
+
+	<tr>
+		<td width='55' bgcolor='#DBECDA' valign="top"><font  color='#393536'>Адресат (физ. адрес/ адрес оборуд.)</font></td>
+		<td width='65' bgcolor='#DBECDA' valign="top"><font  color='#393536'>Источник (физ. адрес/ адрес оборуд.)</font></td>
+		<td width='70' bgcolor='#DBECDA' valign="top"><font  color='#393536'>Флаг старта (указатель начала сообщ.)</font></td>
+		<td width='70' bgcolor='#DBECDA' valign="top"><font  color='#393536'>Получатель (иденти-фикатор адресата)</font></td>
+		<td width='75' bgcolor='#DBECDA' valign="top"><font  color='#393536'>Отправитель (иденти-фикатор источника) </font></td>
+		<td width='70' bgcolor='#DBECDA' valign="top"><font  color='#393536'>Инкапсули-рованные данные (биты)</font></td>
+		<td width='70' bgcolor='#DBECDA' valign="top"><font  color='#393536'>Конец кадра (указатель конца сообщения)</font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top" colspan="2"><font color='#393536'>Адресация кадров</font></td>
+		<td bgcolor='#E0D5E6' valign="top" colspan="4"><font color='#393536'>Инкапсулированное сообщение</font></td>
+		<td bgcolor='#E9E7E8' valign="top" colspan="1"><font color='#393536'></font></td>
+	</tr>	
+	
+</table>]]></text>
+</component>
+
+
+</textcomponents>

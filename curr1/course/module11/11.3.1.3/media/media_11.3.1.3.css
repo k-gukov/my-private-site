@@ -1,0 +1,38 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+ 
+div[id ^=ID_router_]{
+	letter-spacing:-0.3px;
+	line-height:10px;
+}
+
+.highlighter{
+	border:2px solid #F26200;
+	padding:1.5px;   
+  -webkit-border-radius: 2px; 
+  -moz-border-radius: 2px; 
+  border-radius: 2px; 
+}
+
+.displayHl_2{
+	display:inline;
+	padding-bottom: 40px;
+	margin-left: -3px;
+}
+
+.displayHl_1{
+	display:inline;
+	padding-bottom: 40px;
+	margin-left: 3px;
+}

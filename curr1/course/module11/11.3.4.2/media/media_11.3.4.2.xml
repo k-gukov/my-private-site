@@ -1,0 +1,14 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Информация об узлах в сети</b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Пара MAC-адрес/IP-адрес]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[]]></text>
+	</component>
+</textcomponents>

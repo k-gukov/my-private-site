@@ -1,0 +1,12 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Трёхстороннее рукопожатие TCP (SYN, ACK)</b>]]></text>
+	</component>
+	
+	<component id="ID_title_txt">
+		<text><![CDATA[<font><b class="textboxheader">Анализатор протокола отображает ответ сервера в кадре 11</b></font>]]></text>
+	</component>
+	<component id="ID_body_txt">
+		<text><![CDATA[<textformat blockindent='-14'><font><li>Флаг ACK установлен, чтобы обозначить действительный номер подтверждения</li><li>Ответ номера подтверждения к первоначальному порядковому номеру как относительное значение для 1</li><li>Флаг SYN установлен, чтобы обозначить начальный порядковый номер для сеанса между сервером и клиентом</li><li>Номер порта назначения 1061 к соответствующему порту источника клиентов</li><li>Номер порта источника 80 (HTTP), указывающий сервис веб-сервера (httpd)</li></font></textformat>]]></text>
+	</component> 
+</textcomponents>

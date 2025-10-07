@@ -1,0 +1,26 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Сообщения «Запрос маршрутизатора» и «Объявление маршрутизатора»</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Сервер DHCPv6]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Запрос маршрутизатора — всем маршрутизаторам IPv6.</b><br/>«Мне необходимо получить информацию об адресации от маршрутизатора».]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Объявление маршрутизатора — всем узлам IPv6</b><br/>Вариант 2 (SLAAC и DHCPv6) — «Здесь приведена ваша информация о префиксе, длине префикса и о шлюзе по умолчанию, но также вам потребуется получить данные о DNS с сервера DHCPv6».]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>Запрос DHCPv6 — всем серверам DHCPv6</b><br/>Вариант 2 (SLAAC и DHCPv6) — «Мне необходимо получить информацию об адресации с сервера DHCPv6».]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Примечание. </b>При выборе сообщения «Объявление маршрутизатора» вариант 3 (только DHCPv6) клиенту потребуется получить всю информацию с сервера DHCPv6.]]></text>
+</component>
+
+</textcomponents>

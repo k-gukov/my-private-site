@@ -1,0 +1,57 @@
+﻿<textcomponents>
+<component id="ID_txt01">
+<text><![CDATA[<b>Интернет</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Интернет-провайдер 1]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Интернет-провайдер 2]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Интернет-провайдер 3]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>DHCP-сервер интернет-провайдера</b>]]></text> 
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[<b>DHCP-сервер маршрутизатора</b>]]></text> 
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Клиент DHCP]]></text> 
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[DHCP-клиенты]]></text> 
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[DHCP-клиенты]]></text> 
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[<b>Сервер DHCP</b>]]></text> 
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[<b>Локальный DHCP-сервер</b>]]></text> 
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[<b>Корпоративная сеть</b>]]></text> 
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[Домашняя сеть или сеть небольшой компании]]></text> 
+</component>
+
+<component id="ID_txt14">
+<text><![CDATA[Отдельный домашний ПК]]></text> 
+</component>
+</textcomponents>

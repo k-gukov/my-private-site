@@ -1,0 +1,98 @@
+﻿<textcomponents>
+	
+	<component id="ID_title">
+	<text><![CDATA[<b>Поля кадра Ethernet</b>]]></text> 
+	</component>
+	<component id="ID_inst">
+	<text><![CDATA[Щёлкните голубые поля, чтобы получить более подробную информацию.]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+	<text><![CDATA[<b>IEEE 802.3</b>]]></text>
+	</component>
+		
+	<component id="ID_txt02">
+	<text><![CDATA[<font size="9" class='font9px'>7<br/><br/>Преамбула</font>]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[<font size="9" class='font9px'>1<br/><br/>Начало разделителя кадра</font>]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+	<text><![CDATA[<font size="9" class='font9px'>6<br/><br/>Адрес назначения</font>]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+	<text><![CDATA[<font size="9" class='font9px'>6<br/><br/>Адрес источника</font>]]></text> 
+	</component>
+	
+	<component id="ID_txt06">
+	<text><![CDATA[<font size="9" class='font9px'>2<br/><br/>Длина</font>]]></text> 
+	</component>
+	
+	<component id="ID_txt07">
+	<text><![CDATA[<font size="9" class='font9px'>46—1500<br/><br/>Заголовок и данные стандарта 802.2</font>]]></text> 
+	</component>
+	
+	<component id="ID_txt08">
+	<text><![CDATA[<font size="9" class='font9px'>4<br/><br/>Контрольная последова-тельность кадра</font>]]></text> 
+	</component>
+	
+	<component id="ID_txtTitle1">
+	<text><![CDATA[<b>Преамбула</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody1">
+	<text><![CDATA[7-байтная преамбула кадра]]></text>
+	</component>
+	
+	<component id="ID_txtTitle2">
+	<text><![CDATA[<b>Начало разделителя кадра</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody2">
+	<text><![CDATA[1-байтное начало разделителя кадра]]></text>
+	</component>
+	
+	<component id="ID_txtTitle3">
+	<text><![CDATA[<b>Адрес назначения</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody3">
+	<text><![CDATA[6-байтный MAC-адрес назначения]]></text>
+	</component>
+	
+	<component id="ID_txtTitle4">
+	<text><![CDATA[<b>Адрес источника</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody4">
+	<text><![CDATA[6-байтный MAC-адрес источника]]></text>
+	</component>
+	
+	<component id="ID_txtTitle5">
+	<text><![CDATA[<b>Длина</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody5">
+	<text><![CDATA[2-байтная длина кадра или тип протокола инкапсуляции]]></text>
+	</component>
+	
+	<component id="ID_txtTitle6">
+	<text><![CDATA[<b>Заголовок и данные стандарта 802.2</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody6">
+	<text><![CDATA[Данные от 46 до 1500 байт (инкапсулированный пакет) плюс заполнитель (при необходимости)]]></text>
+	</component>
+	
+	<component id="ID_txtTitle7">
+	<text><![CDATA[<b>Контрольная последовательность кадра</b>]]></text>
+	</component>
+	
+	<component id="ID_txtBody7">
+	<text><![CDATA[4-байтная контрольная последовательность кадра (контрольная сумма CRC)]]></text>
+	</component>
+
+</textcomponents>

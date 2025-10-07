@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[Локальный IPv6-адрес канала]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Идентификатор интерфейса]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[64 бита]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Процесс EUI-64]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Случайно сгенерированный номер]]></text> 
+</component>
+
+</textcomponents>

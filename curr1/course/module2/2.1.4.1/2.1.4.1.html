@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.1.4.1 Структура команд операционной системы IOS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.1.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Структура команд операционной системы IOS</h1>
+        <div>
+<p>
+<b>Базовая структура команд операционной системы IOS</b>
+</p>
+<p></p>
+<p>Устройства CISCO IOS поддерживают множество различных команд. Каждая команда IOS имеет определённый формат или синтаксис. Каждая команда выполняется только из соответствующего режима. Общий синтаксис команды — это команда, за которой следуют соответствующие ключевые слова и параметры. Некоторые команды состоят из ключевых слов и параметров, обеспечивающих дополнительные функциональные возможности. Команды используются для выполнения каких-либо действий, а ключевые слова используются для определения того, где и как нужно выполнить команду.</p>
+<p></p>
+<p>Как показано на рис. 1, команда — это аббревиатура или слова, введённые в командной строке после запроса. При вводе команд регистр не учитывается. Вслед за текстом команды вводится одно или несколько ключевых слов и параметров. После ввода каждой полной команды, включая все ключевые слова и параметры, нажмите клавишу Enter, чтобы отправить эту команду в командный процессор.</p>
+<p></p>
+<p>Ключевые слова описывают командному процессору определённые параметры. Например, команда <span class="cmd"><b>show</b></span> используется для просмотра информации об устройстве. Эта команда обладает несколькими ключевыми словами, которые нужно использовать, чтобы определить, какие выходные данные нужно отобразить. Например: </p>
+<p></p>
+<p>
+<span class="cmd">Switch#</span>
+<span class="cmd">
+<b>show running-config</b>
+</span>
+</p>
+<p></p>
+<p>После команды <span class="cmd"><b>show</b></span> следует ключевое слово <span class="cmd"><b>running-config</b></span>. Ключевое слово уточняет, что текущую конфигурацию нужно отобразить в выходных данных.</p>
+<p></p>
+<p>
+<b>Условные обозначения команд IOS</b>
+</p>
+<p></p>
+<p>Команда может потребовать одно или несколько параметров. В отличие от ключевого слова, параметр, как правило, не является предопределённым словом. Параметр — это значение или переменная, определённая пользователем. Чтобы понять, какие ключевые слова и параметры необходимы той или иной команде, см. раздел синтаксиса команд. Синтаксис обеспечивает шаблон или формат, который необходимо использовать при вводе команды.</p>
+<p></p>
+<p>Например, для использования команды <span class="cmd"><b>description</b></span> необходим такой синтаксис:</p>
+<p></p>
+<p>
+<span class="cmd">Switch(config-if)#</span>
+<span class="cmd">
+<b>description</b>
+</span>
+<span class="cmd"></span>
+<span class="cmd">
+<i>string</i>
+</span>
+</p>
+<p></p>
+<p>Как показано на рис. 2, команды и ключевые слова отображаются полужирным шрифтом, а текст курсивом отображает параметр, которому нужно дать значение. Параметром команды <span class="cmd"><b>description</b></span> является значение строки. Значение строки может быть представлено любым текстом, содержащим до 80 символов.</p>
+<p></p>
+<p>Таким образом, применяя описание для интерфейса с помощью команды <span class="cmd"><b>description</b></span>, введите такую строку:</p>
+<p></p>
+<p>
+<span class="cmd">Switch(config-if)#</span>
+<span class="cmd">
+<b>description</b>
+</span>
+<span class="cmd"></span>
+<span class="cmd">
+<b>MainHQ Office Switch</b>
+</span>
+</p>
+<p></p>
+<p>Команда — <span class="cmd"><b>description</b></span>, пользовательский параметр — <span class="cmd"><b>MainHQ Office Switch</b></span>. </p>
+<p></p>
+<p>Следующие примеры демонстрируют некоторые обозначения, используемые для документирования и использования команд IOS. </p>
+<p></p>
+<p>Для команды <span class="cmd"><b>ping</b></span>:</p>
+<p></p>
+<p>Синтаксис:</p>
+<p></p>
+<p>
+<span class="cmd">Switch> </span>
+<span class="cmd">
+<b>ping</b>
+</span>
+<span class="cmd"></span>
+<span class="cmd">
+<i>ip-address</i>
+</span>
+</p>
+<p></p>
+<p>Пример со значениями:</p>
+<p></p>
+<p>
+<span class="cmd">Switch></span>
+<span class="cmd">
+<b>ping</b>
+</span>
+<span class="cmd"></span>
+<span class="cmd">
+<b>10.10.10.5</b>
+</span>
+</p>
+<p></p>
+<p>Команда — <span class="cmd"><b>ping</b></span>, пользовательский параметр — <span class="cmd"><b>10.10.10.5</b></span>. </p>
+<p></p>
+<p>Таким образом, синтаксис для ввода команды <span class="cmd"><b>traceroute</b></span> выглядит следующим образом:</p>
+<p></p>
+<p>Синтаксис:</p>
+<p></p>
+<p>
+<span class="cmd">Switch></span>
+<span class="cmd">
+<b>traceroute</b>
+</span>
+<span class="cmd"></span>
+<span class="cmd">
+<i>ip-address</i>
+</span>
+</p>
+<p></p>
+<p>Пример со значениями:</p>
+<p></p>
+<p>
+<span class="cmd">Switch></span>
+<span class="cmd">
+<b>traceroute</b>
+</span>
+<span class="cmd"></span>
+<span class="cmd">
+<b>192.168.254.254</b>
+</span>
+</p>
+<p></p>
+<p>Команда — <span class="cmd"><b>traceroute</b></span>, пользовательский параметр — <span class="cmd"><b>192.168.254.254</b></span>.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

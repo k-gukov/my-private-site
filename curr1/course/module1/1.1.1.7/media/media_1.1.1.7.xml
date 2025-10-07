@@ -1,0 +1,27 @@
+﻿<textcomponents>
+<component id="ID_txt01">
+<text><![CDATA[Группы по интересам в режиме онлайн]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Игры в режиме онлайн]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Развлечения в режиме онлайн]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Покупки через Интернет]]></text>
+</component>
+<component id="ID_txt05">
+<text><![CDATA[Бортовые сети передачи данных]]></text>
+</component>
+<component id="ID_txt06">
+<text><![CDATA[Обмен мгновенными сообщениями]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Возможность развлечений поддерживается сервисами сети передачи данных. ]]></text>
+</component>
+</textcomponents>

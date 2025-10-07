@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.4.4 Включение протокола SSH</title>
+    <!--  -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Включение протокола SSH</h1>
+        <div>
+<p>
+<b>Удалённый доступ по протоколу SSH</b>
+</p>
+<p>Устаревшим протоколом для удалённого управления устройствами является Telnet. Этот протокол не является безопасным. Данные в пакете Telnet передаются в незашифрованном виде. Используя такие инструменты, как Wireshark, злоумышленник может «проанализировать» сеанс Telnet и получить информацию о пароле. По этой причине в целях обеспечения безопасного удалённого доступа настоятельно рекомендуется использовать на устройствах протокол SSH. Настройка поддержки протокола SSH для устройства Cisco выполняется в четыре этапа, как показано на рисунке.</p>
+<p></p>
+<p>
+<b>Шаг 1.</b> Убедитесь в том, что маршрутизатору присвоено уникальное имя узла, после чего настройте IP-доменное имя сети, используя команду <span class="cmd"><b>ip domain-name </b></span><span class="cmd"><i>domain-name</i></span> в режиме глобальной конфигурации.</p>
+<p></p>
+<p>
+<b>Шаг 2.</b> Необходимо создать односторонние секретные ключи, которые будут использоваться маршрутизатором для шифрования трафика по SSH. Ключ представляет собой объект, который фактически используется для шифрования и расшифровки данных. Для создания ключа шифрования используется команда<span class="cmd"><b> crypto key generate rsa general-keys modulus </b></span><span class="cmd"><i>modulus-size</i></span> в режиме глобальной конфигурации. Конкретное значение отдельных фрагментов этой команды отличается достаточной сложностью и не рассматривается в рамках настоящего курса, однако в данный момент следует просто учитывать, что этот модуль определяет размер ключа, и его можно настроить в диапазоне от 360 до 2048 бит. Чем больше модуль, тем выше уровень безопасности ключа, но тем больше времени занимает шифрование и расшифровка данных. Минимальная рекомендуемая длина модуля — 1024 бит. </p>
+<p></p>
+<p>
+<span class="cmd">Router(config)#</span>
+<span class="cmd">
+<b>crypto key generate rsa general-keys modulus 1024</b>
+</span>
+</p>
+<p></p>
+<p>
+<b>Шаг 3.</b> Создайте локальную запись имени пользователя базы данных, используя команду<span class="cmd"><b> username </b></span><span class="cmd"><i>name</i></span><span class="cmd"><b> secret </b></span><span class="cmd"><i>secret</i></span> в режиме глобальной конфигурации.</p>
+<p></p>
+<p>
+<b>Шаг 4.</b> Разрешите использование входящих сеансов SSH для VTY при помощи команд строки VTY <span class="cmd"><b>login local</b></span> и <span class="cmd"><b>transport input ssh</b></span>.</p>
+<p></p>
+<p>Доступ к службе протокола SSH на маршрутизаторе теперь можно осуществлять посредством программного обеспечения клиента SSH.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

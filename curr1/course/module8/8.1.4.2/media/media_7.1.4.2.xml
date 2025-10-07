@@ -1,0 +1,66 @@
+﻿<textcomponents>
+
+  <component id="ID_btn01">
+    <text><![CDATA[Пропустить]]></text>
+  </component>
+
+  <component id="ID_btn02">
+    <text><![CDATA[Блокировать]]></text>
+  </component>
+
+  <component id="ID_btn03">
+    <text><![CDATA[Пуск]]></text>
+  </component>
+
+  <component id="ID_btn04">
+    <text><![CDATA[Сброс]]></text>
+  </component>
+  
+  
+  
+<component id="ID_title">
+  <text><![CDATA[<b>Интерактивное задание</b><br/><br/>Определите, стоит ли пропускать или блокировать каждый из IP-адресов в зависимости от того, каким он является: публичным (межсетевым) или частным (небольшая локальная сеть).<br><br>Вначале нажмите кнопку «Пуск», а затем используйте кнопки «Пропустить» или «Блокировать».]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Баллы]]></text>
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[Интернет-провайдер (ISP)]]></text>
+</component>
+<component id="ID_txt04">
+  <text><![CDATA[Интернет]]></text>
+</component>
+
+  
+  
+  
+  
+  
+  <component id="ID_Start">
+  <text><![CDATA[Пуск]]></text>
+</component>
+<component id="ID_Reset">
+  <text><![CDATA[Сброс]]></text>
+</component>
+<component id="ID_Pass">
+  <text><![CDATA[Пропустить]]></text>
+</component>
+<component id="ID_Block">
+  <text><![CDATA[Блокировать]]></text>
+</component>
+<component id="ID_MsgBadBody">
+  <text><![CDATA[К сожалению, вы не справились. Проанализируйте диапазоны частных IP-адресов ещё раз и повторите попытку.]]></text>
+</component>
+<component id="ID_MsgBadTitle">
+  <text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+<component id="ID_MsgGoodBody">
+  <text><![CDATA[Отлично! Чтобы продолжить, нажмите кнопку «Далее».]]></text>
+</component>
+<component id="ID_MsgGoodTitle">
+  <text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,20 @@
+﻿<textcomponents>
+ <component id="ID_txt01">
+    <text><![CDATA[<b>Условные обозначения</b>]]></text>
+  </component>
+ 
+
+	 <component id="ID_txt02">
+    <text><![CDATA[— определяет способ, при помощи которого маршрутизатор получил данные о сети;]]></text>
+  </component>
+ 
+ 
+ 
+	<component id="ID_txt03">
+    <text><![CDATA[— определяет сеть назначения и способ её подключения;]]></text>
+  </component>
+	
+	<component id="ID_txt04">
+    <text><![CDATA[— определяет интерфейс, через который маршрутизаторы достигают сети назначения.]]></text>
+  </component>
+</textcomponents>

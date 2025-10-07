@@ -1,0 +1,31 @@
+﻿<textcomponents>
+
+<component id="ID_txt01">
+  <text><![CDATA[<b>Модель TCP/IP</b>]]></text> 
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Уровень приложений]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Транспортный уровень]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Межсетевой уровень]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[Уровень сетевого доступа]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[Представляет данные пользователю, а также кодирование и управление диалоговыми окнами.]]></text> 
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[Поддерживает связь между различными устройствами в разных сетях.]]></text> 
+  </component>
+<component id="ID_txt08">
+  <text><![CDATA[Определяет наилучший путь через сеть.]]></text> 
+  </component>
+<component id="ID_txt09">
+  <text><![CDATA[Управляет устройствами и средами, формирующими сеть.]]></text> 
+  </component>
+
+</textcomponents>
