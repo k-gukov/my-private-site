@@ -1,0 +1,73 @@
+﻿<textcomponents>
+
+<component id="ID_OSInum01">
+  <text><![CDATA[<b>1</b>]]></text> 
+  </component>
+<component id="ID_OSInum02">
+  <text><![CDATA[<b>2</b>]]></text> 
+  </component>
+<component id="ID_OSInum03">
+  <text><![CDATA[<b>3</b>]]></text> 
+  </component>
+<component id="ID_OSInum04">
+  <text><![CDATA[<b>4</b>]]></text> 
+  </component>
+<component id="ID_OSInum05">
+  <text><![CDATA[<b>5</b>]]></text> 
+  </component>
+<component id="ID_OSInum06">
+  <text><![CDATA[<b>6</b>]]></text> 
+  </component>
+<component id="ID_OSInum07">
+  <text><![CDATA[<b>7</b>]]></text> 
+  </component>
+  
+<component id="ID_txt01">
+<text><![CDATA[Уровень приложений]]></text>
+</component>
+<component id="ID_txt02">
+<text><![CDATA[Уровень представления]]></text>
+</component>
+<component id="ID_txt03">
+<text><![CDATA[Сеансовый уровень]]></text>
+</component>
+<component id="ID_txt04">
+<text><![CDATA[Транспортный уровень]]></text>
+</component>
+<component id="ID_txt05">
+<text><![CDATA[Сетевой уровень]]></text>
+</component>
+<component id="ID_txt06">
+<text><![CDATA[Канальный уровень]]></text>
+</component>
+<component id="ID_txt07">
+<text><![CDATA[Физический уровень]]></text>
+</component>
+<component id="ID_txt08">
+<text><![CDATA[Уровни<br>приложений]]></text>
+</component>
+<component id="ID_txt09">
+<text><![CDATA[Уровни<br>потоков данных]]></text>
+</component>
+<component id="ID_txt10">
+<text><![CDATA[Уровень приложений]]></text>
+</component>
+<component id="ID_txt11">
+<text><![CDATA[Транспортный уровень]]></text>
+</component>
+<component id="ID_txt12">
+<text><![CDATA[Межсетевой уровень]]></text>
+</component>
+<component id="ID_txt13">
+<text><![CDATA[Уровень сетевого<br>доступа]]></text>
+</component>
+<component id="ID_txt14">
+<text><![CDATA[Протокол передачи гипертекста<br/><br/>Протокол простой передачи электронной почты<br/><br/>Почтовый протокол]]></text>
+</component>
+<component id="ID_txt19">
+<text><![CDATA[<b>Модель OSI</b>]]></text>
+</component>
+<component id="ID_txt20">
+<text><![CDATA[<b>Модель TCP/IP</b>]]></text>
+</component>
+</textcomponents>

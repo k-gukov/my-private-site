@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.4 Первый и последний адреса узлов</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Первый и последний адреса узлов</h1>
+        <div>
+<p>Чтобы удостовериться, что всем узлам в сети присвоен уникальный IP-адрес внутри диапазона сети, сначала нужно определить адреса первого и последнего узлов. В этом диапазоне узлам внутри сети могут быть присвоены IP-адреса. </p>
+<p></p>
+<p>
+<b>Адрес первого узла</b>
+</p>
+<p></p>
+<p>Как видно на рисунке 1, узловая часть первого адреса узла будет содержать все нулевые биты с единицей в крайнем справа бите. Значение этого адреса всегда на единицу больше сетевого адреса. В этом примере первым адресом узла в сети 10.1.1.0/24 является 10.1.1.1. Часто во многих схемах адресации первый адрес узла используется для маршрутизатора или шлюза по умолчанию.</p>
+<p></p>
+<p>
+<b>Адрес последнего узла</b>
+</p>
+<p></p>
+<p>Узловая часть последнего адреса узла будет содержать все единицы с нулём в крайнем справа бите. Значение этого адреса всегда на единицу меньше, чем значение широковещательного адреса. Как видно на рисунке 2, последним адресом узла в сети 10.1.1.0/24 является 10.1.1.254.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

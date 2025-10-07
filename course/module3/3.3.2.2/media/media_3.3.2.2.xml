@@ -1,0 +1,67 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<font><b>Обмен данными с помощью устройства в одной сети</b></font>]]></text> 
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Канал передачи данных<br/>заголовка кадра Ethernet]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Заголовок IP-пакета<br/>сетевого уровня]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Назначение</b>]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>Источник</b>]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Источник</b>]]></text> 
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[<b>Назначение</b>]]></text> 
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[<b>Данные</b>]]></text> 
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[0C-CC-CC-CC-<br/>CC-CC]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[0A-AA-AA-AA-<br/>AA-AA]]></text> 
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[Сеть<br/>192.168.1.]]></text>
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[Узел<br/>110]]></text> 
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[Сеть<br/>192.168.1.]]></text> 
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[Узел<br/>9]]></text> 
+</component>
+
+<component id="ID_txt14">
+<text><![CDATA[<b>ПК1</b><br/>192.168.1.110<br/>0A-AA-AA-AA-AA-AA]]></text> 
+</component>
+
+<component id="ID_txt15">
+<text><![CDATA[<b>FTP-сервер</b><br/>192.168.1.9<br/>0C-CC-CC-CC-CC-CC]]></text> 
+</component>
+
+
+</textcomponents>

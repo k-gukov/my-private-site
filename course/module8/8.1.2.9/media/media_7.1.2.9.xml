@@ -1,0 +1,52 @@
+﻿<textcomponents>	
+	<component id="txt_instructions">
+		<text><![CDATA[<b>Интерактивное задание: использование операции И для определения сетевого адреса</b><br><br>Для определения сетевого адреса (в двоичном и десятичном форматах) используйте операцию И.]]></text>
+	</component>
+	
+	<component id="txt_incorrect">
+		<text><![CDATA[<b>Неверно</b>]]></text>
+	</component>
+	<component id="txt_correct">
+		<text><![CDATA[<b>Верно</b>]]></text>
+	</component>
+	<component id="txt_correct_body">
+		<text><![CDATA[Двоичные и десятичные варианты сетевого адреса указаны верно! Чтобы продолжить, нажмите кнопку «Новый номер».]]></text>
+	</component>
+	<component id="txt_incorrect_binary">
+		<text><![CDATA[Двоичные и/или десятичные варианты сетевого адреса указаны неверно. Повторите попытку.]]></text>
+	</component>
+	<component id="txt_incorrect_decimal">
+		<text><![CDATA[Двоичные и/или десятичные варианты сетевого адреса указаны неверно. Повторите попытку.]]></text>
+	</component>
+	<component id="txt_incorrect_all">
+		<text><![CDATA[Двоичные и/или десятичные варианты сетевого адреса указаны неверно. Повторите попытку.]]></text>
+	</component>
+	<component id="txt_hostaddress">
+		<text><![CDATA[Адрес узла]]></text>
+	</component>
+	<component id="txt_subnetmask">
+		<text><![CDATA[Маска подсети]]></text>
+	</component>
+	<component id="txt_hostaddrbin">
+		<text><![CDATA[Адрес узла в двоичном значении]]></text>
+	</component>
+	<component id="txt_subnetbin">
+		<text><![CDATA[Маска подсети в двоичном значении]]></text>
+	</component>
+	<component id="txt_netbin">
+		<text><![CDATA[Сетевой адрес в двоичном значении]]></text>
+	</component>
+	<component id="txt_netdec">
+		<text><![CDATA[Сетевой адрес в десятичном значении]]></text>
+	</component>
+	<component id="txt_check">
+		<text><![CDATA[Проверить]]></text>
+	</component>
+	<component id="txt_reset">
+		<text><![CDATA[Сброс]]></text>
+	</component>
+	<component id="txt_newnumber">
+		<text><![CDATA[Новый номер]]></text>
+	</component>
+
+</textcomponents>

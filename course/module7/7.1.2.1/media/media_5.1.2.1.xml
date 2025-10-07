@@ -1,0 +1,54 @@
+﻿<textcomponents> <!--SLIDE0 1-->
+<component id="ID_title">
+<text><![CDATA[<b>Сервисы TCP</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Кому: you@example.com<br>От кого: me@example.com<br>Тема: Отпуск]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Электронная почта]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Обмен<br/>мгновенными сообщениями]]></text>
+</component>
+
+
+<component id="ID_txt04">
+<text><![CDATA[Несколько веб-страниц]]></text>
+</component>
+
+
+
+<component id="ID_txt05">
+<text><![CDATA[IP-телефония<br/>(VoIP)]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Потоковое видео]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[<b>Сеть</b>]]></text>
+</component>
+
+
+<component id="ID_txt08">
+<text><![CDATA[<b>Установление сеанса</b> обеспечивает готовность приложения к приёму данных.]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[<b>Доставка с одинаковым порядком </b> обеспечивает сбор сегментов в правильном порядке.]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[<b>Надёжная доставка</b> означает повторную отправку потерянных сегментов для обеспечения полноты полученных данных.]]></text>
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[<b>Управление потоком</b> контролирует доставку данных в случае перегрузки на узле.]]></text>
+</component>
+
+</textcomponents>

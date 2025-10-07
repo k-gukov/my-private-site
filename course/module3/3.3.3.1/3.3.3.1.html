@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.3.1 Шлюз по умолчанию</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Шлюз по умолчанию</h1>
+        <div>
+<p>Метод, с помощью которого узел отправляет сообщения адресату в удалённой сети, отличается от метода отправки адресату в той же локальной сети. При отправке узлу, подключённому к той же сети, сообщение направляется напрямую. Узел с помощью протокола ARP определяет MAC-адрес узла назначения. Он включает IP-адрес в заголовок пакета и инкапсулирует пакет в кадр, где находится MAC-адрес назначения, а затем передает его далее. </p>
+<p></p>
+<p>Если узлу нужно отправить сообщение в удалённую сеть, необходимо использовать маршрутизатор, который также называется шлюзом по умолчанию. Шлюз по умолчанию — это IP-адрес интерфейса маршрутизатора в той же сети, в которой находится отправляющий узел. </p>
+<p></p>
+<p>Для каждого узла в локальной сети важно правильно задать адрес шлюза по умолчанию. Если в настройках узла TCP/IP адрес шлюза по умолчанию не указан или указан неверно, сообщения, адресованные узлам в удалённых сетях, доставлены не будут. </p>
+<p></p>
+<p>На рисунке узлы в локальной сети используют маршрутизатор R1 как шлюз по умолчанию, поскольку его адрес 192.168.1.1 указан в настройках TCP/IP. Если назначение блоков PDU относится к другой сети IP, узлы отправляют их к шлюзу по умолчанию на маршрутизаторе для последующей передачи.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

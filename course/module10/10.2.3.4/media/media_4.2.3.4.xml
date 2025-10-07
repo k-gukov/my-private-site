@@ -1,0 +1,55 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[SMB-запросы]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[SMB-ответы]]></text>
+</component> 
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Клиент]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+<text><![CDATA[Сервер]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+<text><![CDATA[SMB&nbsp;— это протокол типа «запрос-ответ» для обмена данными между клиентом и сервером. Серверы могут предоставлять свои ресурсы клиентам в сети.]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+<text><![CDATA[<b>Общие ресурсы</b>]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+<text><![CDATA[<textformat blockindent='-10'><ul><li>Файловые системы</li><li>Принтеры</li><li>Слоты для почты</li><li>API-интерфейсы</li></ul></textformat>]]></text>
+</component>
+
+<component id="ID_s1_txt08">
+<text><![CDATA[Принтер]]></text>
+</component>
+ 
+<component id="ID_s2_txt1">
+<text><![CDATA[Сеть]]></text>
+</component>
+ 
+<component id="ID_s2_txt2">
+<text><![CDATA[Файл можно скопировать с одного ПК на другой по SMB-протоколу, используя проводник Windows.]]></text>
+</component>
+
+<component id="ID_s2_txt3">
+<text><![CDATA[Копирование файла]]></text>
+</component>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Протокол SMB</b>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Обмен файлами через SMB</b>]]></text>
+</component>
+
+</textcomponents>

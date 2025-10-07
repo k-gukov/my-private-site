@@ -1,0 +1,161 @@
+﻿<textcomponents>
+
+<component id='ID_s1_inst'>
+	<text><![CDATA[<b>Интерактивное задание - часть 1: терминология физического уровня</b><br><br>В таблице приведены описания физического уровня. Перетащите каждый термин физического уровня к его описанию. 
+
+]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Устройства, среда передачи данных и разъёмы, которые используются для передачи битовых сигналов.]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[Представление единиц и нулей в среде передачи различается в зависимости от схемы кодирования]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[Равные промежутки длительности сигналов]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Способ преобразования потоков бит в группы — предопределён
+]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[Произвольные промежутки длительности сигналов]]></text>
+</component>
+
+<component id='ID_s1_txt06'>
+	<text><![CDATA[<b>Термин</b>]]></text>
+</component>
+
+<component id='ID_s1_txt07'>
+	<text><![CDATA[<b>Описание физического уровня</b>]]></text>
+</component> <!--Drag and Drop-->
+<component id='ID_s1_traget01'>
+	<text><![CDATA[<font color="#393536">Синхронный</font>]]></text>
+</component>
+
+<component id='ID_s1_traget02'>
+	<text><![CDATA[<font color="#393536">Способ передачи сигнала</font>]]></text>
+</component>
+
+<component id='ID_s1_traget03'>
+	<text><![CDATA[<font color="#393536">Кодирование кадра</font>]]></text>
+</component>
+
+<component id='ID_s1_traget04'>
+	<text><![CDATA[<font color="#393536">Асинхронный</font>]]></text>
+</component>
+
+<component id='ID_s1_traget05'>
+	<text><![CDATA[<font color="#393536">Физические компоненты</font>]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили каждый термин физического уровня с его описанием.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили каждый термин физического уровня с его описанием. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component> <!--slide02-->
+<component id='ID_s2_inst'>
+	<text><![CDATA[<b>Интерактивное задание - часть 2: терминология физического уровня</b><br><br>В таблице приведены описания физического уровня. Перетащите каждый термин физического уровня к его описанию. 
+]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[Количество пригодных для использования данных за определённый интервал времени]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[Объём данных, который может передать среда в течение определённого отрезка времени]]></text>
+</component>
+
+<component id='ID_s2_txt03'>
+	<text><![CDATA[Фактическое измерение бит данных за определённый период времени]]></text>
+</component>
+
+<component id='ID_s2_txt04'>
+	<text><![CDATA[Метод для преобразования голосовой связи в цифровые сигналы
+]]></text>
+</component>
+
+<component id='ID_s2_txt05'>
+	<text><![CDATA[Способ передачи, при котором несущая частота отличается в соответствии с передаваемыми сигналами]]></text>
+</component>
+
+<component id='ID_s2_txt06'>
+	<text><![CDATA[<b>Термин</b>]]></text>
+</component>
+
+<component id='ID_s2_txt07'>
+	<text><![CDATA[<b>Описание физического уровня</b>]]></text>
+</component> <!--Drag and Drop-->
+<component id='ID_s2_traget01'>
+	<text><![CDATA[<font color="#393536">Пропускная способность</font>]]></text>
+</component>
+
+<component id='ID_s2_traget02'>
+	<text><![CDATA[<font color="#393536">Импульсно-кодовая модуляция</font>]]></text>
+</component>
+
+<component id='ID_s2_traget03'>
+	<text><![CDATA[<font color="#393536">Полезная пропускная способность</font>]]></text>
+</component>
+
+<component id='ID_s2_traget04'>
+	<text><![CDATA[<font color="#393536">Производительность</font>]]></text>
+</component>
+
+<component id='ID_s2_traget05'>
+	<text><![CDATA[<font color="#393536">Частотная модуляция</font>]]></text>
+</component>
+
+
+<component id='ID_s2_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно]]></text>
+</component>
+
+<component id='ID_s2_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили каждый термин физического уровня с его описанием.]]></text>
+</component>
+
+
+<component id='ID_s2_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно]]></text>
+</component>
+
+<component id='ID_s2_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили каждый термин физического уровня с его описанием. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_s2_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_s2_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+</textcomponents>

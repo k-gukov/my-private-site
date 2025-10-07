@@ -1,0 +1,93 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+<text><![CDATA[<font><b>Назначение протоколов</b></font>]]></text> 
+</component>
+<component id="ID_s1_txt01">
+  <text><![CDATA[IP]]></text>
+  </component>
+  <component id="ID_s1_txt02">
+  <text><![CDATA[Данные]]></text>
+  </component>
+ <component id="ID_s1_txt03">
+  <text><![CDATA[Формат или структура фрагментов данных]]></text>
+  </component>
+
+<component id="ID_s1_bubble01">
+<text><![CDATA[<p id="ID_s1_bubble01" class="ID_s1_bubble01 top">Я пошлю это сообщение по сети с помощью заголовка IPv4.</p>]]></text>
+</component>
+<component id="ID_s1_bubble02">
+<text><![CDATA[<p id="ID_s1_bubble02" class="ID_s1_bubble02 top">Я могу переслать это сообщение, так как понимаю заголовок IPv4. </p>]]></text>
+</component>
+<component id="ID_s1_bubble03">
+<text><![CDATA[<p id="ID_s1_bubble03" class="ID_s1_bubble03 top">Я могу принять данное сообщение, так как понимаю IPv4. </p>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<font size="14"><b>Назначение протоколов</b></font>]]></text> 
+</component>
+<component id="ID_s2_bubble01">
+<text><![CDATA[<p id="ID_s2_bubble01" class="ID_s2_bubble01">Давайте договоримся, что если один из наших путей передачи сообщений не работает, мы уведомим об этом все подключённые устройства.</p>]]></text>
+</component>
+<component id="ID_s2_bubble02">
+<text><![CDATA[<p id="ID_s2_bubble02" class="ID_s2_bubble02 left">OK</p>]]></text>
+</component>
+<component id="ID_s2_bubble03">
+<text><![CDATA[<p id="ID_s2_bubble03" class="ID_s2_bubble03 top">Путь A не работает.</p>]]></text>
+</component>
+<component id="ID_s2_bubble04">
+<text><![CDATA[<p id="ID_s2_bubble04" class="ID_s2_bubble04 top">OK</p>]]></text>
+</component>
+<component id="ID_s2_bubble05">
+<text><![CDATA[<p id="ID_s2_bubble05" class="ID_s2_bubble05">OK</p>]]></text>
+</component>
+
+
+<component id="ID_s2_txt01">
+  <text><![CDATA[А]]></text>
+  </component>
+  
+  <component id="ID_s2_txt02">
+  <text><![CDATA[B]]></text>
+  </component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[Процесс, посредством которого сетевые устройства обмениваются информацией о путях с другими сетями.]]></text> 
+  </component>
+  
+<component id="ID_s3_title">
+<text><![CDATA[<font size="14"><b>Назначение протоколов</b></font>]]></text> 
+</component>
+<component id="ID_s3_bubble01">
+<text><![CDATA[<p id="ID_s3_bubble01" class="ID_s3_bubble01">Давайте договоримся, что сообщения об ошибке будут иметь уникальный идентификационный номер.</p>]]></text>
+</component>
+<component id="ID_s3_bubble02">
+<text><![CDATA[<p id="ID_s3_bubble02" class="ID_s3_bubble02">Ошибка 1002: путь B отличается малой скоростью.</p>]]></text>
+</component>
+<component id="ID_s3_bubble03">
+<text><![CDATA[<p id="ID_s3_bubble03" class="ID_s3_bubble03 top">Ошибка 1001: путь A не работает.</p>]]></text>
+</component>
+
+<component id="ID_s3_txt01">
+  <text><![CDATA[А]]></text>
+  </component>
+  
+  <component id="ID_s3_txt02">
+  <text><![CDATA[B]]></text>
+  </component>
+<component id="ID_s3_txt04">
+  <text><![CDATA[Каким образом и когда сообщения об ошибках или системные сообщения передаются между устройствами]]></text> 
+  </component>
+<component id="ID_s4_title">
+<text><![CDATA[<font size="14"><b>Назначение протоколов</b></font>]]></text> 
+</component>
+<component id="ID_s4_bubble01">
+<text><![CDATA[<p id="ID_s4_bubble01" class="ID_s4_bubble01 top">Я согласен. Теперь мы можем отправлять и получать информацию между нами.</p>]]></text>
+</component>
+<component id="ID_s4_bubble02">
+<text><![CDATA[<p id="ID_s4_bubble02" class="ID_s4_bubble02 top">Я хотел(а) бы создать виртуальное соединение с вами, чтобы мы могли обмениваться информацией.</p>]]></text>
+</component>
+
+<component id="ID_s4_txt01">
+  <text><![CDATA[Создание и завершение сеансов передачи данных]]></text>
+  </component> 
+
+</textcomponents>

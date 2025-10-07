@@ -1,0 +1,155 @@
+﻿<textcomponents>
+
+	<component id="ID_txt01">
+	<text><![CDATA[00-07-E9-42-AC- 28]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	<text><![CDATA[00-07-E9-63-CE-53]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[192.168.1.5]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+	<text><![CDATA[192.168.1.7]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+	<text><![CDATA[21]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+	<text><![CDATA[1305]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+	<text><![CDATA[Данные <br/>пользователя]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+	<text><![CDATA[Концевик]]></text>
+	</component>
+	
+	<component id="ID_txt09">
+	<text><![CDATA[00-07-E9-42-AC- 28]]></text>
+	</component>
+	
+	<component id="ID_txt10">
+	<text><![CDATA[00-07-E9-63-CE-53]]></text>
+	</component>
+	
+	<component id="ID_txt11">
+	<text><![CDATA[192.168.1.5]]></text>
+	</component>
+	
+	<component id="ID_txt12">
+	<text><![CDATA[192.168.1.7]]></text>
+	</component>
+	
+	<component id="ID_txt13">
+	<text><![CDATA[80]]></text>
+	</component>
+	
+	<component id="ID_txt14">
+	<text><![CDATA[1099]]></text>
+	</component>
+	
+	<component id="ID_txt15">
+	<text><![CDATA[Данные пользователя]]></text>
+	</component>
+	
+	<component id="ID_txt16">
+	<text><![CDATA[Концевик]]></text>
+	</component>
+	
+	<component id="ID_txt17">
+	<text><![CDATA[Порт источника FTP-клиента: 1305]]></text>
+	</component>
+	
+	<component id="ID_txt18">
+	<text><![CDATA[Порт источника веб-клиента: 1099]]></text>
+	</component>
+	
+	<component id="ID_txt19">
+	<text><![CDATA[Порт назнач. FTP-сервера: 21]]></text>
+	</component>
+	
+	<component id="ID_txt20">
+	<text><![CDATA[Порт назнач. веб-сервера: 80]]></text>
+	</component>
+	
+	<component id="ID_txt21">
+	<text><![CDATA[<b>FTP-подключение</b>]]></text>
+	</component>
+	
+	<component id="ID_txt22">
+	<text><![CDATA[<b>Веб-подключение</b>]]></text>
+	</component>
+	
+	<component id="ID_txt23">
+	<text><![CDATA[MAC-адрес назнач.]]></text>
+	</component>
+	
+	<component id="ID_txt24">
+	<text><![CDATA[MAC-адрес источ.]]></text>
+	</component>
+	
+	<component id="ID_txt25">
+	<text><![CDATA[IP-адрес источ.]]></text>
+	</component>
+	
+	<component id="ID_txt26">
+	<text><![CDATA[IP-адрес назнач.]]></text>
+	</component>
+	
+	<component id="ID_txt27">
+	<text><![CDATA[Порт назнач.]]></text>
+	</component>
+	
+	<component id="ID_txt28">
+	<text><![CDATA[Порт источ.]]></text>
+	</component>
+	
+	<component id="ID_txt29">
+	<text><![CDATA[MAC-адрес назнач.]]></text>
+	</component>
+	
+	<component id="ID_txt30">
+	<text><![CDATA[MAC-адрес источ.]]></text>
+	</component>
+	
+	<component id="ID_txt31">
+	<text><![CDATA[IP-адрес источ.]]></text>
+	</component>
+	
+	<component id="ID_txt32">
+	<text><![CDATA[IP-адрес назнач.]]></text>
+	</component>
+	
+	<component id="ID_txt33">
+	<text><![CDATA[Порт назнач.]]></text>
+	</component>
+	
+	<component id="ID_txt34">
+	<text><![CDATA[Порт источ.]]></text>
+	</component>
+	
+	<component id="ID_txt35">
+	<text><![CDATA[<b>Источник</b><br/>192.168.1.5<br/>00-07-E9-63-CE-53]]></text>
+	</component>
+	
+	<component id="ID_txt36">
+	<text><![CDATA[<b>Назначение</b><br/>192.168.1.7<br/>00-07-E9-42-AC-28]]></text>
+	</component>
+	
+	<component id="ID_txt37">
+	<text><![CDATA[<b>FTP</b>]]></text>
+	</component>
+	
+	<component id="ID_txt38">
+	<text><![CDATA[<b>Веб-<br>клиент</b>]]></text>
+	</component>
+	
+</textcomponents>

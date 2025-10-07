@@ -1,0 +1,39 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Одномодовый кабель</b>]]></text>
+	</component>  
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Полимерное покрытие]]></text>
+	</component>	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Плакировка стекла, 125 микрон в диаметре]]></text> 
+	</component>	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Стеклянный сердечник = 9 микрон]]></text> 
+	</component>	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Создает прямую траекторию для света]]></text> 
+	</component>	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[<textformat blockindent='-14'><ul><li>Компактность сердечника</li><li>Меньше дисперсии</li><li>Подходит для приложений на большие расстояния</li><li>Использует лазеры как источник оптического излучения</li><li>Обычно используется в магистральных соединениях комплекса зданий с расстоянием в несколько тысяч метров</li></ul></textformat>]]></text> 
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Многомодовый кабель</b>]]></text>
+	</component>	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Покрытие]]></text>
+	</component>	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Плакировка стекла, 125 микрон в диаметре]]></text> 
+	</component>	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Стеклянный сердечник = 50/62,5 микрон]]></text>
+	</component>	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Позволяет свету проходить по нескольким траекториям]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[<textformat blockindent='-14'><ul><li>Размер сердечника больше, чем в одномодовом кабеле</li><li>Возникает больше дисперсии и, следовательно, больше потерь сигнала</li><li>Подходит для приложений на большие расстояния, но на более короткие, чем в одномодовом кабеле</li><li>Использует светодиоды как источник света</li><li>Обычно используется с локальными сетями или на расстояния в 200 м для сети комплекса зданий</li></ul></textformat>]]></text>
+	</component>
+</textcomponents>

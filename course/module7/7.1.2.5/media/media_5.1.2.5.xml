@@ -1,0 +1,39 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Адресация портов</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Кому: you@example.com<br>От кого: me@example.com<br>Тема: Отпуск]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Электронная почта]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[HTML-страница]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Интернет-чат]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Различные приложения]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Порт 110]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Порт 80]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Порт 531]]></text>
+</component>
+
+</textcomponents>

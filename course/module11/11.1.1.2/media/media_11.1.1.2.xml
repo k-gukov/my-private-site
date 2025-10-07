@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Факторы, которые необходимо учитывать при выборе устройства</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Объём затрат]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Количество портов]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Скорость]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Возможности расширения/модульность]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Возможности управления]]></text>
+</component>
+
+</textcomponents>

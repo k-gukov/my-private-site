@@ -1,0 +1,39 @@
+﻿<textcomponents>
+	
+	<component id="ID_title">
+	<text><![CDATA[<b>Протокол HTTP с использованием GET</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+	<text><![CDATA[<b>HTTP-сервер</b>]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	<text><![CDATA[<b>Клиент</b>]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[Ввод «http://www.cisco.com» в адресной строке браузера создаёт сообщение «GET» протокола HTTP.]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+	<text><![CDATA[Запрос HTTP]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+	<text><![CDATA[Унифицированный указатель ресурса (URL-адрес)]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+	<text><![CDATA[Запрошен файл]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+	<text><![CDATA[Полностью определенное имя домена]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+	<text><![CDATA[Узел: www.cisco.com<br/>GET /index.html HTTP/1.1]]></text>
+	</component>
+
+</textcomponents>

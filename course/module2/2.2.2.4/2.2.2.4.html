@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.2.4 Шифрование пароля</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Шифрование пароля</h1>
+        <div>
+<p>Ещё одна важная команда, которая защищает пароль во время просмотра файлов конфигурации. Это <span class="cmd"><b>service password-encryption</b></span>. </p>
+<p></p>
+<p>Эта команда шифрует пароли во время их настройки. Команда<span class="cmd"><b> service password-encryption </b></span>шифрует все незашифрованные пароли. Шифрование применяется только к паролям в файле конфигурации, но не к паролям, которые отправлены по среде передачи данных. Эта команда не позволяет неавторизованным сотрудникам прочитать пароль.</p>
+<p></p>
+<p>Если выполнить команды<span class="cmd"><b> show running-config </b></span>или<span class="cmd"><b> show startup-config</b></span> до выполнения команды<span class="cmd"><b> service password-encryption</b></span>, то незашифрованные пароли будут видны в выходных данных конфигурации. Затем можно выполнить команду service password-encryption, после чего пароли будут зашифрованы. После этого шифрование нельзя будет отменить.</p>
+<p></p>
+<p>На рисунке отработайте ввод команды для шифрования пароля.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

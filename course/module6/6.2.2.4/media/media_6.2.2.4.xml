@@ -1,0 +1,45 @@
+﻿<textcomponents>
+  <component id="ID_txt01">
+    <text><![CDATA[D]]></text>
+  </component>
+  
+   <component id="ID_txt02">
+    <text><![CDATA[<b>Условные обозначения</b>]]></text>
+  </component>
+ 
+
+	 <component id="ID_txt03">
+    <text><![CDATA[— определяет способ, при помощи которого маршрутизатор получил данные о сети;]]></text>
+  </component>
+ 
+ 
+ 
+	<component id="ID_txt04">
+    <text><![CDATA[— определяет сеть назначения;]]></text>
+  </component>
+	
+	<component id="ID_txt05">
+    <text><![CDATA[— определяет административное расстояние (надёжность) источника маршрута;]]></text>
+  </component>
+	
+	<component id="ID_txt06">
+    <text><![CDATA[— определяет метрику для достижения удалённой сети;]]></text>
+  </component>
+	
+	<component id="ID_txt07">    
+	<text><![CDATA[— определяет IP-адрес следующего перехода для достижения удалённой сети;]]></text>
+  </component>
+  
+	<component id="ID_txt08">    
+	<text><![CDATA[— определяет количество времени, прошедшего с момента последней активности <br/> &nbsp;&nbsp;&nbsp;&nbsp;маршрута;]]></text>
+  </component>
+	
+	<component id="ID_txt09">    
+	<text><![CDATA[— определяет исходящий интерфейс на маршрутизаторе для достижения сети <br/> &nbsp;&nbsp;&nbsp;&nbsp;назначения.]]></text>
+  </component>
+
+
+  
+  
+
+</textcomponents>

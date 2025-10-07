@@ -1,0 +1,11 @@
+﻿	<textcomponents>
+	
+	<component id="ID_txt01">
+	<text><![CDATA[При заимствовании 7 бит создаются 128 подсетей]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	<text><![CDATA[. . до . .]]></text>
+	</component>
+	
+</textcomponents>

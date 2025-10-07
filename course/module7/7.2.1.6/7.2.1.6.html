@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.1.6 Анализ трёхстороннего рукопожатия TCP — шаг 3</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Анализ трёхстороннего рукопожатия TCP — шаг 3</h1>
+        <div>
+<p>
+<b>Шаг 3. Инициирующий клиент подтверждает сеанс связи сервер-клиент.</b>
+</p>
+<p></p>
+<p>Наконец, клиент TCP возвращает сегмент, содержащий ACK, — то есть ответ на TCP SYN, отправленный сервером. Пользовательские данные в этом сегменте отсутствуют. Значение в поле номера подтверждения на единицу больше, чем номер ISN, полученный от сервера. После того как между клиентом и сервером будут начаты оба сеанса, для всех дополнительных сегментов, которые пересылаются в этом процессе обмена данными, будут установлены флаги ACK.</p>
+<p></p>
+<p>Как показано на рисунке, информация анализатора протоколов отображает установленный управляющий флаг ACK, а также последовательный номер и номер подтверждения. </p>
+<p></p>
+<p>Для обеспечения дополнительной безопасности в сети передачи данных можно выполнить следующие процедуры.</p>
+<p>
+<ul>
+<li>Отказ от установления TCP-сеансов</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Разрешение сеансов только для определённых сервисов</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Допуск трафика только в рамках уже установленных сеансов</li>
+</ul>
+</p>
+<p></p>
+<p>Эти меры по обеспечению безопасности можно использовать как для всех, так и только для выбранных TCP-сеансов.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

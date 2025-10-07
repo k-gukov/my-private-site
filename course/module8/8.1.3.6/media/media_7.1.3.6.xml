@@ -1,0 +1,78 @@
+<textcomponents>
+  <component id="ID_title">
+    <text><![CDATA[<b>Интерактивное задание: одноадресная, широковещательная или многоадресная рассылка?</b><br/><br/>Нажмите кнопку <b>Пуск</b>, чтобы просмотреть IP-адрес назначения. Затем нажмите на узлы, которые получат пакет с адресом каждого типа (одноадресный, широковещательный или многоадресный).<br/><br/> Время на выполнение задания ограничено.]]></text>
+  </component>
+
+
+
+  <component id="ID_start">
+    <text><![CDATA[<b>Пуск</b>]]></text>
+  </component>
+
+  <component id="ID_stop">
+    <text><![CDATA[<b>Стоп</b>]]></text>
+  </component>
+
+  <component id="ID_reset">
+    <text><![CDATA[<b>Сброс</b>]]></text>
+  </component>
+  
+    
+<component id="ID_txt01">
+<text><![CDATA[<b>IP-адрес назначения =<b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[Исходный узел]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[<b>Оставшееся время</b>]]></text> 
+  </component>
+
+<component id="ID_txt04">
+  <text><![CDATA[192.168.100.1<br>группа<br>225.5.77.126]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[192.168.100.2<br>группа<br>237.192.126.17]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[192.168.100.3]]></text> 
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[192.168.100.4<br>группа<br>237.192.126.17]]></text> 
+  </component>
+<component id="ID_txt08">
+  <text><![CDATA[192.168.100.5<br> группа<br>225.5.77.126]]></text> 
+  </component>  
+  
+  
+  <component id="ID_cBroad">
+    <text><![CDATA[Вы правильно определили тип передачи.]]></text>
+  </component>
+
+  <component id="ID_iBroad">
+    <text><![CDATA[Вы неправильно определили тип передачи. Повторите попытку.]]></text>
+  </component>
+
+  <component id="ID_cMulti">
+    <text><![CDATA[Вы правильно определили тип передачи.]]></text>
+  </component>
+
+  <component id="ID_iMulti">
+    <text><![CDATA[Вы неправильно определили тип передачи. Повторите попытку.]]></text>
+  </component>
+
+  <component id="ID_cUni">
+    <text><![CDATA[Вы правильно определили тип передачи.]]></text>
+  </component>
+
+  <component id="ID_iUni">
+    <text><![CDATA[Вы неправильно определили тип передачи. Повторите попытку.]]></text>
+  </component>
+
+  <component id="ID_endGame">
+    <text><![CDATA[Отлично! Нажмите сброс для продолжения.]]></text>
+  </component>
+  
+  
+
+</textcomponents>

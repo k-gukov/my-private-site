@@ -1,0 +1,23 @@
+﻿<textcomponents> 
+<component id="ID_title">
+	<text><![CDATA[<b>Протоколы: правила, регламентирующие способы обмена данными</b>]]></text>
+</component> 
+<component id="ID_txt01">
+	<text><![CDATA[Наборы протоколов применяются вместе для решения проблемы.]]></text>
+</component> 
+<component id="ID_txt02">
+	<text><![CDATA[Уровень содержимого]]></text>
+</component> 
+<component id="ID_txt03">
+	<text><![CDATA[Уровень правил]]></text>
+</component> 
+<component id="ID_txt04">
+	<text><![CDATA[Физический уровень]]></text>
+</component> 
+<component id="ID_txt05">
+	<text><![CDATA[<b>Семейство протоколов разговора</b><br/>1. Используйте общепринятый язык<br/>2.  Дождитесь своей очереди<br/>3. По окончании сигнал ]]></text>
+</component> 
+<component id="ID_bubble">
+	<text><![CDATA[Где кафе?]]></text>
+</component> 
+</textcomponents>

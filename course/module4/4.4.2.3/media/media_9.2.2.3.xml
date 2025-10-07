@@ -1,0 +1,77 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Логическое соединение</b>]]></text> 
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[Узел-источник]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Узел-адресат]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s1_txt05">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+<text><![CDATA[<b>Логическое соединение «точка-точка»</b>]]></text> 
+</component>
+
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Логическая топология «точка-точка»</b>]]></text> 
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Добавление промежуточных физических соединений не изменит логическую топологию.]]></text> 
+</component>
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Узел-источник]]></text> 
+</component>
+
+<component id="ID_s2_txt03">
+<text><![CDATA[Узел-адресат]]></text> 
+</component>
+
+<component id="ID_s2_txt04">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s2_txt05">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s2_txt06">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s2_txt07">
+<text><![CDATA[Кадр]]></text> 
+</component>
+
+<component id="ID_s2_txt08">
+<text><![CDATA[<b>Логическое соединение «точка-точка»</b>]]></text> 
+</component>
+
+<component id="ID_s2_txt09">
+<text><![CDATA[Логическое соединение «точка-точка» — это то же самое.]]></text> 
+</component>
+
+</textcomponents>

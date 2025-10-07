@@ -1,0 +1,29 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#txt_q2,#txt_q5{
+top:7px !important;
+}
+#txt_q3
+{
+	top:4px !important;
+
+}
+#txt_q6{
+top:12px !important;
+line-height:13px !important;
+}
+#mc_table{
+height:310px!important;
+}

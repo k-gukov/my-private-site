@@ -1,0 +1,67 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Контролируемый доступ</b>]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[<p class="ID_txt02">Мне нужно передать пакет, но сейчас не моя очередь. Я подожду.</p>]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[<p class="ID_txt03">Мне нечего отправлять.</p>]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[<p class="ID_txt04">Моя очередь отправлять. Сейчас отправлю.</p>]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Кадр</b>]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Общая среда передачи данных]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+		<text><![CDATA[<b>Кадр</b>]]></text>
+	</component>
+
+	<component id="ID_table01">
+		<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="liner">
+				<td colspan='2' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A"></span></font></td>
+			</tr>
+			<tr>
+				<td width="200" bgcolor='#077A77' valign="top"><font color='#ffffff'><b>Характеристики</b></font></td>
+				<td width="200" bgcolor='#077A77' valign="top"><font color='#ffffff'><b>Технологии обеспечения контролируемого доступа</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#EFF8F7' valign="top">
+				   <textformat blockindent='-18'> 				      <font color='#393536'> 
+					    <ul>
+						  <li>На данный момент передачу данных выполняет только одна станция</li>
+						  <li>Устройства, желающие выполнить передачу данных, должны дождаться своей очереди</li>
+						  <li>Коллизий нет</li>
+						  <li>Может использовать метод передачи маркера</li>
+						  </ul> 						  
+						  </font>
+						  </textformat>
+						  </td>
+				<td bgcolor='#EFF8F7' valign="top">
+				<textformat blockindent='-18'><font color='#393536'>
+				<ul>
+				<li>Маркерное кольцо (IEEE 802.5)</li><li>Оптоволоконная линия связи (FDDI)</li>
+				</ul> 				
+				</font>
+				</textformat>
+				</td>
+			</tr>
+		</table>]]></text>
+	</component>
+
+</textcomponents>

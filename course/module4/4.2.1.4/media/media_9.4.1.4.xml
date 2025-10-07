@@ -1,0 +1,22 @@
+﻿<textcomponents> <!-- slide-1  -->
+	<component id="ID_title">
+		<text><![CDATA[]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Внешняя оболочка]]></text> 
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[Бронированный или фольговый экран]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Фольговые экраны]]></text> 
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[Витые пары]]></text> 
+	</component>
+	
+</textcomponents>

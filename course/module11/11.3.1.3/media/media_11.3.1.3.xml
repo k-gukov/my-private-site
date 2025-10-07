@@ -1,0 +1,64 @@
+﻿<textcomponents> <!--Slide 1-->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Выполнение единой проверки</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+	   <text><![CDATA[FEB 8, 2013 08:14:43]]></text>
+	 </component>
+	 
+	<component id="ID_s1_txt02">
+		<text><![CDATA[MAR 17, 2013 14:41:06]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03"> <!--For border -->
+		<text><![CDATA[]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04"> <!--For border -->
+		<text><![CDATA[]]></text>
+	</component> <!--Slide 2-->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>В разное время</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[FEB 8, 2013 08:14:43]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[MAR 17, 2013 14:41:06]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03"> <!--For border -->
+		<text><![CDATA[]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04"> <!--For border -->
+		<text><![CDATA[]]></text>
+	</component> <!--Slide 3-->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Сравнение значений</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[FEB 8, 2013 08:14:43]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+		<text><![CDATA[MAR 17, 2013 14:41:06]]></text>
+	</component> <!--Slide 4-->
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Перехват эхо-запроса маршрутизатора: сохранение в текстовый файл</b>]]></text>
+	</component>
+
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>В сеансе работы с терминалом выполните следующие действия:</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[1. Инициируйте процесс захвата текста.<br/>2. Выполните команду <font face="_typewriter"><b>ping</b> <i>&lt;ip address&gt; </i></font>.<br/>3. Остановите процесс захвата текста.<br/>4. Сохраните текстовый файл.]]></text>
+	</component>
+ 
+
+</textcomponents>

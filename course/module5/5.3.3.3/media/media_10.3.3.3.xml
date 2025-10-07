@@ -1,0 +1,26 @@
+﻿<textcomponents>
+	 <component id="ID_title">
+	    <text><![CDATA[<b>Виртуальные интерфейсы коммутатора</b>]]></text>
+	    </component>
+	<component id="ID_txt01">
+		<text><![CDATA[Интерфейс SVI для сети VLAN 10]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Интерфейс SVI для сети VLAN 20]]></text> 
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Факультет<br> VLAN 10-<br>172.17.10.21 ]]></text> 
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Студент<br> VLAN 20-<br>172.17.20.22]]></text> 
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Факультет<br> VLAN 10-<br>172.17.10.24 ]]></text> 
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Студент<br> VLAN 20-<br>172.17.20.25]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Магистрали виртуальной локальной сети (VLAN) настроены для поддержки:<br> VLAN 10,20]]></text> 
+	</component>
+</textcomponents>

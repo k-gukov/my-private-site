@@ -1,0 +1,112 @@
+﻿<textcomponents>
+
+<component id='ID_inst'>
+	<text><![CDATA[<b>Интерактивное задание: отработка представлений IPv6-адресов</b><br><br>Преобразуйте адрес IPv6 в краткую (без ведущих нулей) и сжатую формы. Для перехода на следующую страницу используйте пронумерованный столбец справа от схемы.]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Преобразование IPv6]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Предпочтительный формат]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Пропускать ведущие нули]]></text> 
+</component>
+
+<component id="ID_txt04a">
+<text><![CDATA[Сжатый]]></text> 
+</component>
+
+<component id="ID_s1_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s2_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s3_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s4_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s5_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s6_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s7_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s8_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s9_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+<component id="ID_s10_reset">
+<text><![CDATA[<b>Сброс</b>]]></text> 
+</component>
+
+
+
+<component id="ID_s1_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s2_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s3_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s4_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s5_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s6_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s7_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s8_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s9_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_s10_check">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component> <!--feedback-->
+<component id='ID_correctTitle'>
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id='ID_correctBody'>
+	<text><![CDATA[Всё сделано правильно!]]></text>
+</component>
+
+</textcomponents>

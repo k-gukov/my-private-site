@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+<component id="ID_title01">
+<text><![CDATA[<b>Настройка локальных адресов канала на маршрутизаторе R1</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Статически настроенные<br/>локальные адреса канала]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,171 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Интерактивное задание: часть 1 — процесс установления и завершения TCP-соединения</b><br/><br/>Перетащите каждый дескриптор в соответствующее поле изображения, чтобы проиллюстрировать трёхстороннее рукопожатие сеанса <b>установки </b>TCP-подключения.]]></text>
+</component>
+
+<component id="ID_s1_drag_header">
+<text><![CDATA[<b>Дескрипторы</b>]]></text>
+</component>
+<component id="ID_s1_drop_header">
+<text><![CDATA[<b>Трёхстороннее рукопожатие сеанса установки TCP-подключения</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01A">
+<text><![CDATA[Отправить SYN]]></text>
+</component>
+<component id="ID_s1_txt01B">
+<text><![CDATA[SEQ = 600]]></text>
+</component>
+<component id="ID_s1_txt01C">
+<text><![CDATA[CTL = SYN]]></text>
+</component>
+<component id="ID_s1_txt02">
+  <text><![CDATA[SYN получен]]></text> 
+  </component>
+<component id="ID_s1_txt03A">
+  <text><![CDATA[Установлено]]></text> 
+  </component>
+<component id="ID_s1_txt03B">
+  <text><![CDATA[SEQ = 601]]></text> 
+  </component>
+<component id="ID_s1_txt03C">
+  <text><![CDATA[ACK = 401]]></text> 
+  </component>  
+  
+<component id="ID_s1_txt04">
+<text><![CDATA[Получено]]></text>
+</component>
+<component id="ID_s1_txt05A">
+  <text><![CDATA[Отправить]]></text> 
+  </component>
+<component id="ID_s1_txt05B">
+  <text><![CDATA[SEQ =]]></text> 
+  </component>
+<component id="ID_s1_txt05C">
+  <text><![CDATA[ACK =]]></text> 
+  </component>
+<component id="ID_s1_txt05D">
+  <text><![CDATA[CTL =]]></text> 
+  </component>  
+  
+<component id="ID_s1_txt06">
+  <text><![CDATA[(CTL: какие биты в заголовке TCP заданы в значении 1)]]></text> 
+  </component>  
+  
+<component id="ID_s1_drag01">
+  <text><![CDATA[SYN]]></text> 
+  </component> 
+<component id="ID_s1_drag02">
+  <text><![CDATA[SYN, ACK]]></text> 
+  </component> 
+<component id="ID_s1_drag03">
+  <text><![CDATA[400]]></text> 
+  </component> 
+<component id="ID_s1_drag04">
+  <text><![CDATA[601]]></text> 
+  </component> 
+<component id="ID_s1_drag05">
+  <text><![CDATA[SYN, ACK]]></text> 
+  </component> 
+  
+<component id="ID_s1_CORRECT_TITLE">
+<text><![CDATA[<b>Верно</b>]]></text>
+</component>  
+<component id="ID_s1_CORRECT_BODY">
+<text><![CDATA[Вы правильно проиллюстрировали требования для трёхстороннего рукопожатия сеанса <b>установки </b> TCP-подключения.]]></text>
+</component>  
+  
+<component id="ID_s1_INCORRECT_TITLE">
+<text><![CDATA[<b>Неверно</b>]]></text>
+</component>  
+<component id="ID_s1_INCORRECT_BODY">
+<text><![CDATA[Вы неправильно проиллюстрировали требования для трёхстороннего рукопожатия сеанса <b>установки </b> TCP-подключения. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>  
+
+<component id="ID_s1_CHECK">
+<text><![CDATA[<b>Проверить</b>]]></text>
+</component>  
+<component id="ID_s1_RESET">
+<text><![CDATA[<b>Сброс</b>]]></text>
+</component>      
+  
+
+  
+  
+<component id="ID_s2_title">
+<text><![CDATA[<b>Интерактивное задание: часть 2 — процесс установления и завершения TCP-подключения</b><br/><br/>Перетащите каждый дескриптор в соответствующее поле изображения, чтобы проиллюстрировать четырёхэтапный процесс сеанса <b>завершения  </b>TCP-подключения.]]></text>
+</component>
+
+<component id="ID_s2_drag_header">
+<text><![CDATA[<b>Дескрипторы</b>]]></text>
+</component>
+<component id="ID_s2_drop_header">
+<text><![CDATA[<b>Четырёхэтапный процесс сеанса завершения TCP-подключения</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Отправить FIN]]></text>
+</component>
+<component id="ID_s2_txt02">
+<text><![CDATA[ACK получен]]></text>
+</component>
+<component id="ID_s2_txt03">
+<text><![CDATA[FIN получен]]></text>
+</component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[Отправить ACK]]></text> 
+  </component>
+<component id="ID_s2_txt05">
+  <text><![CDATA[Получено]]></text> 
+  </component>
+<component id="ID_s2_txt06">
+  <text><![CDATA[Отправить]]></text> 
+  </component>
+<component id="ID_s2_txt07">
+  <text><![CDATA[Отправить]]></text> 
+  </component>  
+<component id="ID_s2_txt08">
+<text><![CDATA[Получено]]></text>
+</component>
+
+  
+<component id="ID_s2_drag01">
+  <text><![CDATA[FIN]]></text> 
+  </component> 
+<component id="ID_s2_drag02">
+  <text><![CDATA[ACK]]></text> 
+  </component> 
+<component id="ID_s2_drag03">
+  <text><![CDATA[FIN]]></text> 
+  </component> 
+<component id="ID_s2_drag04">
+  <text><![CDATA[ACK]]></text> 
+  </component> 
+  
+  
+<component id="ID_s2_CORRECT_TITLE">
+<text><![CDATA[<b>Верно</b>]]></text>
+</component>  
+<component id="ID_s2_CORRECT_BODY">
+<text><![CDATA[Вы правильно проиллюстрировали требования для четырёхэтапного процесса сеанса <b>завершения </b> TCP-подключения ]]></text>
+</component>  
+  
+<component id="ID_s2_INCORRECT_TITLE">
+<text><![CDATA[<b>Неверно</b>]]></text>
+</component>  
+<component id="ID_s2_INCORRECT_BODY">
+<text><![CDATA[Вы неправильно проиллюстрировали требования для четырёхэтапного процесса сеанса <b>завершения </b> TCP-подключения  Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id="ID_s2_CHECK">
+<text><![CDATA[<b>Проверить</b>]]></text>
+</component>  
+<component id="ID_s2_RESET">
+<text><![CDATA[<b>Сброс</b>]]></text>
+</component>  
+  
+
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

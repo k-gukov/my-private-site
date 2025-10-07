@@ -1,0 +1,23 @@
+﻿<textcomponents> 
+<component id="ID_txt01">
+<text><![CDATA[Глобальный индивидуальный адрес]]></text>
+</component> 
+<component id="ID_txt02">
+<text><![CDATA[Локальный адрес канала]]></text>
+</component> 
+<component id="ID_txt03">
+<text><![CDATA[Логический интерфейс loopback<br/><b><font color="#F68026">::1/128</font></b>]]></text>
+</component> 
+<component id="ID_txt04">
+<text><![CDATA[Неопределённый адрес<br/><b><font color="#F68026">::/128</font></b>]]></text>
+</component>
+<component id="ID_txt05">
+<text><![CDATA[Уникальный локальный<br/><b><font color="#F68026"> FC00::/7 - FDFF::/7</font></b>]]></text>
+</component>
+<component id="ID_txt06">
+<text><![CDATA[Встроенный IPv4]]></text>
+</component>  
+<component id="ID_txt07">
+<text><![CDATA[Индивидуальный IPv6-адрес <br> Адреса]]></text>
+</component>  
+</textcomponents>

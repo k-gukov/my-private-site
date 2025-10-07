@@ -1,0 +1,34 @@
+﻿<textcomponents>
+  <component id="ID_title">
+		<text><![CDATA[<b>Передача данных в одноранговых сетях  </b>]]></text> 
+	</component>
+	
+	<component id="ID_bubble_txt01">
+		<text><![CDATA[<p id="ID_bubble_txt01" class="ID_bubble_txt01">У меня на жёстком диске есть файлы, к которым открыт доступ для узла 2. У меня также есть страница, которую я хочу распечатать через узел 2.</p>]]></text>
+	</component>
+	
+	<component id="ID_bubble_txt02">
+	  <text><![CDATA[<p id="ID_bubble_txt02" class="ID_bubble_txt02">Мне нужно получить доступ к файлам на жёстком диске узла 1. Мне также нужно распечатать файл, полученный от узла 1 с помощью запроса на печать.</p>]]></text> 
+	</component>
+	
+	<component id="ID_txt01">
+	  <text><![CDATA[Узел 1<br/><br/><b>Клиент печати<br/>Файловый сервер</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+	  <text><![CDATA[Узел 2<br/><br/><b>Сервер печати<br/>Файловый клиент</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Принтер]]></text>
+	</component>
+		
+	<component id="ID_txt04">
+		<text><![CDATA[Напрямую <br/>подключённый принтер]]></text>
+	</component>
+		
+	<component id="ID_txt05">
+		<text><![CDATA[При одноранговой сети оба устройства считаются равноправными участниками процесса обмена данными.]]></text>
+	</component>
+	
+</textcomponents>

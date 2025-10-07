@@ -1,0 +1,13 @@
+﻿<textcomponents>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Интернет</b><br/>Мир]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[<b>Экстранет</b><br/>Поставщики, заказчики, сотрудники ]]></text> 
+  </component>
+  <component id="ID_txt03">
+  <text><![CDATA[<b>Интранет</b><br/>Только компания]]></text> 
+  </component>
+
+</textcomponents>

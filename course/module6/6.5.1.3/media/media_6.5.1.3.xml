@@ -1,0 +1,17 @@
+﻿<textcomponents>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Сети с прямым подключением</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Сети с прямым подключением</b>]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Сети с прямым подключением</b>]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Удалённые сети</b/>]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[R1 напрямую подключён к сетям 192.168.10.0/24, 192.168.11.0/24 и 209.165.200.224/30. R1 также имеет две удалённые сети, данные о которых он может получить от R2: 10.1.1.0/24 и 10.1.2.0/24.]]></text>
+	</component>
+</textcomponents>

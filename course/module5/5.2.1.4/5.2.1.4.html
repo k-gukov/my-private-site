@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.4 Роль ARP в процессе удалённого обмена данными</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Роль ARP в процессе удалённого обмена данными</h1>
+        <div>
+<p>Все кадры должны быть доставлены на узел в сегменте локальной сети. Если узел назначения IPv4 находится в локальной сети, кадр будет использовать MAC-адрес данного устройства в качестве MAC-адреса назначения. </p>
+<p></p>
+<p>Если узел назначения IPv4 не находится в локальной сети, узлу источника необходимо доставить кадр к интерфейсу маршрутизатора, который является шлюзом, или следующим переходом, используемым для достижения этого узла назначения. Исходный узел будет использовать MAC-адрес шлюза в качестве адреса назначения для кадров, которые содержат пакет IPv4, адресованный узлам в других сетях. </p>
+<p></p>
+<p>Адрес шлюза интерфейса маршрутизатора сохраняется в IPv4-конфигурации узлов. Когда узел создаёт пакет для адресата, он сравнивает IP-адрес назначения и свой собственный IP-адрес, чтобы определить, находятся ли эти два IP-адреса в одной и той же сети уровня 3. Если узел-получатель находится в пределах другой сети, источник использует процесс ARP для определения МАС-адреса интерфейса маршрутизатора, выступающего в качестве шлюза. </p>
+<p></p>
+<p>В случае если запись шлюза отсутствует в таблице, обычный процесс ARP отправит запрос ARP для получения MAC-адреса, связанного с IP-адресом интерфейса маршрутизатора.</p>
+<p></p>
+<p>См. рис. 1—5, чтобы ознакомиться с процессом, который используется для получения MAC-адреса шлюза.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

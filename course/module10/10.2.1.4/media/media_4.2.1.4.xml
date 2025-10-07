@@ -1,0 +1,78 @@
+﻿<textcomponents> <!-- Slide1 -->
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Клиент</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Получение электронной почты по протоколу POP]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[<b>SMTP- или POP3-<br/>сервер</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Отправка электронной почты по протоколу SMTP]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[<b>Почтовый агент пользователя<br/>(MUA)</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt08">
+		<text><![CDATA[Почтовый клиент]]></text>
+	</component>
+	
+	<component id="ID_s1_txt09">
+		<text><![CDATA[Клиент отправляет сообщения электронной почты на сервер по протоколу SMTP и получает сообщения по протоколу POP3.]]></text>
+	</component> <!-- Slide2 -->
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[Отправитель]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+	<text><![CDATA[Получатель]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+	<text><![CDATA[Интернет]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+	<text><![CDATA[Почтовый сервер]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+	<text><![CDATA[Почтовый сервер]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+	<text><![CDATA[SMTP]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+	<text><![CDATA[IMAP или POP3]]></text>
+	</component>
+	
+	<component id="ID_s2_txt08">
+	<text><![CDATA[SMTP]]></text>
+	</component>
+	
+	<component id="ID_s2_txt09">
+	<text><![CDATA[<b>Интернет-провайдер А</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt10">
+	<text><![CDATA[<b>Интернет-провайдер В</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt11">
+	<text><![CDATA[<p class="ID_s2_txt11">Отправка получателю: recipient@cisco.com</p>]]></text>
+	</component>
+
+	<component id="ID_s2_txt12">
+	<text><![CDATA[SMTP]]></text>
+	</component>
+	
+</textcomponents>

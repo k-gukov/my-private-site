@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.2.2 Защита доступа к привилегированному режиму</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Защита доступа к привилегированному режиму</h1>
+        <div>
+<p>Для защиты доступа к привилегированному режиму используйте команду <span class="cmd"><b>enable secret </b></span><span class="cmd"><i>password</i></span>. Устаревшая, менее безопасная версия этой команды — <span class="cmd"><b>enable password </b></span><span class="cmd"><i>password</i></span>. Хотя для настройки аутентификации перед доступом в привилегированный режим подходят обе эти команды, рекомендуется использовать <span class="cmd"><b>enable secret</b></span>. Команда <span class="cmd"><b>enable secret</b></span> обеспечивает более высокий уровень безопасности, поскольку пароль зашифрован. </p>
+<p></p>
+<p>Пример команды для установления паролей: </p>
+<p></p>
+<p>
+<span class="cmd">Switch(config)#</span>
+<span class="cmd">
+<b>enable secret class</b>
+</span>
+</p>
+<p></p>
+<p></p>
+<p>Пример на рисунке показывает, что при первом использовании команды <span class="cmd"><b>enable</b></span> пароль не требуется. Далее нужно ввести команду <span class="cmd"><b>enable secret class</b></span>, и доступ в привилегированный режим будет защищён. Обратите внимание, что в целях безопасности пароль при вводе не отображается.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Ограничение доступа к устройствам — сообщение текущего дня</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Данная конфигурация приводит к появлению данного сообщения.]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Разделительные символы не входят в это сообщение.]]></text> 
+</component>
+</textcomponents>

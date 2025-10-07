@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.1.1 Действия по настройке параметров маршрутизатора</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Действия по настройке параметров маршрутизатора</h1>
+        <div>
+<p>Маршрутизаторы и коммутаторы Cisco имеют много общих особенностей. Они поддерживают похожие модульные операционные системы, используют подобные структуры команд и поддерживают множество идентичных команд. Кроме того, при внедрении этих двух устройств в сеть выполняются одинаковые настройки. </p>
+<p></p>
+<p>Как и для настройки коммутатора, для настройки исходных параметров маршрутизатора необходимо выполнить следующие действия.</p>
+<p>1. Присвойте имя устройства с помощью команды глобальной конфигурации <span class="cmd"><b>hostname</b></span>. (Рисунок 1)</p>
+<p>2. Укажите пароли. (Рисунок 2)</p>
+<p>
+<ul>
+<li>Обеспечьте безопасность доступа к привилегированному режиму с помощью команды <span class="cmd"><b>enable secret</b></span>.</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Обеспечьте безопасность доступа к исполнительскому режиму с использованием команды <span class="cmd"><b>login</b></span> на порте консоли и команды <span class="cmd"><b>password</b></span> для установки пароля. </li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Обеспечьте безопасность виртуального доступа аналогично защите доступа к исполнительскому режиму, кроме порта VTY.</li>
+</ul>
+</p>
+<p>
+<ul>
+<li>Используйте команду глобальной конфигурации <span class="cmd"><b>service password-encryption</b></span>, чтобы не допустить отображения паролей в виде простого текста в файле конфигурации.</li>
+</ul>
+</p>
+<p>3. Укажите правовое уведомление с помощью команды глобальной конфигурации <span class="cmd"><b>banner motd</b></span> (сообщение текущего дня [MOTD]). (Рис. 3)</p>
+<p>4. Сохраните конфигурации с помощью команды <span class="cmd"><b>copy run start</b></span>. (Рис. 4)</p>
+<p>5. Проверьте конфигурацию с помощью команды <span class="cmd"><b>show run</b></span>. </p>
+<p></p>
+<p>На рис. 5 показано средство проверки синтаксиса, которое позволяет отработать эти действия по настройке параметров.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

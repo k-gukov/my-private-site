@@ -1,0 +1,58 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Сегмент TCP</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>20 байт</b>]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[<b><font color='#ffffff'>Бит (0)</font></b>]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[<b><font color='#ffffff'>Бит (15)</font></b>]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[<b><font color='#ffffff'>Бит (16)</font></b>]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[<b><font color='#ffffff'>Бит (31)</font></b>]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Порт источника (16)]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[Порт назначения (16)]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[Порядковый номер (32)]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[Номер подтверждения (32)]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[Длина заголовка (4)]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[Окно (16)]]></text>
+	</component>
+	<component id="ID_txt13">
+		<text><![CDATA[Контрольная сумма (16)]]></text>
+	</component>
+	<component id="ID_txt14">
+		<text><![CDATA[Срочность (16)]]></text>
+	</component>
+	<component id="ID_txt15">
+		<text><![CDATA[Опции (0 или 32, если имеются)]]></text>
+	</component>
+	<component id="ID_txt16">
+		<text><![CDATA[Данные уровня приложений (переменный размер)]]></text>
+	</component>
+	<component id="ID_txt17">
+		<text><![CDATA[Зарезервировано (6)]]></text>
+	</component>
+	<component id="ID_txt18">
+		<text><![CDATA[Управляющие биты (6)]]></text>
+	</component>
+
+</textcomponents>

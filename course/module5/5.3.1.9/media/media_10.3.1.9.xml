@@ -1,0 +1,119 @@
+﻿<textcomponents>
+
+<component id="ID_inst">
+<text><![CDATA[<b>Интерактивное задание</b><br/>Определите, как коммутатор пересылает кадр в соответствии с MAC-адресом источника, MAC-адресом назначения и информацией в таблице MAC-адресов коммутатора.<br/><b>Ответьте на вопросы, исходя из указанной информации.</b>]]></text> 
+</component>
+
+<component id="ID_HELP_TITLE">
+<text><![CDATA[<b>Справка</b>]]></text> 
+</component>
+
+<component id="ID_HELP_BODY">
+<text><![CDATA[Данное задание предназначено для проверки знаний о принципах передачи кадра на коммутатор.<br /><br />Для проверки ответов нажмите кнопку «Проверить». Чтобы выполнить новое задание, сгенерированное компьютером, нажмите кнопку «Новое упражнение».<br /><br />В задании приводится физическая топология сети и таблица MAC-адресов коммутатора. Также указан кадр, состоящий из MAC-адреса источника и назначения. В данных заданиях используется пара источник-назначение, которая имеет один из адресов, указанных в топологии. При выполнении стандартных заданий используются произвольные адреса, указанные в таблице MAC-адресов и в кадре.<br /><br />1.<textformat blockindent="20"> Ваша задача — определить, как коммутатор будет обрабатывать этот кадр, используя представленную таблицу MAC-адресов.</textformat><br /> 2. <textformat blockindent="20">Чтобы ответить на первый вопрос, установите отметку рядом с номерами портов, указав, через какой из этих портов (если имеется) коммутатор будет пересылать кадр.</textformat><br />3. <textformat blockindent="20">Чтобы ответить на второй вопрос, отметьте соответствующие варианты, чтобы продемонстрировать, как коммутатор будет обрабатывать кадр.</textformat><br /> 4. <textformat blockindent="20">Чтобы проверить ответ, нажмите кнопку «Проверить».</textformat><br /><br /><b>Дополнительная помощь:</b><br />«FF» — это MAC-адрес широковещательной рассылки, который перенаправляется на все порты, за исключением изначального.<br /><br />Кадр <b>рассылается</b> по всем портам (кроме изначального) только в том случае, если для коммутатора не указан MAC-адрес назначения в таблице MAC-адресов.<br /><br />Коммутатор только добавит новый MAC-адрес в таблицу MAC-адресов, исходя из MAC-адреса источника. Если MAC-адрес источника уже указан в таблице, он не будет в нее добавлен. Если MAC-адрес источника еще не указан в таблице, он в нее будет добавлен.<br /><br />Коммутатор сбросит кадр, если устройство назначения и устройство-источник подключены к одному и тому же порту, а MAC-адрес назначения находится в таблице MAC-адресов коммутатора. В данном задании это процесс связан с одним портом, подключённым к концентратору с двумя узлами.<br />]]></text> 
+</component>
+
+<component id="ID_CHECK">
+<text><![CDATA[<b>Проверить</b>]]></text> 
+</component>
+
+<component id="ID_NEW">
+<text><![CDATA[<b>Новая задача</b>]]></text> 
+</component>
+
+<component id="ID_HELP">
+<text><![CDATA[<b>Справка</b>]]></text> 
+</component>
+
+<component id="ID_hub">
+<text><![CDATA[Концентратор]]></text> 
+</component> <!--Frame Table-->
+
+<component id="ID_table1_title">
+<text><![CDATA[<b>Кадр</b>]]></text> 
+</component>
+
+<component id="ID_table1_txt01">
+<text><![CDATA[Преамбула]]></text> 
+</component>
+
+<component id="ID_table1_txt02">
+<text><![CDATA[MAC-адрес назначения]]></text> 
+</component>
+
+<component id="ID_table1_txt03">
+<text><![CDATA[MAC-адрес источника]]></text> 
+</component>
+
+<component id="ID_table1_txt04">
+<text><![CDATA[Тип длины]]></text> 
+</component>
+
+<component id="ID_table1_txt05">
+<text><![CDATA[Инкапсулированные данные]]></text> 
+</component>
+
+<component id="ID_table1_txt06">
+<text><![CDATA[Конец кадра]]></text> 
+</component> <!--MAC Table-->
+
+<component id="ID_table2_title">
+<text><![CDATA[<b>Таблица MAC-адресов</b>]]></text> 
+</component> <!--Questions-->
+
+<component id="ID_question1">
+<text><![CDATA[<b>Вопрос 1. </b> Куда коммутатор перешлёт кадр?]]></text> 
+</component>
+
+<component id="ID_question2">
+<text><![CDATA[<b>Вопрос 2 </b>. Какое из утверждений является верным в случае, когда коммутатор пересылает кадр?]]></text> 
+</component>
+
+<component id="ID_Q2_choice1">
+<text><![CDATA[Коммутатор добавляет MAC-адрес источника в таблицу MAC-адресов.]]></text> 
+</component>
+
+<component id="ID_Q2_choice2">
+<text><![CDATA[Кадр является широковещательным и будет пересылаться на все порты.]]></text> 
+</component>
+
+<component id="ID_Q2_choice3">
+<text><![CDATA[Кадр является одноадресным и будет пересылаться только на один определённый порт.]]></text> 
+</component>
+
+<component id="ID_Q2_choice4">
+<text><![CDATA[Кадр является одноадресным и будет рассылаться по всем портам.]]></text> 
+</component>
+
+<component id="ID_Q2_choice5">
+<text><![CDATA[Кадр является одноадресным и будет сброшен коммутатором.]]></text> 
+</component> <!--Feedback text-->
+<component id="ID_correctHeader">
+<text><![CDATA[<b>Верно</b>]]></text> 
+</component>
+<component id="ID_correct">
+<text><![CDATA[Вы правильно ответили на все вопросы, основываясь на информации в кадре и таблице MAC-адресов.]]></text> 
+</component>
+
+<component id="ID_feedback1Header">
+<text><![CDATA[<b>Неверно</b>]]></text> 
+</component>
+<component id="ID_feedback1">
+<text><![CDATA[Вы неправильно выбрали порт(ы) для ответа на вопрос 1.]]></text> 
+</component>
+
+<component id="ID_feedback2Header">
+<text><![CDATA[<b>Неверно</b>]]></text> 
+</component>
+<component id="ID_feedback2">
+<text><![CDATA[Ваш ответ на вопрос 2 о том, как коммутатор поступит с MAC-адресом источника, неверен.]]></text> 
+</component>
+
+<component id="ID_feedback3Header">
+<text><![CDATA[<b>Неверно</b>]]></text> 
+</component>
+<component id="ID_feedback3">
+<text><![CDATA[Ваш ответ на вопрос 2 о том, как коммутатор поступит с кадром, исходя из адреса назначения, неверен.]]></text> 
+</component>
+
+
+</textcomponents>

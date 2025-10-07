@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.2.4 Резервное копирование и восстановление с помощью USB-накопителя</title>
+    <!--  -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Резервное копирование и восстановление с помощью USB-накопителя</h1>
+        <div>
+<p>
+<b>Резервное копирование конфигураций с помощью USB-накопителя</b>
+</p>
+<p>Во время резервного копирования на порт USB рекомендуется запустить команду<span class="cmd"><b> show file systems</b></span>, чтобы проверить наличие USB-накопителя и подтвердить его имя, как показано на рисунке 1. </p>
+<p></p>
+<p>Далее используйте команду<span class="cmd"><b> copy run usbflash0:/</b></span>, чтобы скопировать файл конфигурации на USB-накопитель. Обязательно используйте то имя флеш накопителя, которое указано в файловой системе. Наклонная черта не является обязательной, однако она обозначает корневой каталог USB-накопителя. </p>
+<p></p>
+<p>IOS запросит имя файла. Если файл уже существует на USB-накопителе, маршрутизатор запросит операцию записи, как показано на рисунке 2.</p>
+<p></p>
+<p>Используйте команду<span class="cmd"><b> dir </b></span>для просмотра файла на USB-накопителе, а также команду<span class="cmd"><b> more </b></span>для просмотра содержимого, как показано на рисунке 3.</p>
+<p></p>
+<p>
+<b>Восстановление конфигураций с помощью USB-накопителя</b>
+</p>
+<p>Чтобы скопировать файл обратно, файл «USB R1-Config» необходимо отредактировать с помощью текстового редактора, чтобы получить допустимый файл конфигурации. В противном случае он будет содержать множество записей, которые являются недопустимыми командами, и вызов интерфейсов осуществляться не будет.</p>
+<p></p>
+<p>
+<span class="cmd">R1#</span>
+<span class="cmd">
+<b>copy usbflash0:/R1-Config running-config</b>
+</span>
+</p>
+<p>
+<span class="cmd">Destination filename [running-config]?</span>
+</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

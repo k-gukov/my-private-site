@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.3 МАС- и IP-адреса</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>МАС- и IP-адреса</h1>
+        <div>
+<p>Теперь вполне очевидно: чтобы отправить данные другому узлу в той же локальной сети, исходный узел должен знать и физический, и логический адрес узла назначения. После этого он может создать кадр и отправить его по сетевой среде. Исходный узел может узнать IP-адрес назначения несколькими способами. Например, с помощью Службы доменных имен (DNS) или по тому, что адрес введён в приложении вручную (например, если пользователь указывает IP-адрес требуемого FTP-сервера). Но как узел определяет MAC-адрес Ethernet другого устройства?</p>
+<p></p>
+<p>Большинство сетевых приложений находят местоположение взаимодействующих узлов только по логическому IP-адресу.  MAC-адрес канала передачи данных необходим для доставки инкапсулированного в кадре Ethernet IP-пакета по сети к месту назначения.</p>
+<p></p>
+<p>С помощью IP-протокола, который называется протоколом разрешения адресов (ARP), узел определяет MAC-адрес любого узла в той же локальной сети. Передающий узел отправляет сообщение с запросом ARP по всей локальной сети. ARP-запрос представляет собой широковещательное сообщение. ARP-запрос содержит IP-адрес устройства назначения. Каждое устройство в локальной сети анализирует ARP-запрос на предмет содержания своего IP-адреса. Только устройство с IP-адресом, представленным в ARP-запросе, возвращает ответ ARP. Ответ ARP включает в себя МАС-адрес, связанный с IP-адресом в ARP-запросе.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

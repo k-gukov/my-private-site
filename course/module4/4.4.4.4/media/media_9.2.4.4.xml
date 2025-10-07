@@ -1,0 +1,62 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+	<text><![CDATA[<b>Концевик кадра</b>]]></text>
+	</component>
+	
+	<component id="ID_inst">
+		<text><![CDATA[Нажмите на тёмно-синие поля, чтобы получить более подробную информацию.</b>]]></text>
+	</component>
+
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<b>Контрольная последовательность кадра</b>]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[Это поле используется для проверки ошибок. Источник рассчитывает CRC-код на основе данных кадра и размещает его в поле «FCS». Затем в пункте назначения повторно рассчитывается CRC-код, чтобы определить, совпадают ли последовательности FCS. Если они не совпадают, хост адресата удаляет кадр.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<b>Конец кадра</b>]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[Это поле, которое также называют концевиком кадра, является необязательным и используется в том случае, если не определена длина кадра в поле «Тип/длина». Оно отображает конец кадра при передаче.]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Поле «Начало кадра»]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[Поле «Адрес источника и назначения» ]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[Поле «Тип»]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[Данные]]></text>
+	</component>
+
+	<component id="ID_txt05">
+		<text><![CDATA[Контрольная последовательность кадра (FCS)]]></text>
+	</component>
+
+	<component id="ID_txt06">
+		<text><![CDATA[Конец кадра]]></text>
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Концевик]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+		<text><![CDATA[]]></text>
+	</component>
+<component id="ID_txt09">
+		<text><![CDATA[]]></text>
+	</component>
+
+</textcomponents>

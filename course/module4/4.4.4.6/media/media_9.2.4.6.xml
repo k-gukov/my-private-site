@@ -1,0 +1,75 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Протокол Ethernet</b>]]></text>
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[Распространённый протокол канального уровня для локальной сети]]></text> 
+</component>
+
+<component id="ID_txt14">
+<text><![CDATA[<b>Кадр</b>]]></text> 
+</component>
+
+<component id="ID_txt15">
+<text><![CDATA[<b>Имя поля</b>]]></text> 
+</component>
+
+<component id="ID_txt16">
+<text><![CDATA[<b>Размер</b>]]></text> 
+</component>
+
+<component id="ID_txt17">
+<text><![CDATA[<b>Преамбула</b> — используется для синхронизации; также содержит разделитель, отмечающий конец информации о временных параметрах<br/><b>Адрес назначения</b> — 48-битный MAC-адрес узла назначения<br/><b>Адрес источника</b> — 48-битный MAC-адрес узла источника<br/><b>Тип</b> — значение, указывающее, какой протокол верхнего уровня получит данные после завершения процесса Ethernet<br/><b>Данные или полезная нагрузка</b> — протокольный блок данных, как правило, пакет IPv4, который предназначен для передачи по среде.<br/><b>Контрольная последовательность кадра (FCS)</b> — значение, используемое для поиска повреждённых кадров]]></text> 
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Преамбула]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Назначение]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Источник]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Тип]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Данные]]></text> 
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Контроль-<br>ная<br> последова-<br>тельность кадра]]></text> 
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[8 байт]]></text> 
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[6 байт]]></text> 
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[6 байт]]></text> 
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[2 байта]]></text> 
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[от 46 до 1500 байт]]></text> 
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[4 байта]]></text> 
+</component>
+
+</textcomponents>

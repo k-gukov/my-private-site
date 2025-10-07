@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Трёхстороннее рукопожатие TCP (SYN)</b>]]></text>
+	</component>
+	
+	<component id="ID_title_txt">
+		<text><![CDATA[<font size='11'><b class="textboxheader">Анализатор протокола отображает начальный запрос клиента для создания сеанса в кадре 10</b></font>]]></text>
+	</component>
+	<component id="ID_body_txt">
+		<text><![CDATA[<font size='11'><span class="ulclass">Сегмент TCP в этом кадре отображает:</span><textformat blockindent="-14"><li>флаг SYN, установленный для проверки начального порядкового номера;</li><li>действительный случайный порядковый номер (относительное значение — 0);</li><li>случайный порт источника 1061;</li><li>известный порт назначения со значением 80 (HTTP-порт), указывающий веб-сервер (httpd).</li></textformat></font>]]></text>
+	</component>
+	
+</textcomponents>

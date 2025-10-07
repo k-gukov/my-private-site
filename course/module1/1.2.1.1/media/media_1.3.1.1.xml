@@ -1,0 +1,89 @@
+﻿<textcomponents>
+<component id="ID_btn01">
+<text><![CDATA[<b>Устройства</b>]]></text>
+</component>
+<component id="ID_btn02">
+  <text><![CDATA[<b>Cреда</b>]]></text> 
+  </component>
+<component id="ID_btn03">
+  <text><![CDATA[<b>Сервисы</b>]]></text> 
+  </component>
+  <component id="ID_s1_txt01">
+	<text><![CDATA[Устройства]]></text>
+	</component>
+	 <component id="ID_s1_txt02">
+	<text><![CDATA[Устройства]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+	<text><![CDATA[Сеть LAN]]></text>
+	</component>
+	 <component id="ID_s1_txt04">
+	<text><![CDATA[Сеть LAN]]></text>
+	</component>
+	 <component id="ID_s1_txt05">
+	<text><![CDATA[Устройства]]></text>
+	</component>
+	 <component id="ID_s1_txt06">
+	<text><![CDATA[Устройства]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+	<text><![CDATA[<b>Объединённая сеть</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[Сеть LAN]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+	<text><![CDATA[Сеть LAN]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+	<text><![CDATA[Среда]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+	<text><![CDATA[Среда]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+	<text><![CDATA[]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+	<text><![CDATA[<b>Объединённая сеть</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+	<text><![CDATA[Сеть LAN]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[Сеть LAN]]></text>
+	</component>
+	
+	<component id="ID_s3_txt03">
+	<text><![CDATA[Правило 1, правило 2, правило 3]]></text>
+	</component>
+	
+	<component id="ID_s3_txt04">
+	<text><![CDATA[Процессы и<br/>сервисы]]></text>
+	</component>
+	
+	<component id="ID_s3_txt05">
+	<text><![CDATA[<b>Объединённая сеть</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt06">
+	<text><![CDATA[Сервисы<br/>(программное обеспечение)]]></text>
+	</component>
+	
+	<component id="ID_s3_txt07">
+	<text><![CDATA[Сервисы<br/>(программное обеспечение)]]></text>
+	</component>
+	
+	
+	
+	
+</textcomponents>

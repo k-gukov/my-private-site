@@ -1,0 +1,66 @@
+﻿<textcomponents>
+
+<component id="ID_txt01">
+<text><![CDATA[32-битный IP-адрес]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Октет 1]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Октет 2]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Октет 3]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Октет 4]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Значения битов октетов]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Двоичный адрес]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Значения двоичных битов]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Добавьте двоичные значения битов.]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[Десятичное представление адресов с точками]]></text>
+</component> <!-- controller -->
+<component id="end">
+<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+</textcomponents>

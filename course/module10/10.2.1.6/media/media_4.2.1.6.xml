@@ -1,0 +1,48 @@
+﻿<textcomponents>
+<component id="ID_caption01">
+<text><![CDATA[Процесс агента доставки почты (MDA) управляет доставкой сообщений электронной почты между серверами и клиентами.]]></text>
+</component>
+<component id="ID_title">
+<text><![CDATA[<b>Сервер электронной почты — MDA</b>]]></text> 
+</component>
+<component id="ID_txt01">
+<text><![CDATA[<b>Почтовый агент пользователя<br>(MUA)</b>]]></text>
+</component> 
+
+<component id="ID_txt03">
+  <text><![CDATA[Получатель]]></text> 
+  </component>
+
+<component id="ID_txt04">
+  <text><![CDATA[SMTP/POP3-<br>Сервер]]></text> 
+  </component>
+  <component id="ID_txt05">
+  <text><![CDATA[<b>Агент доставки почты (MDA)</b>]]></text> 
+  </component>
+
+<component id="ID_txt06">
+<text><![CDATA[<b>Агент пересылки почты<br>(MTA)</b>]]></text> 
+</component>
+<component id="ID_txt07">
+<text><![CDATA[SMTP/POP3-<br>Сервер]]></text> 
+</component> 
+
+
+<component id="ID_txt09">
+<text><![CDATA[<b>Почтовый агент пользователя<br>(MUA)</b>]]></text>
+</component> 
+
+<component id="ID_txt11">
+  <text><![CDATA[Отправитель]]></text> 
+  </component> 
+<component id="ID_txt12">
+  <text><![CDATA[<b>Отправка электронного сообщения</b>]]></text> 
+  </component>
+
+<component id="ID_bubble01">
+  <text><![CDATA[<p class="ID_bubble01">В моём списке нет этого получателя.<br/>Я перенаправляю электронное сообщение на другой сервер.</p>]]></text> 
+</component>
+<component id="ID_bubble02">
+  <text><![CDATA[<p class="ID_bubble02 left">В моём списке есть получатель recipient@domain.com.<br/>Я помещу это сообщение в почтовый ящик получателя.</p>]]></text> 
+  </component>
+</textcomponents>

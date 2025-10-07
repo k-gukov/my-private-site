@@ -1,0 +1,29 @@
+﻿<textcomponents>
+	<component id="ID_txt01">
+		<text><![CDATA[Где: моя_песня.mp3]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	  <text><![CDATA[Получил.]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+	  <text><![CDATA[Получил.]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+	  <text><![CDATA[Получил.]]></text> 
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Приложение Gnutella позволяет P2P-приложениям выполнять поиск по общим ресурсам нескольких узлов.]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Сеть]]></text>
+	</component>
+	
+	<component id="ID_title">
+	  <text><![CDATA[<b>Gnutella поддерживает P2P-приложения</b>]]></text> 
+	</component>
+	
+</textcomponents>

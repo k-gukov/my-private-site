@@ -1,0 +1,186 @@
+﻿<textcomponents>
+
+<component id='ID_s1_inst'>
+	<text><![CDATA[<b>Интерактивное задание</b><br><br>Перетащите имя поля кадра Ethernet к его описанию.
+
+]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Использует символ-заполнитель для увеличения размера этого поля кадра как минимум до 64&nbsp;байт]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[Описывает используемый протокол более высокого уровня]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[Изначальный MAC-адрес сетевой платы или интерфейса кадра]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Помогает узлу определить, адресован ли ему полученный кадр]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[Уведомляет узлы назначения о необходимости подготовки к новому кадру]]></text>
+</component>
+<component id='ID_s1_txt06'>
+	<text><![CDATA[Синхронизирует отправляющие и получающие устройства для доставки кадра]]></text>
+</component>
+
+<component id='ID_s1_txt07'>
+	<text><![CDATA[Выявляет ошибки в кадре Ethernet]]></text>
+</component>
+
+<component id='ID_s1_txt08'>
+	<text><![CDATA[<b>Имя поля</b>]]></text>
+</component>
+
+<component id='ID_s1_txt09'>
+	<text><![CDATA[<b>Описания полей кадра 802.3 Ethernet</b>]]></text>
+</component> <!--Drag and Drop-->
+<component id='ID_s1_traget01'>
+	<text><![CDATA[<font color="#393536">Заголовок и данные стандарта 802.2</font>]]></text>
+</component>
+
+<component id='ID_s1_traget02'>
+	<text><![CDATA[<font color="#393536">Контрольная последовательность кадра</font>]]></text>
+</component>
+
+<component id='ID_s1_traget03'>
+	<text><![CDATA[<font color="#393536">Тип</font>]]></text>
+</component>
+
+<component id='ID_s1_traget04'>
+	<text><![CDATA[<font color="#393536">Начало разделителя кадра  </font>]]></text>
+</component>
+
+<component id='ID_s1_traget05'>
+	<text><![CDATA[<font color="#393536">Адрес назначения</font>]]></text>
+</component>
+
+<component id='ID_s1_traget06'>
+	<text><![CDATA[<font color="#393536">Преамбула</font>]]></text>
+</component>
+
+<component id='ID_s1_traget07'>
+	<text><![CDATA[<font color="#393536">Адрес источника</font>]]></text>
+</component>
+
+ 
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно расположили названия полей кадра Ethernet в соответствии с их описаниями.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно расположили названия полей кадра Ethernet в соответствии с их описаниями. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Проверить]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Сброс]]></text>
+</component> <!--slide02-->
+<component id='ID_s2_inst'>
+	<text><![CDATA[<b>Интерактивное задание</b><br><br>Перетащите имя поля кадра Ethernet в соответствующее место на схеме.]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[<b>Поля кадра стандарта IEEE 802.3 Ethernet</b>]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[<b>7&nbsp;байт</b>]]></text>
+</component>
+
+<component id='ID_s2_txt03'>
+	<text><![CDATA[<b>1&nbsp;байт</b>]]></text>
+</component>
+
+<component id='ID_s2_txt04'>
+	<text><![CDATA[<b>6&nbsp;байт</b>]]></text>
+</component>
+
+<component id='ID_s2_txt05'>
+	<text><![CDATA[<b>6&nbsp;байт</b>]]></text>
+</component>
+
+<component id='ID_s2_txt06'>
+	<text><![CDATA[<b>2&nbsp;байта</b>]]></text>
+</component>
+
+<component id='ID_s2_txt07'>
+	<text><![CDATA[<b>46—1500&nbsp;байт</b>]]></text>
+</component>
+
+<component id='ID_s2_txt08'>
+	<text><![CDATA[<b>4&nbsp;байта</b>]]></text>
+</component> <!--Drag and Drop-->
+<component id='ID_s2_traget01'>
+	<text><![CDATA[<font color="#393536">Адрес источника</font>]]></text>
+</component>
+
+<component id='ID_s2_traget02'>
+	<text><![CDATA[<font color="#393536">Контрольная последова-тельность кадра</font>]]></text>
+</component>
+
+<component id='ID_s2_traget03'>
+	<text><![CDATA[<font color="#393536">Начало разделителя кадра</font>]]></text>
+</component>
+
+<component id='ID_s2_traget04'>
+	<text><![CDATA[<font color="#393536">Преамбула</font>]]></text>
+</component>
+
+<component id='ID_s2_traget05'>
+	<text><![CDATA[<font color="#393536">Заголовок и данные стандарта 802.2</font>]]></text>
+</component>
+
+<component id='ID_s2_traget06'>
+	<text><![CDATA[<font color="#393536">Длина</font>]]></text>
+</component>
+
+<component id='ID_s2_traget07'>
+	<text><![CDATA[<font color="#393536">Адрес назначения</font>]]></text>
+</component>
+
+
+<component id='ID_s2_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно]]></text>
+</component>
+
+<component id='ID_s2_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно сопоставили поля кадра Ethernet с их соответствующими расположениями.]]></text>
+</component>
+
+
+<component id='ID_s2_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно]]></text>
+</component>
+
+<component id='ID_s2_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно сопоставили поля кадра Ethernet с их соответствующими расположениями. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_s2_CHECK'>
+	<text><![CDATA[Проверить]]></text>
+</component>
+
+<component id='ID_s2_RESET'>
+	<text><![CDATA[Сброс]]></text>
+</component>
+
+</textcomponents>

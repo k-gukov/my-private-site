@@ -1,0 +1,38 @@
+﻿<textcomponents>
+<component id="ID_txt01">
+<text><![CDATA[<b>Транспортный уровень стека протоколов OSI</b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[<b>Транспортный уровень</b>]]></text> 
+  </component>
+<component id="ID_txt03">
+<text><![CDATA[Уровень приложений]]></text>
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Уровень представления]]></text> 
+  </component>
+<component id="ID_txt05">
+<text><![CDATA[Сеансовый уровень]]></text>
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[Транспортный уровень]]></text> 
+  </component>
+<component id="ID_txt07">
+<text><![CDATA[Сетевой уровень]]></text>
+  </component>
+<component id="ID_txt08">
+  <text><![CDATA[Канальный уровень]]></text> 
+  </component>
+<component id="ID_txt09">
+  <text><![CDATA[Физический уровень]]></text>
+  </component> 
+<component id="ID_txt10">
+  <text><![CDATA[Транспортный уровень подготавливает данные приложений для передачи по сети и обрабатывает сетевые данные для использования приложениями.]]></text> 
+  </component>
+<component id="ID_txt11">
+  <text><![CDATA[<b>Прикладные данные</b>]]></text>
+  </component>
+<component id="ID_txt12">
+  <text><![CDATA[<b>Сетевые данные</b>]]></text>
+  </component>  
+</textcomponents>

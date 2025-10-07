@@ -1,0 +1,47 @@
+﻿<textcomponents>
+ <component id="ID_txt01">
+<text><![CDATA[Среда]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[<b>Объединённая сеть<b>]]></text> 
+  </component>
+  <component id="ID_txt03-1">
+  <text><![CDATA[Сеть LAN]]></text> 
+  </component>
+  <component id="ID_txt03-2">
+  <text><![CDATA[Сеть LAN]]></text> 
+  </component>
+
+<component id="ID_txt04">
+  <text><![CDATA[Сообщения могут следовать по альтернативным маршрутам.]]></text> 
+  </component>
+  
+  <component id="ID_txt05">
+  <text><![CDATA[Данные исходят от одного оконечного устройства, проходят по сети и поступают на другое оконечное устройство. ]]></text> 
+  </component> 
+   
+<component id="end">
+<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+</textcomponents>

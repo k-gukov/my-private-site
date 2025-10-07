@@ -1,0 +1,84 @@
+﻿<textcomponents>
+
+<component id='ID_inst'>
+	<text><![CDATA[<b>Интерактивное задание — терминология в сфере сетевой безопасности</b><br><br>Переместите термин к соответствующему определению.]]></text>
+</component>
+
+<component id='ID_drag_header'>
+	<text><![CDATA[<b>Термины в сфере безопасности</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[Атака, которая снижает производительность или выводит из строя оборудование и программы.]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[Фильтрует доступ к сети и трафик данных.]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[Блокирует несанкционированный доступ к сети.]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[Сетевая атака, которая происходит в первый день, когда уязвимость становится известной.]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[Произвольный код, запускаемый на устройствах конечных пользователей.]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[<b>Терминология</b>]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[<b>Определение</b>]]></text>
+</component> <!--Drag and Drop-->
+<component id='ID_ip1_DS'>
+	<text><![CDATA[<font color="#393536">Список контроля доступа (ACL)</font>]]></text>
+</component>
+
+<component id='ID_ip2_DS'>
+	<text><![CDATA[<font color="#393536">Нулевой день (час)</font>]]></text>
+</component>
+
+<component id='ID_ip3_DS'>
+	<text><![CDATA[<font color="#393536">Отказ в обслуживании</font>]]></text>
+</component>
+
+<component id='ID_ip4_DS'>
+	<text><![CDATA[<font color="#393536">Межсетевой экран</font>]]></text>
+</component>
+
+<component id='ID_ip5_DS'>
+	<text><![CDATA[<font color="#393536">Вирус, червь или «троянский конь»</font>]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>Верно</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно выбрали терминологию для угроз нарушения безопасности и соответствующих компонентов.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Неверно</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно выбрали терминологию для угроз нарушения безопасности и соответствующих компонентов. Нажмите «Сброс» и повторите попытку.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+</textcomponents>

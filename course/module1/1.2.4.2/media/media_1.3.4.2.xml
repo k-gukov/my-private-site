@@ -1,0 +1,47 @@
+﻿<textcomponents>
+<component id='ID_title'>
+	<text><![CDATA[<b>Варианты подключения</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[Домашние пользователи]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[Удалённый работник]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[Малый офис]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[DSL]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[Кабельная сеть]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[Сотовые технологии]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[Спутниковая передача]]></text>
+</component>
+
+<component id='ID_txt08'>
+	<text><![CDATA[Телефон коммутируемого доступа ]]></text>
+</component>
+
+<component id='ID_txt09'>
+	<text><![CDATA[Интернет-провайдер]]></text>
+</component>
+
+<component id='ID_txt10'>
+	<text><![CDATA[Интернет]]></text>
+</component>
+
+
+</textcomponents>

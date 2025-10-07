@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Технология интеллектуального дома  </b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Облако</b>]]></text>
+</component>
+
+</textcomponents>

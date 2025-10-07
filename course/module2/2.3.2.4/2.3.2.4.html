@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.3.2.4 Конфликты IP-адресов</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.3.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Конфликты IP-адресов</h1>
+        <div>
+<p>Если для сетевых устройств, например, для принтера, был определён статичный (ручной) IP-адрес, а затем установлен сервер DHCP, между сетевым устройством и ПК, который автоматически получает IP-данные с сервера DHCP, может произойти конфликт двойного IP-адреса. Также конфликт может возникнуть, если в случае сбоя работы сети и сервера DHCP вручную указать статический IP-адрес для сетевого устройства. Конфликт возникнет после исправления неполадок и восстановления сервера DHCP в сети.</p>
+<p></p>
+<p>Чтобы разрешить такой конфликт IP-адресации, нужно подключить сетевое устройство со статичным IP-адресом к клиенту DHCP. Также можно исключить статичный IP-адрес оконечного устройства из диапазона адресов DHCP. </p>
+<p></p>
+<p>Во втором случае необходимо обладать правами администратора на сервере DHCP и уметь работать с DHCP на сервере.</p>
+<p></p>
+<p>Кроме того, вы можете столкнуться с IP-конфликтами при ручной настройке IP на оконечном устройстве в сети, в которой используются только статические IP-адреса. В этом случае необходимо определить, какие IP-адреса доступны на конкретной подсети IP и настроить их соответствующим образом. Этот случай демонстрирует, насколько важно сетевому администратору вести подробную документацию, в том числе назначения IP-адресов для оконечных устройств.</p>
+<p></p>
+<p>
+<b>Примечание</b>. Как правило, статические IP-адреса используются с серверами и принтерами в сетях малого и среднего размера, а данные IP, настроенные автоматически с помощью сервера DHCP, используются выделенными устройствами сотрудников.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

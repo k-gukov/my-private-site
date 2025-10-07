@@ -1,0 +1,65 @@
+﻿<textcomponents> <!--Slide 1-->
+<component id='ID_inst'>
+	<text><![CDATA[<b>Интерактивное задание: процесс загрузки маршрутизатора</b><br><br>Перетащите описание каждого шага, приведённое слева, в соответствующее поле в таблице справа и составьте правильный порядок процессов загрузки маршрутизатора.
+]]></text>
+</component>
+
+<component id='ID_header01'>
+	<text><![CDATA[<b>Процесс загрузки маршрутизатора</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[Шаг 1]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[Шаг 2]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[Шаг 3]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[Шаг 4]]></text>
+</component> <!--Drag and Drop -->
+<component id='ID_a01_DS'>
+	<text><![CDATA[<font color="#393536">Загрузка IOS (файл операционной системы для <br>маршрутизатора загружается в ОЗУ после того, как код начальной загрузки обнаружит файл IOS, который необходимо использовать)</font>]]></text>
+</component>
+
+<component id='ID_a02_DS'>
+	<text><![CDATA[<font color="#393536">Выполнение процедуры POST (проверка оборудования выполняется встроенным чипом ПЗУ)</font>]]></text>
+</component>
+
+<component id='ID_a03_DS'>
+	<text><![CDATA[<font color="#393536">Загрузка файла конфигурации из FLASH (NVRAM), с TFTP-сервера ИЛИ переход в режим настройки (создание файла конфигурации)</font>]]></text>
+</component>
+
+<component id='ID_a04_DS'>
+	<text><![CDATA[<font color="#393536">Загрузка кода начальной загрузки (определение<br> местоположения IOS после копирования кода в ОЗУ из ПЗУ)</font>]]></text>
+</component> <!--Drag and Drop-->
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Верно]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Вы правильно составили порядок процессов загрузки маршрутизатора.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Неверно]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Вы неправильно составили порядок процессов загрузки маршрутизатора. Повторите попытку.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[<b>Проверить</b>]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[<b>Сброс</b>]]></text>
+</component>
+
+</textcomponents>

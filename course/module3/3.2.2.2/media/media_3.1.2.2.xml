@@ -1,0 +1,90 @@
+﻿<textcomponents> <!--  Event Date 2011 goes here  -->
+	<component id="ID_title01">
+		<text><![CDATA[Первый всемирный день протокола IPv6 (8 июня 2011 года) — многие веб-сайты и интернет-провайдеры из разных стран мира, в том числе Google, Facebook и Yahoo! приняли участие в совместных испытаниях новой версии IPv6 с помощью свыше 1000 других компаний.]]></text>
+	</component> <!--  Event Date 1995 goes here  -->
+	<component id="ID_title02">
+		<text><![CDATA[Разработаны первые технические характеристики протокола IPv6, окончательного последователя протокола IPv4 (RFC 1883). ]]></text>
+	</component> <!--  Event Date 1993 goes here  -->
+	<component id="ID_title03">
+		<text><![CDATA[Создан первый веб-браузер Mosaic, разработанный Марком Андреессеном (Marc Andreessen), сотрудником Иллинойского университета, г. Урбана-Шампейн.]]></text>
+	</component>
+	<component id="ID_bodytext03">
+		<text><![CDATA[1985_x2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id lacus in risus consectetur tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit Fusce id lacus in risus consectetur tristique.]]></text>
+	</component> <!--  Event Date 1991 goes here  -->
+	<component id="ID_title04">
+		<text><![CDATA[Появился стандарт WWW, придуманный Тимом Бернерсом-Ли (Tim Berners-Lee) и Робертом Кайо (Robert Cailliau).]]></text>
+	</component> <!--  Event Date 1988 goes here  -->
+	<component id="ID_title05">
+		<text><![CDATA[Создан протокол IRC, разработанный Яркко Ойкариненом (Jarkko Oikarinen).]]></text>
+	</component>
+	<component id="ID_txt_09_01">
+		<text><![CDATA[Сеть]]></text>
+	</component>
+
+	<component id="ID_txt_09_02">
+		<text><![CDATA[<p class="ID_bubble01">Энрико: Привет, Джессика!<br/>Джессика: Привет, Энрико!</p>]]></text>
+	</component>	
+	<component id="ID_txt_09_03">
+		<text><![CDATA[<p class="ID_bubble01">Энрико: Привет, Джессика!<br/>Джессика: Привет, Энрико!</p>]]></text>
+	</component> <!--  Event Date 1986 goes here  -->
+	<component id="ID_title06">
+		<text><![CDATA[1986 г. — компания Cisco представляет свое первое изобретение маршрутизации — мультипротокольный маршрутизатор, поддерживающий AGS.]]></text>
+	</component> <!--  Event Date 1985 goes here  -->
+	<component id="ID_title07">
+		<text><![CDATA[Утверждён протокол передачи файлов FTP (RFC 765).]]></text>
+	</component> <!--  Event Date 1984 goes here  -->
+	<component id="ID_title08">
+		<text><![CDATA[Вводится служба доменных имен (DNS).]]></text>
+	</component>		
+	<component id="ID_txt08_01">
+		<text><![CDATA[Сеть]]></text>
+	</component>		
+	<component id="ID_txt08_02">
+		<text><![CDATA[Сервер DNS]]></text>
+	</component>		
+	<component id="ID_txt08_03">
+		<text><![CDATA[<p class="ID_bubble02">Какой у веб-узла www.example.com IP-адрес?</p>]]></text>
+	</component>		
+	<component id="ID_txt08_04">
+		<text><![CDATA[<p class="ID_bubble03">IP-адрес www.example.com 10.10.10.10.</p>]]></text>
+	</component>		
+	<component id="ID_txt08_05">
+		<text><![CDATA[Клиент]]></text>
+	</component> <!--  Event Date 1982 goes here  -->
+	<component id="ID_title09">
+		<text><![CDATA[Создан протокол внешней маршрутизации (EGP), с помощью которого маршрутизаторы обмениваются сетевой информацией (RFC 827). ]]></text>
+	</component>	
+	<component id="ID_txt09_01">
+		<text><![CDATA[EGP]]></text>
+	</component>	
+	<component id="ID_txt09_02">
+		<text><![CDATA[EGP]]></text>
+	</component>	
+	<component id="ID_txt09_03">
+		<text><![CDATA[EGP]]></text>
+	</component> <!--  Event Date 1981 goes here  -->
+	<component id="ID_title10">
+		<text><![CDATA[Оформлены протоколы TCP и IP (RFC 793 и RFC 791). ]]></text>
+	</component> <!--  Event Date 1972_1 goes here  -->
+	<component id="ID_title11">
+		<text><![CDATA[Для обозначения назначения получателя введён знак @, придуманный Рэем Томлинсоном (Ray Tomlinson).]]></text>
+	</component> <!--  Event Date 1972_2 goes here  -->
+	<component id="ID_title12">
+		<text><![CDATA[Появилась первая программа управления электронной почтой, созданная Ларри Робертсом (Larry Roberts).]]></text>
+	</component> <!--  Event Date 1972_3 goes here  -->
+	<component id="ID_title13">
+		<text><![CDATA[Оформлена спецификация Telnet (RFC 318).]]></text>
+	</component>
+		<component id="ID_txt13_01">
+		<text><![CDATA[Удалённый файловый сервер]]></text>
+	</component>	
+	<component id="ID_txt13_02">
+		<text><![CDATA[C&gt; telnet 10.1.1.1<br/>Логин: ****<br/>Пароль: ****<br/><br/>Подключение к удалённому файловому серверу]]></text>
+	</component> <!--  Event Date 1970 goes here  -->
+	<component id="ID_title14">
+		<text><![CDATA[Система ALOHAnet становится операционной, первой сетью пакетной радиосвязи, разработанной Норманом Абрамсоном (Norman Abramson), сотрудником Гавайского университета.]]></text>
+	</component> <!--  Event Date 1969 goes here  -->
+	<component id="ID_title15">
+		<text><![CDATA[29 октября 1969 года первое сообщение передаётся от ЭВМ SDS Sigma 7 Калифорнийского университета в Лос-Анджелесе (UCLA) на ЭВМ SDS 940 Стэнфордского исследовательского института.]]></text>
+	</component>
+</textcomponents>

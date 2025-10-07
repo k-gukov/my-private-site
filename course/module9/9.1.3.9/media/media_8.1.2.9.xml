@@ -1,0 +1,46 @@
+﻿	<textcomponents>
+	<component id="ID_inst">
+		<text><![CDATA[<b>Интерактивное задание: расчёт маски подсети (базовый уровень)</b><br/><br/>Даны маска подсети в десятичном формате.<br/><br/>Введите двоичное представление маски подсети в соответствующих полях октетов.<br/><br/>Дополнительно преобразуйте маску в формат записи с префиксом (/x) в поле «Запись с префиксом».]]></text>
+	</component>
+		
+	<component id="txt_correct">
+		<text><![CDATA[<b>Верно</b>]]></text>
+	</component>
+	
+	<component id="txt_incorrect">
+		<text><![CDATA[<b>Неверно</b>]]></text>
+	</component>
+	
+	<component id="txt_body_correct">
+		<text><![CDATA[Вы правильно преобразовали маску подсети в двоичный формат и в формат с префиксом. Чтобы продолжить, нажмите кнопку «Новый номер».]]></text>
+	</component>
+	
+	<component id="txt_body_incorrect">
+		<text><![CDATA[Вы неправильно преобразовали маску подсети в двоичый формат и/или в формат с префиксом. Нажмите кнопку «Сброс» и повторите попытку.]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+	<text><![CDATA[<b>Маска подсети</b>]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	<text><![CDATA[<b>Маска подсети в двоичном формате</b>]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[<b>Запись с префиксом</b>]]></text>
+	</component>
+	
+	<component id="txt_check">
+	<text><![CDATA[<b>Проверить</b>]]></text>
+	</component>
+	
+	<component id="txt_reset">
+	<text><![CDATA[<b>Сброс</b>]]></text>
+	</component>
+	
+	<component id="txt_newnumber">
+	<text><![CDATA[<b>Новый номер</b>]]></text>
+	</component>
+
+</textcomponents>

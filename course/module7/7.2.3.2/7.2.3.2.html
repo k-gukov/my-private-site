@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.3.2 Разборка UDP-датаграммы</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Разборка UDP-датаграммы</h1>
+        <div>
+<p>Поскольку UDP является протоколом без установления соединения, перед началом соединения сеансы связи не устанавливаются, как это происходит в случае с протоколом TCP. Считается, что в основе протокола UDP лежат транзакции; другими словами, если у приложения есть данные для отправки, оно просто отсылает их.</p>
+<p></p>
+<p>Многие приложения, которые используют UDP, отправляют незначительное количество данных, которое может поместиться в один сегмент. При этом другие приложения отправляют большие объёмы данных, которые необходимо разделить на несколько сегментов. Блок PDU протокола UDP называется датаграммой, хотя понятия «сегмент» и «датаграмма» иногда используются как синонимы для описания PDU транспортного уровня.</p>
+<p></p>
+<p>Когда на узел назначения отправляются несколько датаграмм, они могут использовать разные пути и прибыть в неправильном порядке. Протокол UDP не отслеживает порядковые номера, как это делает TCP. Как показано на рисунке, у UDP нет способа повторно скомпоновать датаграммы в том порядке, который использовался при их передаче. </p>
+<p></p>
+<p>Таким образом, протокол UDP просто повторно собирает данные в том порядке, в котором они были приняты, и пересылает их приложению. Если последовательность данных важна для работы приложения, оно должно определить правильную последовательность и выбрать оптимальный способ обработки данных.</p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

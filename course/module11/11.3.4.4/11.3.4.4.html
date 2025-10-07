@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.4.4 Использование команды «show ip interface brief»</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="media-container">
+      <iframe id="media" alt="interactive graphic"></iframe>
+    </div>
+    <div id="text-container">
+      <div id="text">
+        <h1>Использование команды «show ip interface brief»</h1>
+        <div>
+<p>Аналогично тому, как эти команды и программы используются для проверки конфигурации узла, их можно использовать для проверки интерфейсов промежуточных устройств. Cisco IOS предоставляет команды для проверки работоспособности интерфейсов маршрутизатора и коммутатора.</p>
+<p></p>
+<p>
+<b>Проверка интерфейсов маршрутизатора</b>
+</p>
+<p></p>
+<p>К наиболее часто используемым командам относится команда<span class="cmd"><b> show ip interface brief</b></span>. Эта команда выводит выходные данные в более компактном формате, чем команда<span class="cmd"><b> show ip interface</b></span>. Она предоставляет сводку по ключевым данным для всех сетевых интерфейсов на маршрутизаторе.</p>
+<p></p>
+<p>На рис. 1 показана топология, используемая в данном примере.</p>
+<p></p>
+<p>На рис. 2 нажмите кнопку «R1». В выходных данных команды<span class="cmd"><b> show ip interface brief</b></span> отображаются все интерфейсы на маршрутизаторе, IP-адрес, назначенный для каждого из интерфейсов (если есть), и рабочее состояние интерфейса.</p>
+<p></p>
+<p>В соответствии с выходными данными интерфейс FastEthernet 0/0 имеет IP-адрес 192.168.254.254. Последние два столбца в этой строке отображают статусы 1-го и 2-го уровней данного интерфейса. Статус<span class="cmd"><b> up </b></span>в столбце «Статус» указывает на то, что этот интерфейс работает на уровне 1. Статус<span class="cmd"><b> up </b></span>в столбце «Протокол» указывает на то, что работает протокол 2-го уровня.</p>
+<p></p>
+<p>Обратите также внимание, что интерфейс Serial 0/0/1 неактивен. На это указывает статус<span class="cmd"><b> administratively down</b></span> в столбце «Статус». </p>
+<p></p>
+<p>Как и в случае с любым оконечным устройством, для проверки работоспособности 3-го уровня можно использовать команды<span class="cmd"><b> ping </b></span>и<span class="cmd"><b> traceroute</b></span>. В данном примере обе команды<span class="cmd"><b> ping </b></span>и<span class="cmd"><b> trace </b></span>показывают успешное подключение.</p>
+<p></p>
+<p>
+<b>Проверка интерфейсов коммутаторов</b>
+</p>
+<p></p>
+<p>На рис. 2 нажмите кнопку «S1». Команду<span class="cmd"><b> show ip interface brief</b></span> также можно использовать для проверки статуса интерфейсов коммутатора. IP-адрес коммутатора применяется к интерфейсу сети VLAN. В этом случае интерфейсу Vlan1 назначается IP-адрес 192.168.254.250, интерфейс активен и работает.</p>
+<p></p>
+<p>В этих выходных данных также указано, что интерфейс FastEthernet0/1 отключён. Это означает, что к интерфейсу не подключены устройства, или сетевой интерфейс устройства, подключённое к этому интерфейсу, не работает. </p>
+<p></p>
+<p>И, наоборот, в выходных данных указано, что интерфейсы FastEthernet0/2 и FastEthernet0/3 работают. Это обозначено статусом<span class="cmd"><b> up</b></span> в столбцах «Статус» и «Протокол».</p>
+<p></p>
+<p>Коммутатор также может проверить подключение на 3-м уровне с помощью команд<span class="cmd"><b> show ip interface brief </b></span>и<span class="cmd"><b> traceroute</b></span>. В данном примере обе команды<span class="cmd"><b> ping </b></span>и<span class="cmd"><b> trace </b></span>показывают успешное подключение. </p>
+<p></p>
+<p>Важно учитывать, что коммутатору необязательно требуется IP-адрес для пересылки кадров на 2-м уровне. IP-адрес требуется только в том случае, если управление коммутатором осуществляется по сети посредством Telnet или SSH. Если сетевой администратор планирует удалённо подключаться к коммутатору из расположения за пределами локальной сети LAN, необходимо также настроить шлюз по умолчанию. </p>
+</div>
+      </div>
+      <div id="text-handle" title="Изменить размер"></div>
+    </div>
+    <div id="login">Для получения доступа к этому курсу войдите в систему <a href="http://netacad.com">netacad.com</a>.</div>
+  </body>
+</html>

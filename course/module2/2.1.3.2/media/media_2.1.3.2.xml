@@ -1,0 +1,21 @@
+﻿<textcomponents> <!--<component id='ID_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>-->
+
+<component id='ID_txt01'>
+	<text><![CDATA[<font size="14"><b class="txt01">Пользовательский режим</b></font><br /><br /><span class="txt01a">Ограниченная проверка маршрутизатора. Удалённый доступ.</span><br /><font face="_typewriter"><p align='center' class="txt01b">Switch&gt;<br />Router&gt;</p></font>]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[<b>Пользовательский режим&nbsp;</b><br/>разрешает выполнять ограниченный круг базовых команд для мониторинга. Также его часто называют режимом «только для просмотра».]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[<font size="14"><b class="txt01">Привилегированный режим</b></font><br /><br /><span class="txt01a">Глубокая проверка маршрутизатора. Устранение неполадок и тестирование. Операции с файлами. Удалённый доступ.</span><br /><br /><font face="_typewriter"><p align='center' class="txt01b">Switch#<br />Router#</p></font>]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[В <b>Привилегированном режиме</b> по умолчанию можно выполнять все команды для мониторинга, управления и изменения конфигурации.]]></text>
+</component>
+
+</textcomponents>

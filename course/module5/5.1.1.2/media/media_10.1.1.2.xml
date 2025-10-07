@@ -1,0 +1,49 @@
+﻿<textcomponents>
+<component id="ID_textbox">
+<text><![CDATA[<b>Инкапсуляция данных</b><textformat blockindent='-16'><LI>Разделение кадра</LI><LI>Адресация</LI><LI>Обнаружение ошибок</LI></textformat><br/><b>Управление доступом к среде передачи данных</b><textformat blockindent='-16'><LI>Управление процессом размещения кадров внутри и вне среды передачи данных</LI><LI>Восстановление среды передачи данных</LI></textformat>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Физический уровень</b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[Подуровень управления логическим каналом]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Управление доступом к среде передачи данных группы 802.3]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Физический подуровень передачи сигналов]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[Физическая среда передачи данных]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[10BASE-5 (500m)<span style="margin-left:2px"> 50</span> <span style="margin-left:3px">Ohm</span><br/>Коакс. N-Style]]></text> 
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[10BASE-5 (185m)<span style="margin-left:2px"> 50</span> <span style="margin-left:3px">Ohm</span><br/>Коакс. BNC]]></text> 
+  </component>
+<component id="ID_txt08">
+  <text><![CDATA[10BASE-T (100m)<span style="margin-left:2px"> 100</span> <span style="margin-left:3px">Ohm</span><br/>UTP RJ-45]]></text> 
+  </component>
+<component id="ID_txt09">
+  <text><![CDATA[100BASE-TX (100m)<span style="margin-left:2px"> 100</span> <span style="margin-left:3px">Ohm</span><br/>UTP RJ-45]]></text> 
+  </component>
+<component id="ID_txt10">
+  <text><![CDATA[1000BASE-CX (25m)<span style="margin-left:2px"> 150  </span><span style="margin-left:3px">Ohm</span><br/>STP mini-DB-9]]></text>
+  </component>
+<component id="ID_txt11">
+  <text><![CDATA[1000BASE-T (100m)<span style="margin-left:2px"> 100  </span><span style="margin-left:5px">Ohm</span><br/>UTP RJ-45]]></text>
+  </component>
+<component id="ID_txt12">
+  <text><![CDATA[1000BASE-ST (220-550m)<br/>Волокно MM SC]]></text>
+  </component>
+<component id="ID_txt13">
+  <text><![CDATA[1000BASE-LX (550-5000m)<br/>Волокно MM или SM SC]]></text>
+  </component>
+
+  <component id="ID_txt14">
+     <text><![CDATA[<b>Канальный уровень</b>]]></text>
+     </component>
+</textcomponents>

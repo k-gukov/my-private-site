@@ -1,0 +1,42 @@
+﻿<textcomponents>
+
+<component id="ID_txt01">
+<text><![CDATA[Интернет-запросы]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Эхо-тестирование адресов]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Сканирование портов]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Анализаторы пакетов]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Злоумышленник]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Wireshark]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Обход портов NMAP]]></text>
+</component>
+
+
+<component id="ID_txt08">
+<text><![CDATA[Запуск NMAP верс. 3.00 (www.insecure.org/nmap)<br/><br/>Узел aus1.cinko.com (10.10.10.2) отображается как активный.<br/>Узел aus2.cinko.com (10.10.10.3) отображается как активный.<br/>Узел aus3.cinko.com (10.10.10.4) отображается как активный.<br/>Узел aus4.cinko.com (10.10.10.5) отображается как активный.]]></text>
+</component>
+
+<component id="title">
+<text><![CDATA[<b>Разведывательные атаки</b>]]></text>
+</component>
+<component id="inst">
+<text><![CDATA[Чтобы просмотреть сведения об атаке, нажмите выбранный инструмент сетевой атаки.]]></text>
+</component>
+</textcomponents>

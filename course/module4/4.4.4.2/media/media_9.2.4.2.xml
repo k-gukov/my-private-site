@@ -1,0 +1,63 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Роль заголовка</b>]]></text>
+	</component>
+
+	<component id="ID_inst">
+		<text><![CDATA[Нажмите на тёмно-синие поля, чтобы получить более подробную информацию.</b>]]></text>
+	</component>
+
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<b>Начало кадра</b>]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[Это поле сообщает другим устройствам в сети, что по среде поставляется кадр.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<b>Адрес</b>]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[В этом поле сохраняются канальные адреса источника и назначения.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<b>Тип/длина</b>]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[Это поле не обязательно и используется некоторыми протоколами для указания типа передаваемых данных или, возможно, длину кадра.]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Начало кадра]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[Адрес]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[Тип/длина]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[Данные]]></text>
+	</component>
+
+	<component id="ID_txt05">
+	<text><![CDATA[Контрольная последовате<br/>льность <br/>кадра (FCS)]]></text>
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Заголовок]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+		<text><![CDATA[]]></text>
+	</component>
+
+</textcomponents>

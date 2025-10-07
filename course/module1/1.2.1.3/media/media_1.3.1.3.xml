@@ -1,0 +1,46 @@
+﻿<textcomponents>
+
+<component id="ID_caption">
+<text><![CDATA[Промежуточные устройства направляют данные по пути передачи, но не производят данных для отправки и не изменяют их.]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Это сообщение важно, предоставьте ему приоритет.]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Это сообщение повреждено, отправьте его повторно.]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Это сообщение будет доставлено быстрее, если отправить его таким путём.]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>Объединённая сеть</b>]]></text>
+</component> <!-- controller -->
+
+<component id="end">
+<text><![CDATA[Завершить]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперёд]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+</textcomponents>

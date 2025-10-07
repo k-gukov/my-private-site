@@ -1,0 +1,47 @@
+﻿<textcomponents>
+
+<component id="ID_inst">
+<text><![CDATA[Для получения дополнительных сведений нажмите на изображения оборудования, ядра ОС и оболочки.]]></text>
+</component>
+
+<component id="ID_title">
+<text><![CDATA[<b>Операционная система</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Оболочка]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Ядро]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Оборудование]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Интерфейс пользователя]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[Оболочка — это интерфейс, позволяющий пользователю выполнять на компьютере различные задачи.<br>Пользователь может выполнять задачи через интерфейс командной строки (CLI) или графический интерфейс (GUI).]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[Интерфейс командной строки]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Графический интерфейс]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Ядро — это часть операционной системы, отвечающая за взаимодействие оборудования и программного обеспечения компьютера, распределение системных ресурсов и т. д.]]></text>
+</component>
+
+<component id="ID_s3_txt01">
+<text><![CDATA[Оборудование — это электронные и иные физические компоненты компьютера.]]></text>
+</component>
+
+</textcomponents>
